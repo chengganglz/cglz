@@ -1,0 +1,1845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<joinQuery xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.socketjk.app</package>
+    <name>SocketMsgSetQuery</name>
+    <alias>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].alias</alias>
+    <description>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].description</description>
+    <userDefined>true</userDefined>
+    <reportDataSource />
+    <bizUnitPK>com.kingdee.eas.custom.socketjk.SocketMsgSet</bizUnitPK>
+    <connectionProvider />
+    <subObjects>
+        <subEntity>
+            <name>SocketMsgSet</name>
+            <alias>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].subObjects.subEntity[SocketMsgSet].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSet" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>creator</name>
+            <alias>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].subObjects.subEntity[creator].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>lastUpdateUser</name>
+            <alias>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].subObjects.subEntity[lastUpdateUser].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>treeid</name>
+            <alias>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].subObjects.subEntity[treeid].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetTree" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>Channel</name>
+            <alias>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].subObjects.subEntity[Channel].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="UrlConfig" />
+            </entityRef>
+        </subEntity>
+    </subObjects>
+    <units>
+        <propertyUnit>
+            <name>NewUnit0</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.propertyUnit[NewUnit0].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit0" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketMsgSet" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="creator" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit1</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.propertyUnit[NewUnit1].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit1" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit2</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.propertyUnit[NewUnit2].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit2" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketMsgSet" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastUpdateUser" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit3</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.propertyUnit[NewUnit3].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit3" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit4</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.propertyUnit[NewUnit4].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit4" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketMsgSet" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="treeid" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit5</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.propertyUnit[NewUnit5].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit5" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="treeid" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>id</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketMsgSet" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketMsgSet" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketMsgSet" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>description</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[description].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="description" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketMsgSet" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="description" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>simpleName</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[simpleName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="simpleName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketMsgSet" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="simpleName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>createTime</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[createTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Timestamp</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="createTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketMsgSet" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="createTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>creator.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[creator.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="creator.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateTime</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[lastUpdateTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Timestamp</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketMsgSet" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastUpdateTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateUser.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[lastUpdateUser.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateUser.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>treeid.id</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[treeid.id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="treeid.id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="treeid" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>EASBizType</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[EASBizType].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>ff50c0af-423b-48d1-bfae-300fd65b38ed</key>
+                    <parentUnit>
+                        <key name="name" value="EASBizType" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketMsgSet" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="EASBizType" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>EASBizTypeName</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[EASBizTypeName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>b4138789-c026-4f89-9133-a54746f49520</key>
+                    <parentUnit>
+                        <key name="name" value="EASBizTypeName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketMsgSet" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="EASBizTypeName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>MsgType</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[MsgType].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>df690493-6c95-4bee-a6e1-05e5ce495717</key>
+                    <parentUnit>
+                        <key name="name" value="MsgType" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketMsgSet" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="MsgType" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>Channel.name</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[Channel.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>cedc01ed-169d-43e4-b98c-45b1d71e6c6f</key>
+                    <parentUnit>
+                        <key name="name" value="Channel.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Channel" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>ad29ec73-378f-4114-94df-1243d7a87a5d</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.propertyUnit[ad29ec73-378f-4114-94df-1243d7a87a5d].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>2654e9fc-c1b3-4063-af32-fe21eef84d4d</key>
+                    <parentUnit>
+                        <key name="name" value="ad29ec73-378f-4114-94df-1243d7a87a5d" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketMsgSet" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="Channel" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>87e1986d-118c-455e-8c7e-19c68466f655</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.propertyUnit[87e1986d-118c-455e-8c7e-19c68466f655].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>f3f4969b-6d52-4832-aa22-804258a645b9</key>
+                    <parentUnit>
+                        <key name="name" value="87e1986d-118c-455e-8c7e-19c68466f655" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Channel" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>Script</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[Script].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>52fc452f-d57c-4dcc-9c14-9b131d7aa4d6</key>
+                    <parentUnit>
+                        <key name="name" value="Script" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketMsgSet" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="Script" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>headLength</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[headLength].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>73a5ae34-f072-416d-9955-9b6d1c35eb8a</key>
+                    <parentUnit>
+                        <key name="name" value="headLength" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketMsgSet" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="headLength" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>dataLength</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[dataLength].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>50c2ff1a-d486-450e-8e01-8b9cca6a1322</key>
+                    <parentUnit>
+                        <key name="name" value="dataLength" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketMsgSet" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="dataLength" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>endCharLength</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[endCharLength].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>7f06bfe3-1ae9-430a-af0e-7e0aae4e4f62</key>
+                    <parentUnit>
+                        <key name="name" value="endCharLength" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketMsgSet" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="endCharLength" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>endChar</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[endChar].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>04c22131-149b-4e9c-8ca3-498a32ad75f2</key>
+                    <parentUnit>
+                        <key name="name" value="endChar" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketMsgSet" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="endChar" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>msgNo</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[msgNo].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>fe6b20b3-188d-43ff-beae-3d528fd20091</key>
+                    <parentUnit>
+                        <key name="name" value="msgNo" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketMsgSet" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="msgNo" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>msgNoSta</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[msgNoSta].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>d413ff7d-92f2-4b6d-91dc-919c0ad22b1a</key>
+                    <parentUnit>
+                        <key name="name" value="msgNoSta" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketMsgSet" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="msgNoSta" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>msgNoEnd</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[msgNoEnd].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>e89a16cf-56e2-43f6-875c-a0b8d65a9abf</key>
+                    <parentUnit>
+                        <key name="name" value="msgNoEnd" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketMsgSet" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="msgNoEnd" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>IsLog</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[IsLog].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Boolean</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0b5b441a-053d-41bf-9638-aacda093dc4f</key>
+                    <parentUnit>
+                        <key name="name" value="IsLog" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketMsgSet" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="IsLog" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+        </queryField>
+    </units>
+    <defaultFilter>
+        <name>defaultFilter</name>
+        <formulaString />
+        <query>
+            <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+            <key name="name" value="SocketMsgSetQuery" />
+        </query>
+    </defaultFilter>
+    <queryPK>
+        <name>QueryPK</name>
+        <alias>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].queryPK[QueryPK].alias</alias>
+        <description>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].queryPK[QueryPK].description</description>
+        <keyProperties>
+            <queryField>
+                <key name="name" value="id" />
+            </queryField>
+        </keyProperties>
+    </queryPK>
+    <isDistinct>false</isDistinct>
+    <joins>
+        <join>
+            <name>NewJoin0</name>
+            <formulaString>#0</formulaString>
+            <type>INNER JOIN</type>
+            <leftObject>
+                <key name="name" value="SocketMsgSet" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="creator" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit0" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit1" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin0" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin1</name>
+            <formulaString>#0</formulaString>
+            <type>INNER JOIN</type>
+            <leftObject>
+                <key name="name" value="SocketMsgSet" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="lastUpdateUser" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit2" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit3" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin0" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin2</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="SocketMsgSet" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="treeid" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit4" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit5" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin0" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+        </join>
+        <join>
+            <name>77672684-ea83-4832-bb02-5ea57dbc457d</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="SocketMsgSet" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="Channel" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0a093a0c-48d9-4ef9-800f-082042f24295</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="ad29ec73-378f-4114-94df-1243d7a87a5d" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="87e1986d-118c-455e-8c7e-19c68466f655" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="77672684-ea83-4832-bb02-5ea57dbc457d" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketMsgSetQuery" />
+            </query>
+        </join>
+    </joins>
+    <resource>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="报文配置" />
+            <lang locale="zh_HK" value="報文配置" />
+            <lang locale="zh_TW" value="報文配置" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="分组基础资料查询" />
+            <lang locale="zh_HK" value="分組基礎資料查詢" />
+            <lang locale="zh_TW" value="分組基礎資料查詢" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].extendedProperty.F7WindowTitle">
+            <lang locale="en_US" value="com.kingdee.eas.custom.socketjk.client.SocketjkResource.SocketMsgSetQueryF7WindowTitle" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.socketjk.client.SocketjkResource.SocketMsgSetQueryF7WindowTitle" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.socketjk.client.SocketjkResource.SocketMsgSetQueryF7WindowTitle" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].extendedProperty.f7WindowTitle">
+            <lang locale="en_US" value="报文配置" />
+            <lang locale="zh_CN" value="报文配置" />
+            <lang locale="zh_TW" value="报文配置" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].queryPK[QueryPK].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].queryPK[QueryPK].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].subObjects.subEntity[Channel].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].subObjects.subEntity[SocketMsgSet].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].subObjects.subEntity[creator].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].subObjects.subEntity[lastUpdateUser].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].subObjects.subEntity[treeid].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.propertyUnit[87e1986d-118c-455e-8c7e-19c68466f655].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.propertyUnit[NewUnit0].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.propertyUnit[NewUnit1].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.propertyUnit[NewUnit2].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.propertyUnit[NewUnit3].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.propertyUnit[NewUnit4].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.propertyUnit[NewUnit5].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.propertyUnit[ad29ec73-378f-4114-94df-1243d7a87a5d].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[Channel.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="使用通道" />
+            <lang locale="zh_HK" value="使用通道" />
+            <lang locale="zh_TW" value="使用通道" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[Channel.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[Channel.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[Channel.name].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[EASBizTypeName].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务单元名称" />
+            <lang locale="zh_HK" value="業務單元名稱" />
+            <lang locale="zh_TW" value="業務單元名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[EASBizTypeName].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[EASBizTypeName].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[EASBizType].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[EASBizType].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[EASBizType].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[IsLog].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否记录日志" />
+            <lang locale="zh_HK" value="是否記錄日誌" />
+            <lang locale="zh_TW" value="是否記錄日誌" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[IsLog].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[IsLog].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[MsgType].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="报文类型" />
+            <lang locale="zh_HK" value="報文類型" />
+            <lang locale="zh_TW" value="報文類型" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[MsgType].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[MsgType].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[Script].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="执行脚本" />
+            <lang locale="zh_HK" value="執行腳本" />
+            <lang locale="zh_TW" value="執行腳本" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[Script].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[Script].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[createTime].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建时间" />
+            <lang locale="zh_HK" value="創建時間" />
+            <lang locale="zh_TW" value="創建時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[createTime].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[createTime].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[createTime].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[createTime].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[createTime].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[creator.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建人" />
+            <lang locale="zh_HK" value="創建人" />
+            <lang locale="zh_TW" value="創建人" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[creator.name].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[creator.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[creator.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[creator.name].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[creator.name].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[dataLength].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="数据长度" />
+            <lang locale="zh_HK" value="數據長度" />
+            <lang locale="zh_TW" value="數據長度" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[dataLength].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[dataLength].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[description].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="描述" />
+            <lang locale="zh_HK" value="描述" />
+            <lang locale="zh_TW" value="描述" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[description].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[description].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[description].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[description].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[description].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[endCharLength].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="结束符长度" />
+            <lang locale="zh_HK" value="結束符長度" />
+            <lang locale="zh_TW" value="結束符長度" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[endCharLength].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[endCharLength].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[endChar].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="结束符" />
+            <lang locale="zh_HK" value="結束符" />
+            <lang locale="zh_TW" value="結束符" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[endChar].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[endChar].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[headLength].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="电文头长度" />
+            <lang locale="zh_HK" value="電文頭長度" />
+            <lang locale="zh_TW" value="電文頭長度" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[headLength].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[headLength].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[id].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[id].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[id].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[id].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[id].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[id].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[lastUpdateTime].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改时间" />
+            <lang locale="zh_HK" value="最後修改時間" />
+            <lang locale="zh_TW" value="最後修改時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[lastUpdateTime].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[lastUpdateTime].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[lastUpdateTime].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[lastUpdateTime].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[lastUpdateTime].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[lastUpdateUser.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="修改人" />
+            <lang locale="zh_HK" value="修改人" />
+            <lang locale="zh_TW" value="修改人" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[lastUpdateUser.name].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[lastUpdateUser.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[lastUpdateUser.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[lastUpdateUser.name].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[lastUpdateUser.name].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[msgNoEnd].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="电文号截止位置" />
+            <lang locale="zh_HK" value="電文號截止位置" />
+            <lang locale="zh_TW" value="電文號截止位置" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[msgNoEnd].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[msgNoEnd].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[msgNoSta].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="电文号开始位置" />
+            <lang locale="zh_HK" value="電文號開始位置" />
+            <lang locale="zh_TW" value="電文號開始位置" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[msgNoSta].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[msgNoSta].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[msgNo].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="电文号" />
+            <lang locale="zh_HK" value="電文號" />
+            <lang locale="zh_TW" value="電文號" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[msgNo].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[msgNo].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="zh_HK" value="名稱" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[name].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[name].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[name].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[name].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[name].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="编码" />
+            <lang locale="zh_HK" value="編碼" />
+            <lang locale="zh_TW" value="編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[number].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[number].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[number].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[number].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[number].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[simpleName].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="简称" />
+            <lang locale="zh_HK" value="簡稱" />
+            <lang locale="zh_TW" value="簡稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[simpleName].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[simpleName].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[simpleName].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[simpleName].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[simpleName].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[treeid.id].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[treeid.id].extendedProperty.colWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[treeid.id].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[treeid.id].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[treeid.id].extendedProperty.isUsingF7">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery].units.queryField[treeid.id].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+    </resource>
+</joinQuery>
+

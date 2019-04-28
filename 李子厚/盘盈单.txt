@@ -1,0 +1,249 @@
+var imp = JavaImporter();  
+imp.importPackage(Packages.com.kingdee.eas.util.app);  
+imp.importPackage(Packages.org.apache.log4j);
+imp.importPackage(Packages.com.kingdee.bos);
+imp.importPackage(Packages.com.kingdee.bos.dao);
+imp.importPackage(Packages.com.kingdee.bos.dao.ormapping);
+imp.importPackage(Packages.com.kingdee.eas.base.permission);
+imp.importPackage(Packages.com.kingdee.eas.basedata.assistant);
+imp.importPackage(Packages.com.kingdee.eas.basedata.master.material);
+imp.importPackage(Packages.com.kingdee.eas.basedata.org);
+imp.importPackage(Packages.com.kingdee.eas.basedata.scm.common);
+
+imp.importPackage(Packages.com.kingdee.eas.basedata.scm.im.inv);
+imp.importPackage(Packages.com.kingdee.eas.common);
+imp.importPackage(Packages.com.kingdee.eas.custom.socketjk);
+
+imp.importPackage(Packages.com.kingdee.eas.scm.common);
+imp.importPackage(Packages.com.kingdee.eas.scm.im.inv);
+imp.importPackage(Packages.com.kingdee.eas.util);
+imp.importPackage(Packages.java.lang);
+imp.importPackage(Packages.java.math);
+imp.importPackage(Packages.java.sql);
+imp.importPackage(Packages.java.text);
+imp.importPackage(Packages.java.util);
+with(imp){ 
+	var isSucess=true;
+	var ctx = pluginCtx.getContext(); 
+      	var errMsg="";
+      	var strCreatorNo="user"; //创建人编码
+      	var strCUNo="01";// 管理单元编码
+      	var strBizDate="20190306" ; //业务日期
+      	var billStatus=BillBaseStatusEnum.ADD; //单据状态
+      	var purchaseType = PurchaseTypeEnum.SUBCONTRACT;
+      	var strBizTypeNo="501";//业务类型编码
+      	var strBillTypeNo="109";//单据类型编码
+      	var strTranstionType="032";//事务类型
+      	var strNeedStockOrgNo="01";//需方库存组织
+      	var  isInTax=true;
+      	var sdfDate = new SimpleDateFormat("yyyy-MM-dd");
+      	
+      	
+      	//新增委外领料
+      	var info=new OtherInWarehsBillInfo();
+      	//制单人
+      	var creator=PublicBaseUtil.getUserByNumber(ctx, strCreatorNo);
+      	
+      	
+      	
+      	
+      	
+      	
+      	
+  		if(creator!=null){
+  			info.setCreator(creator);
+  		}else{
+  			info.setCreator(ContextUtil.getCurrentUserInfo(ctx));
+  		}
+  		//获取管理单元
+  		var  cu=PublicBaseUtil.getCU(ctx, strCUNo); 
+      	if(cu!=null){
+      		info.setCU(cu); //控制单元
+      	}else
+      	{
+      		isSucess=false;
+  			errMsg=errMsg + "管理单元不能为空\r\n";
+      	}
+      	//创建时间
+      	try {
+  			info.setCreateTime(new Timestamp(SysUtil.getAppServerTime(ctx).getTime()));
+  		} catch (e) {
+  			// TODO Auto-generated catch block
+  			e.printStackTrace();
+  		}
+  		//业务日期
+  		try
+  		{
+  			var bizDate;
+  			var  sdf = new SimpleDateFormat("yyyyMMdd");
+  			bizDate=sdf.parse(strBizDate);
+  			info.setBizDate(bizDate);
+  			var c = Calendar.getInstance();
+  			c.setTime(bizDate);
+  			var year=c.get(Calendar.YEAR);   //年度
+  			var period=c.get(Calendar.MONTH);
+  	    	var month =c.get(Calendar.YEAR)*100+c.get(Calendar.MONTH) ; //期间
+  	    	var iday=(c.get(Calendar.YEAR)*100+c.get(Calendar.MONTH)+1)*100+c.get(Calendar.MONDAY);
+  	    	info.setYear(year);
+  	    	info.setPeriod(period);
+  	    	info.setMonth(month);
+  	    	info.setDay(iday);
+  		}catch(ex){
+  			isSucess=false;
+  			errMsg=errMsg + "日期格式不正确\r\n";
+  			//throw new BOSException("日期格式不正确");
+  			
+  		}
+  		//单据状态
+  		info.setBaseStatus(billStatus);
+  		//info.setPurchaseType(purchaseType);
+  		// 业务类型
+  		var bizType=PublicBaseUtil.getBizTypeByNumber(ctx, strBizTypeNo);
+  		if(bizType!=null){
+  			info.setBizType(bizType);
+  		}else
+  		{
+  			isSucess=false;
+  			errMsg=errMsg + "业务类型不能为空\r\n";
+  		}
+  		// 单据类型
+  		var  billType=PublicBaseUtil.getBillTypeByNumber(ctx, strBillTypeNo);
+  		if(billType!=null){
+  			info.setBillType(billType);
+  		}else
+  		{
+  			isSucess=false;
+  			errMsg=errMsg + "单据类型不能为空\r\n";
+  		}
+  		var  trantypeInfo=PublicBaseUtil.getTransactionTypeInfoByNumber(ctx, strTranstionType);
+  		if(trantypeInfo!=null){
+  			info.setTransactionType(trantypeInfo);
+  			
+  		}else
+  		{
+  			isSucess=false;
+  			errMsg=errMsg + "事务类型不能为空\r\n";
+  		}
+  		
+  		
+  		
+  		// 财务组织
+  		var  company=PublicBaseUtil.getCompany(ctx, cu.getNumber());
+  		//主业务组织
+  		var  storageInfo=PublicBaseUtil.getStorageOrgUnitInfoByNumber(ctx, strCUNo);
+  		if(storageInfo!=null){
+  			info.setStorageOrgUnit(storageInfo);
+  		}else
+  		{
+  			isSucess=false;
+  			errMsg=errMsg + "主业务组织不能为空\r\n";
+  		}
+      	
+      	
+      	
+
+      	//盘盈单分录 
+  		var strMaterialNo="no999";
+  		var strUnit="吨";
+  		var strLot="123456789";
+  		var strStockNo="001";
+  		var bgQty=new BigDecimal("100");
+  		var bgPrice=new BigDecimal("10");
+  		var bgTaxRate=new BigDecimal("0");
+  		var bgAmount=new BigDecimal("1000");
+      	
+  		var bgTaxPrice=bgPrice.multiply(bgTaxRate.add(BigDecimal.ONE)).setScale(2, BigDecimal.ROUND_HALF_UP);
+  		var bgTaxAmount=bgAmount.multiply(bgTaxRate.add(BigDecimal.ONE)).setScale(2, BigDecimal.ROUND_HALF_UP);
+  		var bgTax=bgAmount.multiply(bgTaxRate).setScale(2, BigDecimal.ROUND_HALF_UP);
+      	//新增分录实体
+  		var entry=new OtherInWarehsBillEntryInfo();
+      	//分录行号
+      	entry.setSeq(1);
+      	entry.setSourceBillEntrySeq(0);
+      
+      	//物料
+      	var  material=PublicBaseUtil.getMaterialInfoByNumber(ctx, info.getCU().getId().toString(), strMaterialNo);
+      	if (material!=null){
+      		entry.setMaterial(material);
+      		entry.setBaseUnit(material.getBaseUnit());
+      		
+      		
+      	}else
+      	{
+      		isSucess=false;
+  			errMsg=errMsg + "物料不能为空\r\n";
+      	}
+      	//单位
+      	var  unit=PublicBaseUtil.getMeasureUnitInfoByName(ctx, material.getBaseUnit().getMeasureUnitGroup().getNumber(), strUnit);
+      	if (unit!=null){
+      		entry.setUnit(unit);
+      	}else
+      	{
+      		isSucess=false;
+  			errMsg=errMsg + "单位不能为空\r\n";
+      	}
+      	entry.setBaseStatus(EntryBaseStatusEnum.ADD);//
+      	//
+      	entry.setAssCoefficient(BigDecimal.ZERO);
+      	//库存组织
+      	var  storOrgUnit=PublicBaseUtil.getStorageOrgUnitInfoByNumber(ctx, cu.getNumber());
+      	if(storOrgUnit!=null){
+      		entry.setStorageOrgUnit(storOrgUnit);
+      		//entry.setReceiveStorageOrgUnit(storOrgUnit);
+      		
+      	}else
+      	{
+      		isSucess=false;
+  			errMsg=errMsg + "库存组织不能为空\r\n";
+      	}
+      	//财务组织
+      	entry.setCompanyOrgUnit(company);
+      	//仓库
+      	var  stock=PublicBaseUtil.getWarehouseInfoByNumber(ctx, strStockNo);
+      	if(stock!=null){
+      		entry.setWarehouse(stock);
+      		//entry.setOutWarehouse(stock);
+      	}else
+      	{
+      		isSucess=false;
+  			errMsg=errMsg + "仓库不能为空\r\n";
+      	}
+      	
+      	entry.setQty(bgQty);
+      	entry.setBaseQty(bgQty);
+      	entry.setPrice(bgPrice);
+      	//entry.setTaxPrice(bgTaxPrice);
+      	//entry.setTaxRate(bgTaxRate);
+      	//entry.setAmount(bgAmount);
+      	entry.setLot(strLot);
+      	var  invUpType=PublicBaseUtil.getInvUpdateTypeInfoByNumber(ctx, "001");
+      	//var invInfo = InvUpdateTypeFactory.getLocalInstance(ctx).getInvUpdateTypeInfo(new ObjectUuidPK("8r0AAAAEaOnC73rf"));
+      	
+      	entry.setInvUpdateType(invUpType);
+      	info.getEntries().addObject(entry);
+      	
+      	//entry.getInvUpdateType().getStoreTypePre().getStoreFlag();
+      	if(isSucess){
+      		
+      		//MaterialReqBillInfo info1 = MaterialReqBillFactory.getLocalInstance(ctx).getMaterialReqBillInfo(new ObjectUuidPK("23sE0JysRKmP7TP55oLn7VAKt14="));
+      		
+      		var  pk=OtherInWarehsBillFactory.getLocalInstance(ctx).save(info);  //保存
+  			if(pk!=null){
+  				var  tempIno=OtherInWarehsBillFactory.getLocalInstance(ctx).getOtherInWarehsBillInfo(pk);
+  				if(tempIno.getBaseStatus().equals(BillBaseStatusEnum.TEMPORARILYSAVED)) {
+  					
+  					OtherInWarehsBillFactory.getLocalInstance(ctx).submit(tempIno);
+  				}
+  				tempIno=OtherInWarehsBillFactory.getLocalInstance(ctx).getOtherInWarehsBillInfo(pk);
+  				if(tempIno.getBaseStatus().equals(BillBaseStatusEnum.SUBMITED)) {
+  					OtherInWarehsBillFactory.getLocalInstance(ctx).audit(pk);
+  				}
+  			
+  				
+  			}
+      	}else
+      	{
+      		throw new BOSException(errMsg);
+      	}
+	
+}

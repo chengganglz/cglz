@@ -1,0 +1,1005 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.socketjk.client</package>
+    <name>ServerStatusView</name>
+    <alias>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].alias</alias>
+    <description>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].description</description>
+    <userDefined>true</userDefined>
+    <releasePackage>com.kingdee.eas.custom.socketjk.client</releasePackage>
+    <releaseClass>ServerStatusView</releaseClass>
+    <title>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].title</title>
+    <uitype />
+    <defaultbutton />
+    <bizUnitPK />
+    <parent>
+        <key name="package" value="com.kingdee.eas.framework.client" />
+        <key name="name" value="CoreUI" />
+    </parent>
+    <components>
+        <component>
+            <name>CoreUI</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[CoreUI].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDPanel</classType>
+            <isContainer>true</isContainer>
+            <constraints />
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name>kDLayout1</name>
+                <type>KDLayout</type>
+                <value />
+            </layoutInfo>
+        </component>
+        <component>
+            <name>kDTable1</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[kDTable1].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.kdf.table.KDTable</classType>
+            <isContainer>false</isContainer>
+            <constraints>9,7,1000,617,15</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>btnPageSetup</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnPageSetup].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDWorkButton</classType>
+            <isContainer>false</isContainer>
+            <constraints />
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnPageSetup].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+        </component>
+        <component>
+            <name>btnCloud</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnCloud].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDWorkButton</classType>
+            <isContainer>false</isContainer>
+            <constraints />
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnCloud].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+        </component>
+        <component>
+            <name>btnXunTong</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnXunTong].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDWorkButton</classType>
+            <isContainer>false</isContainer>
+            <constraints />
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnXunTong].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+        </component>
+        <component>
+            <name>kDSeparatorCloud</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[kDSeparatorCloud].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDSeparator</classType>
+            <isContainer>false</isContainer>
+            <constraints />
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[kDSeparatorCloud].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+        </component>
+        <component>
+            <name>btnStartServer</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnStartServer].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDWorkButton</classType>
+            <isContainer>false</isContainer>
+            <constraints>4</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnStartServer].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>icon</name>
+                    <type>javax.swing.Icon</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnStartServer].properties.property[icon].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>action</name>
+                    <type>javax.swing.Action</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnStartServer].properties.property[action].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI_toolbar" />
+            </parent>
+        </component>
+        <component>
+            <name>btnStopServer</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnStopServer].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDWorkButton</classType>
+            <isContainer>false</isContainer>
+            <constraints>5</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnStopServer].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>action</name>
+                    <type>javax.swing.Action</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnStopServer].properties.property[action].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>icon</name>
+                    <type>javax.swing.Icon</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnStopServer].properties.property[icon].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI_toolbar" />
+            </parent>
+        </component>
+        <component>
+            <name>btnClientTest</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnClientTest].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDWorkButton</classType>
+            <isContainer>false</isContainer>
+            <constraints>6</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnClientTest].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>icon</name>
+                    <type>javax.swing.Icon</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnClientTest].properties.property[icon].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>action</name>
+                    <type>javax.swing.Action</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnClientTest].properties.property[action].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnClientTest].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI_toolbar" />
+            </parent>
+        </component>
+        <component>
+            <name>btnClient</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnClient].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDWorkButton</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnClient].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>action</name>
+                    <type>javax.swing.Action</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnClient].properties.property[action].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnClient].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI_toolbar" />
+            </parent>
+        </component>
+        <component>
+            <name>btnRefresh</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnRefresh].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDWorkButton</classType>
+            <isContainer>false</isContainer>
+            <constraints>8</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnRefresh].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>action</name>
+                    <type>javax.swing.Action</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnRefresh].properties.property[action].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>icon</name>
+                    <type>javax.swing.Icon</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnRefresh].properties.property[icon].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI_toolbar" />
+            </parent>
+        </component>
+        <component>
+            <name>menuItemPageSetup</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[menuItemPageSetup].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDMenuItem</classType>
+            <isContainer>false</isContainer>
+            <constraints />
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[menuItemPageSetup].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+        </component>
+        <component>
+            <name>menuItemCloudFeed</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[menuItemCloudFeed].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDMenuItem</classType>
+            <isContainer>false</isContainer>
+            <constraints />
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[menuItemCloudFeed].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+        </component>
+        <component>
+            <name>menuItemCloudScreen</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[menuItemCloudScreen].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDMenuItem</classType>
+            <isContainer>false</isContainer>
+            <constraints />
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>enabled</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[menuItemCloudScreen].properties.property[enabled].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[menuItemCloudScreen].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+        </component>
+        <component>
+            <name>menuItemCloudShare</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[menuItemCloudShare].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDMenuItem</classType>
+            <isContainer>false</isContainer>
+            <constraints />
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[menuItemCloudShare].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+        </component>
+        <component>
+            <name>kdSeparatorFWFile1</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[kdSeparatorFWFile1].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDSeparator</classType>
+            <isContainer>false</isContainer>
+            <constraints />
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[kdSeparatorFWFile1].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+        </component>
+    </components>
+    <actions>
+        <action>
+            <instanceName>startServer</instanceName>
+            <className>StartServer</className>
+            <name>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[startServer].name</name>
+            <enabled>true</enabled>
+            <actionPerformed />
+            <beforeActionPerformed />
+            <afterActionPerformed />
+            <finallyActionPerformed />
+            <actionCommandKey />
+            <acceleratorKey />
+            <mnemonicKey />
+            <smallIcon>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[startServer].smallIcon</smallIcon>
+            <shortDescription>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[startServer].shortDescription</shortDescription>
+            <longDescription>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[startServer].longDescription</longDescription>
+            <isBindWorkFlow>false</isBindWorkFlow>
+            <herited>false</herited>
+            <daemonRun>false</daemonRun>
+            <actionExtendProperty />
+            <services>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;root&gt;&lt;service class="com.kingdee.eas.framework.client.service.PermissionService" /&gt;&lt;/root&gt;</services>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <oprtIntent />
+            <nextUI />
+            <isUIPNavigator>false</isUIPNavigator>
+            <isBatchAction>false</isBatchAction>
+            <isEntryAction>false</isEntryAction>
+            <batchMethodName />
+        </action>
+        <action>
+            <instanceName>stopServer</instanceName>
+            <className>StopServer</className>
+            <name>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[stopServer].name</name>
+            <enabled>true</enabled>
+            <actionPerformed />
+            <beforeActionPerformed />
+            <afterActionPerformed />
+            <finallyActionPerformed />
+            <actionCommandKey />
+            <acceleratorKey />
+            <mnemonicKey />
+            <smallIcon>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[stopServer].smallIcon</smallIcon>
+            <shortDescription>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[stopServer].shortDescription</shortDescription>
+            <longDescription>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[stopServer].longDescription</longDescription>
+            <isBindWorkFlow>false</isBindWorkFlow>
+            <herited>false</herited>
+            <daemonRun>false</daemonRun>
+            <actionExtendProperty />
+            <services>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;root&gt;&lt;service class="com.kingdee.eas.framework.client.service.PermissionService" /&gt;&lt;/root&gt;</services>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <oprtIntent />
+            <nextUI />
+            <isUIPNavigator>false</isUIPNavigator>
+            <isBatchAction>false</isBatchAction>
+            <isEntryAction>false</isEntryAction>
+            <batchMethodName />
+        </action>
+        <action>
+            <instanceName>clientTest</instanceName>
+            <className>ClientTest</className>
+            <name>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[clientTest].name</name>
+            <enabled>true</enabled>
+            <actionPerformed />
+            <beforeActionPerformed />
+            <afterActionPerformed />
+            <finallyActionPerformed />
+            <actionCommandKey />
+            <acceleratorKey />
+            <mnemonicKey />
+            <smallIcon>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[clientTest].smallIcon</smallIcon>
+            <shortDescription>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[clientTest].shortDescription</shortDescription>
+            <longDescription>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[clientTest].longDescription</longDescription>
+            <isBindWorkFlow>false</isBindWorkFlow>
+            <herited>false</herited>
+            <daemonRun>false</daemonRun>
+            <actionExtendProperty />
+            <services>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;root&gt;&lt;service class="com.kingdee.eas.framework.client.service.PermissionService" /&gt;&lt;/root&gt;</services>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <oprtIntent />
+            <nextUI />
+            <isUIPNavigator>false</isUIPNavigator>
+            <isBatchAction>false</isBatchAction>
+            <isEntryAction>false</isEntryAction>
+            <batchMethodName />
+        </action>
+        <action>
+            <instanceName>connectServer</instanceName>
+            <className>ConnectServer</className>
+            <name>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[connectServer].name</name>
+            <enabled>true</enabled>
+            <actionPerformed />
+            <beforeActionPerformed />
+            <afterActionPerformed />
+            <finallyActionPerformed />
+            <actionCommandKey />
+            <acceleratorKey />
+            <mnemonicKey />
+            <smallIcon>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[connectServer].smallIcon</smallIcon>
+            <shortDescription>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[connectServer].shortDescription</shortDescription>
+            <longDescription>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[connectServer].longDescription</longDescription>
+            <isBindWorkFlow>false</isBindWorkFlow>
+            <herited>false</herited>
+            <daemonRun>false</daemonRun>
+            <actionExtendProperty />
+            <services>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;root&gt;&lt;service class="com.kingdee.eas.framework.client.service.PermissionService" /&gt;&lt;/root&gt;</services>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <oprtIntent />
+            <nextUI />
+            <isUIPNavigator>false</isUIPNavigator>
+            <isBatchAction>false</isBatchAction>
+            <isEntryAction>false</isEntryAction>
+            <batchMethodName />
+        </action>
+        <action>
+            <instanceName>refresh</instanceName>
+            <className>Refresh</className>
+            <name>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[refresh].name</name>
+            <enabled>true</enabled>
+            <actionPerformed />
+            <beforeActionPerformed />
+            <afterActionPerformed />
+            <finallyActionPerformed />
+            <actionCommandKey />
+            <acceleratorKey />
+            <mnemonicKey />
+            <smallIcon>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[refresh].smallIcon</smallIcon>
+            <shortDescription>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[refresh].shortDescription</shortDescription>
+            <longDescription>uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[refresh].longDescription</longDescription>
+            <isBindWorkFlow>false</isBindWorkFlow>
+            <herited>false</herited>
+            <daemonRun>false</daemonRun>
+            <actionExtendProperty />
+            <services>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;root&gt;&lt;service class="com.kingdee.eas.framework.client.service.PermissionService" /&gt;&lt;/root&gt;
+</services>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <oprtIntent />
+            <nextUI />
+            <isUIPNavigator>false</isUIPNavigator>
+            <isBatchAction>false</isBatchAction>
+            <isEntryAction>false</isEntryAction>
+            <batchMethodName />
+        </action>
+    </actions>
+    <resource>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[clientTest].longDescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[clientTest].name">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[clientTest].shortDescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[clientTest].smallIcon">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[connectServer].longDescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[connectServer].name">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[connectServer].shortDescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[connectServer].smallIcon">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[refresh].longDescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[refresh].name">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[refresh].shortDescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[refresh].smallIcon">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[startServer].longDescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[startServer].name">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[startServer].shortDescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[startServer].smallIcon">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[stopServer].longDescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[stopServer].name">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[stopServer].shortDescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].actions.action[stopServer].smallIcon">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="服务状态查看" />
+            <lang locale="zh_HK" value="服務狀態查看" />
+            <lang locale="zh_TW" value="服務狀態查看" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[CoreUI].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnClientTest].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnClientTest].properties.property[action].value">
+            <lang locale="en_US" value="clientTest" />
+            <lang locale="zh_CN" value="clientTest" />
+            <lang locale="zh_HK" value="clientTest" />
+            <lang locale="zh_TW" value="clientTest" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnClientTest].properties.property[icon].value">
+            <lang locale="en_US" value="imgTbtn_testappserver" />
+            <lang locale="zh_CN" value="imgTbtn_testappserver" />
+            <lang locale="zh_HK" value="imgTbtn_testappserver" />
+            <lang locale="zh_TW" value="imgTbtn_testappserver" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnClientTest].properties.property[text].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="测试客户端" />
+            <lang locale="zh_HK" value="測試客戶端" />
+            <lang locale="zh_TW" value="測試客戶端" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnClientTest].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnClient].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnClient].properties.property[action].value">
+            <lang locale="en_US" value="connectServer" />
+            <lang locale="zh_CN" value="connectServer" />
+            <lang locale="zh_HK" value="connectServer" />
+            <lang locale="zh_TW" value="connectServer" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnClient].properties.property[text].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="连接服务" />
+            <lang locale="zh_HK" value="連接服務" />
+            <lang locale="zh_TW" value="連接服務" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnClient].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnCloud].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnCloud].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnPageSetup].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnPageSetup].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnRefresh].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnRefresh].properties.property[action].value">
+            <lang locale="en_US" value="refresh" />
+            <lang locale="zh_CN" value="refresh" />
+            <lang locale="zh_HK" value="refresh" />
+            <lang locale="zh_TW" value="refresh" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnRefresh].properties.property[icon].value">
+            <lang locale="en_US" value="imgTbtn_refresh" />
+            <lang locale="zh_CN" value="imgTbtn_refresh" />
+            <lang locale="zh_HK" value="imgTbtn_refresh" />
+            <lang locale="zh_TW" value="imgTbtn_refresh" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnRefresh].properties.property[text].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="刷新" />
+            <lang locale="zh_HK" value="刷新" />
+            <lang locale="zh_TW" value="刷新" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnStartServer].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnStartServer].properties.property[action].value">
+            <lang locale="en_US" value="startServer" />
+            <lang locale="zh_CN" value="startServer" />
+            <lang locale="zh_HK" value="startServer" />
+            <lang locale="zh_TW" value="startServer" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnStartServer].properties.property[icon].value">
+            <lang locale="en_US" value="imgTbtn_startupserver" />
+            <lang locale="zh_CN" value="imgTbtn_startupserver" />
+            <lang locale="zh_HK" value="imgTbtn_startupserver" />
+            <lang locale="zh_TW" value="imgTbtn_startupserver" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnStartServer].properties.property[text].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="启动服务" />
+            <lang locale="zh_HK" value="啟動服務" />
+            <lang locale="zh_TW" value="啟動服務" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnStopServer].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnStopServer].properties.property[action].value">
+            <lang locale="en_US" value="stopServer" />
+            <lang locale="zh_CN" value="stopServer" />
+            <lang locale="zh_HK" value="stopServer" />
+            <lang locale="zh_TW" value="stopServer" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnStopServer].properties.property[icon].value">
+            <lang locale="en_US" value="imgTbtn_stopserver" />
+            <lang locale="zh_CN" value="imgTbtn_stopserver" />
+            <lang locale="zh_HK" value="imgTbtn_stopserver" />
+            <lang locale="zh_TW" value="imgTbtn_stopserver" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnStopServer].properties.property[text].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="停止服务" />
+            <lang locale="zh_HK" value="停止服務" />
+            <lang locale="zh_TW" value="停止服務" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnXunTong].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[btnXunTong].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[kDSeparatorCloud].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[kDSeparatorCloud].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[kDTable1].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[kdSeparatorFWFile1].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[kdSeparatorFWFile1].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[menuItemCloudFeed].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[menuItemCloudFeed].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[menuItemCloudScreen].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[menuItemCloudScreen].properties.property[enabled].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[menuItemCloudScreen].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[menuItemCloudShare].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[menuItemCloudShare].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[menuItemPageSetup].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].components.component[menuItemPageSetup].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="显示socket链接状态" />
+            <lang locale="zh_HK" value="顯示socket鏈接狀態" />
+            <lang locale="zh_TW" value="顯示socket鏈接狀態" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.ServerStatusView].title">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="服务状态查看" />
+            <lang locale="zh_HK" value="服務狀態查看" />
+            <lang locale="zh_TW" value="服務狀態查看" />
+        </rs>
+    </resource>
+</uiObject>
+

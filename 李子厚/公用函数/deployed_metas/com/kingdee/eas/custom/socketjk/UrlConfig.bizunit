@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizUnit xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.socketjk</package>
+    <name>UrlConfig</name>
+    <alias>bizUnit[com.kingdee.eas.custom.socketjk.UrlConfig].alias</alias>
+    <description>bizUnit[com.kingdee.eas.custom.socketjk.UrlConfig].description</description>
+    <userDefined>true</userDefined>
+    <bizType>BaseData</bizType>
+    <template>false</template>
+    <entityPK>com.kingdee.eas.custom.socketjk.app.UrlConfig</entityPK>
+    <queryPK>com.kingdee.eas.custom.socketjk.app.UrlConfigQuery</queryPK>
+    <editUIPK>com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI</editUIPK>
+    <listUIPK>com.kingdee.eas.custom.socketjk.client.UrlConfigListUI</listUIPK>
+    <webEditUIPK />
+    <webListUIPK />
+    <entityFunctionPK />
+    <editUIFunctionPK />
+    <listUIFunctionPK />
+    <entryUIPK />
+    <versionDate />
+    <versionNumber />
+    <extendTablePKs />
+    <extendEntityPKs />
+    <extendQueryPKs />
+    <extendEditUIPKs />
+    <extendListUIPKs />
+    <menuPKList />
+    <bimTemplateType>TreeDetail</bimTemplateType>
+    <relatedTablePK>com.kingdee.eas.custom.socketjk.app.T_SJK_UrlConfigTREE</relatedTablePK>
+    <relatedEntityPK>com.kingdee.eas.custom.socketjk.app.UrlConfigTree</relatedEntityPK>
+    <relatedEditUIPK>com.kingdee.eas.custom.socketjk.client.UrlConfigTreeEditUI</relatedEditUIPK>
+    <genImplementCode>true</genImplementCode>
+    <webEditPagePK />
+    <webListPagePK />
+    <webPagePKS />
+    <webViewPagePK />
+    <webBriefPagePK />
+    <relatedWebEditPagePK />
+    <relatedQueryPK />
+    <resource>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.UrlConfig].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="传输参数配置" />
+            <lang locale="zh_HK" value="傳輸參數配置" />
+            <lang locale="zh_TW" value="傳輸參數配置" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.UrlConfig].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="配置服务端与客户端参数" />
+            <lang locale="zh_HK" value="配置服務端與客戶端參數" />
+            <lang locale="zh_TW" value="配置服務端與客戶端參數" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.UrlConfig].extendedProperty.MainOrgFieldName">
+            <lang locale="en_US" value="FICompany" />
+            <lang locale="zh_CN" value="FICompany" />
+            <lang locale="zh_TW" value="FICompany" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.UrlConfig].extendedProperty.OrgType">
+            <lang locale="en_US" value="Company" />
+            <lang locale="zh_CN" value="Company" />
+            <lang locale="zh_TW" value="Company" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.UrlConfig].extendedProperty.bimRelationObjectPK">
+            <lang locale="en_US" value="com.kingdee.bos.bim.templates.app.BizTreeBase" />
+            <lang locale="zh_CN" value="com.kingdee.bos.bim.templates.app.BizTreeBase" />
+            <lang locale="zh_TW" value="com.kingdee.bos.bim.templates.app.BizTreeBase" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.UrlConfig].extendedProperty.bimTemplateType">
+            <lang locale="en_US" value="TreeDetail" />
+            <lang locale="zh_CN" value="TreeDetail" />
+            <lang locale="zh_TW" value="TreeDetail" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.UrlConfig].extendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.UrlConfig].extendedProperty.defaultDisplayField">
+            <lang locale="en_US" value="" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.UrlConfig].extendedProperty.defaultF7Query">
+            <lang locale="en_US" value="com.kingdee.eas.custom.socketjk.app.UrlConfigQuery" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.socketjk.app.UrlConfigQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.socketjk.app.UrlConfigQuery" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.UrlConfig].extendedProperty.editUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.UrlConfig].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.UrlConfig].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.UrlConfig].extendedProperty.isParamObject">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.UrlConfig].extendedProperty.isSimpleEntity">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.UrlConfig].extendedProperty.listUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.socketjk.client.UrlConfigListUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.socketjk.client.UrlConfigListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.socketjk.client.UrlConfigListUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.UrlConfig].extendedProperty.maxFieldIndex">
+            <lang locale="en_US" value="14" />
+            <lang locale="zh_CN" value="14" />
+            <lang locale="zh_TW" value="14" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.UrlConfig].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</bizUnit>
+

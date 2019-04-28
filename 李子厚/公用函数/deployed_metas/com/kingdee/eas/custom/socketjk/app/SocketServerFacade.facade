@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facade xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.socketjk.app</package>
+    <name>SocketServerFacade</name>
+    <alias>facade[com.kingdee.eas.custom.socketjk.app.SocketServerFacade].alias</alias>
+    <description>facade[com.kingdee.eas.custom.socketjk.app.SocketServerFacade].description</description>
+    <userDefined>true</userDefined>
+    <bosType>ECE8561F</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.custom.socketjk.SocketServerFacade</businessImplName>
+    <businessControllerName>com.kingdee.eas.custom.socketjk.app.SocketServerFacadeController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>RunService</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.custom.socketjk.app.SocketServerFacade].methods.method[RunService].alias</alias>
+            <description>facade[com.kingdee.eas.custom.socketjk.app.SocketServerFacade].methods.method[RunService].description</description>
+            <innerID>ae1088e1-dc2f-41be-9e8a-704be7670fc2</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>StopService</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.custom.socketjk.app.SocketServerFacade].methods.method[StopService].alias</alias>
+            <description>facade[com.kingdee.eas.custom.socketjk.app.SocketServerFacade].methods.method[StopService].description</description>
+            <innerID>29afd910-7f71-4d42-9da3-33140fbdc3b2</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getServerStatusList</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.custom.socketjk.app.SocketServerFacade].methods.method[getServerStatusList].alias</alias>
+            <description>facade[com.kingdee.eas.custom.socketjk.app.SocketServerFacade].methods.method[getServerStatusList].description</description>
+            <innerID>a5c035b8-e62f-48b3-9640-4e9ad989c20f</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.socketjk.app.SocketServerStatus</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>InsSocketLog</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.custom.socketjk.app.SocketServerFacade].methods.method[InsSocketLog].alias</alias>
+            <description>facade[com.kingdee.eas.custom.socketjk.app.SocketServerFacade].methods.method[InsSocketLog].description</description>
+            <innerID>fe7f5db9-e66f-4ebc-a85b-9df4c62b4025</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>urlConfig</name>
+                    <alias>facade[com.kingdee.eas.custom.socketjk.app.SocketServerFacade].methods.method[InsSocketLog].parameters.parameter[urlConfig].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.socketjk.app.SocketServerFacade].methods.method[InsSocketLog].parameters.parameter[urlConfig].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.custom.socketjk.app.UrlConfig</metadataRef>
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>socketMsg</name>
+                    <alias>facade[com.kingdee.eas.custom.socketjk.app.SocketServerFacade].methods.method[InsSocketLog].parameters.parameter[socketMsg].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.socketjk.app.SocketServerFacade].methods.method[InsSocketLog].parameters.parameter[socketMsg].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>losMsg</name>
+                    <alias>facade[com.kingdee.eas.custom.socketjk.app.SocketServerFacade].methods.method[InsSocketLog].parameters.parameter[losMsg].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.socketjk.app.SocketServerFacade].methods.method[InsSocketLog].parameters.parameter[losMsg].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <resource>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketServerFacade].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="Socket接口功能" />
+            <lang locale="zh_HK" value="Socket介面功能" />
+            <lang locale="zh_TW" value="Socket介面功能" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketServerFacade].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketServerFacade].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketServerFacade].methods.method[InsSocketLog].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketServerFacade].methods.method[InsSocketLog].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketServerFacade].methods.method[InsSocketLog].parameters.parameter[losMsg].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="日志" />
+            <lang locale="zh_HK" value="日誌" />
+            <lang locale="zh_TW" value="日誌" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketServerFacade].methods.method[InsSocketLog].parameters.parameter[losMsg].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketServerFacade].methods.method[InsSocketLog].parameters.parameter[socketMsg].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="报文" />
+            <lang locale="zh_HK" value="報文" />
+            <lang locale="zh_TW" value="報文" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketServerFacade].methods.method[InsSocketLog].parameters.parameter[socketMsg].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketServerFacade].methods.method[InsSocketLog].parameters.parameter[urlConfig].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="传输参数设置" />
+            <lang locale="zh_HK" value="傳輸參數設置" />
+            <lang locale="zh_TW" value="傳輸參數設置" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketServerFacade].methods.method[InsSocketLog].parameters.parameter[urlConfig].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketServerFacade].methods.method[RunService].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="运行服务" />
+            <lang locale="zh_HK" value="運行服務" />
+            <lang locale="zh_TW" value="運行服務" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketServerFacade].methods.method[RunService].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="建立socket链接线程" />
+            <lang locale="zh_HK" value="建立socket鏈接線程" />
+            <lang locale="zh_TW" value="建立socket鏈接線程" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketServerFacade].methods.method[StopService].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="停止服务" />
+            <lang locale="zh_HK" value="停止服務" />
+            <lang locale="zh_TW" value="停止服務" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketServerFacade].methods.method[StopService].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketServerFacade].methods.method[getServerStatusList].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketServerFacade].methods.method[getServerStatusList].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</facade>
+

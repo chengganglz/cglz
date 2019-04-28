@@ -1,0 +1,13 @@
+if({para}!=null){
+	{para}={para}.trim();
+}
+else
+{
+	{para}="";
+}
+if("".equals({para}))
+{
+	isSucess=false;
+	System.out.println("Error-{para1}不能为空,无法进行,中断");
+	errMsg=errMsg + "{para1}不能为空\r\n";
+}

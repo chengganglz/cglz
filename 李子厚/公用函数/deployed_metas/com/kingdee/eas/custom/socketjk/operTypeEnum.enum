@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizEnum xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.socketjk</package>
+    <name>operTypeEnum</name>
+    <alias>bizEnum[com.kingdee.eas.custom.socketjk.operTypeEnum].alias</alias>
+    <description>bizEnum[com.kingdee.eas.custom.socketjk.operTypeEnum].description</description>
+    <userDefined>true</userDefined>
+    <className>com.kingdee.eas.custom.socketjk.operTypeEnum</className>
+    <enumDataType>STRING</enumDataType>
+    <enumValues>
+        <enumValue>
+            <name>Send</name>
+            <alias>bizEnum[com.kingdee.eas.custom.socketjk.operTypeEnum].enumValues.enumValue[Send].alias</alias>
+            <userDefined>true</userDefined>
+            <value>Send</value>
+        </enumValue>
+        <enumValue>
+            <name>Receive</name>
+            <alias>bizEnum[com.kingdee.eas.custom.socketjk.operTypeEnum].enumValues.enumValue[Receive].alias</alias>
+            <userDefined>true</userDefined>
+            <value>Receive</value>
+        </enumValue>
+    </enumValues>
+    <resource>
+        <rs key="bizEnum[com.kingdee.eas.custom.socketjk.operTypeEnum].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="操作类型枚举" />
+            <lang locale="zh_HK" value="操作類型枚舉" />
+            <lang locale="zh_TW" value="操作類型枚舉" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.socketjk.operTypeEnum].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="发送接收" />
+            <lang locale="zh_HK" value="發送接收" />
+            <lang locale="zh_TW" value="發送接收" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.socketjk.operTypeEnum].enumValues.enumValue[Receive].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="接收" />
+            <lang locale="zh_HK" value="接收" />
+            <lang locale="zh_TW" value="接收" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.socketjk.operTypeEnum].enumValues.enumValue[Send].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="发送" />
+            <lang locale="zh_HK" value="發送" />
+            <lang locale="zh_TW" value="發送" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.socketjk.operTypeEnum].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</bizEnum>
+

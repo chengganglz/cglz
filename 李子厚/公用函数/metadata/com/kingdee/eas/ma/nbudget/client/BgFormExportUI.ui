@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.ma.nbudget.client</package>
+    <name>BgFormExportUI</name>
+    <alias>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].alias</alias>
+    <description>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].description</description>
+    <userDefined>true</userDefined>
+    <releasePackage>com.kingdee.eas.ma.nbudget.client</releasePackage>
+    <releaseClass>BgFormExportUI</releaseClass>
+    <title>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].title</title>
+    <uitype />
+    <defaultbutton />
+    <bizUnitPK />
+    <parent>
+        <key name="package" value="com.kingdee.eas.framework.client" />
+        <key name="name" value="CoreUI" />
+    </parent>
+    <components>
+        <component>
+            <name>CoreUI</name>
+            <alias>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[CoreUI].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDPanel</classType>
+            <isContainer>true</isContainer>
+            <constraints>10,10,290,300</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name>kDLayout1</name>
+                <type>KDLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>preferredSize</name>
+                    <type>java.awt.Dimension</type>
+                    <value>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[CoreUI].properties.property[preferredSize].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>minimumSize</name>
+                    <type>java.awt.Dimension</type>
+                    <value>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[CoreUI].properties.property[minimumSize].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>maximumSize</name>
+                    <type>java.awt.Dimension</type>
+                    <value>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[CoreUI].properties.property[maximumSize].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+        </component>
+        <component>
+            <name>CoreUI_toolbar</name>
+            <alias>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[CoreUI_toolbar].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDToolBar</classType>
+            <isContainer>true</isContainer>
+            <constraints>10,10,600,30</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+        </component>
+        <component>
+            <name>CoreUI_menubar</name>
+            <alias>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[CoreUI_menubar].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDMenuBar</classType>
+            <isContainer>true</isContainer>
+            <constraints>10,10,600,28</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+        </component>
+        <component>
+            <name>labTitle</name>
+            <alias>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[labTitle].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabel</classType>
+            <isContainer>false</isContainer>
+            <constraints>10,10,150,19,0</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[labTitle].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>txtFilepath</name>
+            <alias>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[txtFilepath].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDTextField</classType>
+            <isContainer>false</isContainer>
+            <constraints>10,32,192,19,0</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>btnSelectPath</name>
+            <alias>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[btnSelectPath].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDButton</classType>
+            <isContainer>false</isContainer>
+            <constraints>207,31,73,21,0</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[btnSelectPath].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+            <eventBindings>
+                <eventBinding>
+                    <name>actionPerformed</name>
+                    <eventType>java.awt.event.ActionEvent</eventType>
+                    <scene />
+                    <listenerType>java.awt.event.ActionListener</listenerType>
+                    <listenerAdapter>java.awt.event.ActionListener</listenerAdapter>
+                    <methodName>btnSelectPath_actionPerformed</methodName>
+                    <code />
+                    <isBindWorkFlow>false</isBindWorkFlow>
+                    <herited>false</herited>
+                    <userDefined>false</userDefined>
+                </eventBinding>
+            </eventBindings>
+        </component>
+        <component>
+            <name>kDPanel1</name>
+            <alias>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[kDPanel1].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDPanel</classType>
+            <isContainer>true</isContainer>
+            <constraints>5,57,280,65,0</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>border</name>
+                    <type>javax.swing.border.Border</type>
+                    <value>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[kDPanel1].properties.property[border].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>kDPanel2</name>
+            <alias>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[kDPanel2].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDPanel</classType>
+            <isContainer>true</isContainer>
+            <constraints>5,125,280,120,0</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>border</name>
+                    <type>javax.swing.border.Border</type>
+                    <value>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[kDPanel2].properties.property[border].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>btnExport</name>
+            <alias>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[btnExport].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDButton</classType>
+            <isContainer>false</isContainer>
+            <constraints>131,271,73,21,0</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[btnExport].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+            <eventBindings>
+                <eventBinding>
+                    <name>actionPerformed</name>
+                    <eventType>java.awt.event.ActionEvent</eventType>
+                    <scene />
+                    <listenerType>java.awt.event.ActionListener</listenerType>
+                    <listenerAdapter>java.awt.event.ActionListener</listenerAdapter>
+                    <methodName>btnExport_actionPerformed</methodName>
+                    <code />
+                    <isBindWorkFlow>false</isBindWorkFlow>
+                    <herited>false</herited>
+                    <userDefined>false</userDefined>
+                </eventBinding>
+            </eventBindings>
+        </component>
+        <component>
+            <name>btnCancel</name>
+            <alias>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[btnCancel].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDButton</classType>
+            <isContainer>false</isContainer>
+            <constraints>207,271,73,21,0</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[btnCancel].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>action</name>
+                    <type>javax.swing.Action</type>
+                    <value>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[btnCancel].properties.property[action].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>btnExportNew</name>
+            <alias>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[btnExportNew].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDButton</classType>
+            <isContainer>false</isContainer>
+            <constraints>12,271,111,21,0</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[btnExportNew].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+            <eventBindings>
+                <eventBinding>
+                    <name>actionPerformed</name>
+                    <eventType>java.awt.event.ActionEvent</eventType>
+                    <scene />
+                    <listenerType>java.awt.event.ActionListener</listenerType>
+                    <listenerAdapter>java.awt.event.ActionListener</listenerAdapter>
+                    <methodName>btnExportNew_actionPerformed</methodName>
+                    <code>//write your code here</code>
+                    <isBindWorkFlow>false</isBindWorkFlow>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </eventBinding>
+            </eventBindings>
+        </component>
+        <component>
+            <name>kDCheckBox1</name>
+            <alias>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[kDCheckBox1].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDCheckBox</classType>
+            <isContainer>false</isContainer>
+            <constraints>13,247,140,19,0</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[kDCheckBox1].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>rbExcel</name>
+            <alias>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[rbExcel].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDRadioButton</classType>
+            <isContainer>false</isContainer>
+            <constraints>25,25,77,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[rbExcel].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>selected</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[rbExcel].properties.property[selected].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>buttonGroup</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[rbExcel].properties.property[buttonGroup].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="kDPanel1" />
+            </parent>
+        </component>
+        <component>
+            <name>rbKDF</name>
+            <alias>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[rbKDF].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDRadioButton</classType>
+            <isContainer>false</isContainer>
+            <constraints>220,24,43,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[rbKDF].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>buttonGroup</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[rbKDF].properties.property[buttonGroup].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="kDPanel1" />
+            </parent>
+            <eventBindings>
+                <eventBinding>
+                    <name>actionPerformed</name>
+                    <eventType>java.awt.event.ActionEvent</eventType>
+                    <scene />
+                    <listenerType>java.awt.event.ActionListener</listenerType>
+                    <listenerAdapter>java.awt.event.ActionListener</listenerAdapter>
+                    <methodName>rbKDF_actionPerformed</methodName>
+                    <code />
+                    <isBindWorkFlow>false</isBindWorkFlow>
+                    <herited>false</herited>
+                    <userDefined>false</userDefined>
+                </eventBinding>
+            </eventBindings>
+        </component>
+        <component>
+            <name>kDExcel2007</name>
+            <alias>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[kDExcel2007].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDRadioButton</classType>
+            <isContainer>false</isContainer>
+            <constraints>108,25,96,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[kDExcel2007].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>buttonGroup</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[kDExcel2007].properties.property[buttonGroup].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="kDPanel1" />
+            </parent>
+        </component>
+        <component>
+            <name>groupType</name>
+            <alias>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[groupType].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDButtonGroup</classType>
+            <isContainer>false</isContainer>
+            <constraints>214,39,170,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <parent>
+                <key name="name" value="kDPanel1" />
+            </parent>
+        </component>
+        <component>
+            <name>groupExportType</name>
+            <alias>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[groupExportType].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDButtonGroup</classType>
+            <isContainer>false</isContainer>
+            <constraints>21,22,170,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <parent>
+                <key name="name" value="kDPanel2" />
+            </parent>
+        </component>
+        <component>
+            <name>rbDataANDExpression</name>
+            <alias>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[rbDataANDExpression].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDRadioButton</classType>
+            <isContainer>false</isContainer>
+            <constraints>25,75,200,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[rbDataANDExpression].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>buttonGroup</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[rbDataANDExpression].properties.property[buttonGroup].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="kDPanel2" />
+            </parent>
+        </component>
+        <component>
+            <name>rbData</name>
+            <alias>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[rbData].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDRadioButton</classType>
+            <isContainer>false</isContainer>
+            <constraints>25,25,200,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[rbData].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>buttonGroup</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[rbData].properties.property[buttonGroup].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>selected</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[rbData].properties.property[selected].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="kDPanel2" />
+            </parent>
+        </component>
+        <component>
+            <name>rbDataANDExcelExpression</name>
+            <alias>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[rbDataANDExcelExpression].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDRadioButton</classType>
+            <isContainer>false</isContainer>
+            <constraints>25,50,200,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[rbDataANDExcelExpression].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>buttonGroup</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[rbDataANDExcelExpression].properties.property[buttonGroup].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="kDPanel2" />
+            </parent>
+        </component>
+    </components>
+    <resource>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="BgFormExportUI" />
+            <lang locale="zh_HK" value="BgFormExportUI" />
+            <lang locale="zh_TW" value="BgFormExportUI" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[CoreUI].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[CoreUI].properties.property[maximumSize].value">
+            <lang locale="en_US" value="290,300" />
+            <lang locale="zh_CN" value="290,300" />
+            <lang locale="zh_HK" value="290,300" />
+            <lang locale="zh_TW" value="290,300" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[CoreUI].properties.property[minimumSize].value">
+            <lang locale="en_US" value="290,300" />
+            <lang locale="zh_CN" value="290,300" />
+            <lang locale="zh_HK" value="290,300" />
+            <lang locale="zh_TW" value="290,300" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[CoreUI].properties.property[preferredSize].value">
+            <lang locale="en_US" value="290,300" />
+            <lang locale="zh_CN" value="290,300" />
+            <lang locale="zh_HK" value="290,300" />
+            <lang locale="zh_TW" value="290,300" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[CoreUI_menubar].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[CoreUI_toolbar].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[btnCancel].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[btnCancel].properties.property[action].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="actionExitCurrent" />
+            <lang locale="zh_HK" value="actionExitCurrent" />
+            <lang locale="zh_TW" value="actionExitCurrent" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[btnCancel].properties.property[text].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="取消" />
+            <lang locale="zh_HK" value="取消" />
+            <lang locale="zh_TW" value="取消" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[btnExportNew].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[btnExportNew].properties.property[text].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="导出单个文件" />
+            <lang locale="zh_HK" value="導出單個文件" />
+            <lang locale="zh_TW" value="導出單個文件" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[btnExport].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[btnExport].properties.property[text].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="确定" />
+            <lang locale="zh_HK" value="確定" />
+            <lang locale="zh_TW" value="確定" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[btnSelectPath].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[btnSelectPath].properties.property[text].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="浏览" />
+            <lang locale="zh_HK" value="瀏覽" />
+            <lang locale="zh_TW" value="瀏覽" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[groupExportType].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[groupType].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[kDCheckBox1].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[kDCheckBox1].properties.property[text].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="包含空页签" />
+            <lang locale="zh_HK" value="包含空頁簽" />
+            <lang locale="zh_TW" value="包含空頁簽" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[kDExcel2007].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[kDExcel2007].properties.property[buttonGroup].value">
+            <lang locale="en_US" value="groupType" />
+            <lang locale="zh_CN" value="groupType" />
+            <lang locale="zh_HK" value="groupType" />
+            <lang locale="zh_TW" value="groupType" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[kDExcel2007].properties.property[text].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="Excel2007" />
+            <lang locale="zh_HK" value="Excel2007" />
+            <lang locale="zh_TW" value="Excel2007" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[kDPanel1].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[kDPanel1].properties.property[border].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;Border&gt;&lt;Type&gt;6&lt;/Type&gt;&lt;Name&gt;Custom&lt;/Name&gt;&lt;CustomType&gt;62&lt;/CustomType&gt;&lt;Title&gt; 导出格式 &lt;/Title&gt;&lt;Options&gt;&lt;Width&gt;0&lt;/Width&gt;&lt;HighlightOuter R=&quot;255&quot; G=&quot;255&quot; B=&quot;255&quot; /&gt;&lt;ShadowOuter R=&quot;148&quot; G=&quot;145&quot; B=&quot;140&quot; /&gt;&lt;/Options&gt;&lt;/Border&gt; " />
+            <lang locale="zh_HK" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;Border&gt;&lt;Type&gt;6&lt;/Type&gt;&lt;Name&gt;Custom&lt;/Name&gt;&lt;CustomType&gt;62&lt;/CustomType&gt;&lt;Title&gt; 導出格式 &lt;/Title&gt;&lt;Options&gt;&lt;Width&gt;0&lt;/Width&gt;&lt;HighlightOuter R=&quot;255&quot; G=&quot;255&quot; B=&quot;255&quot; /&gt;&lt;ShadowOuter R=&quot;148&quot; G=&quot;145&quot; B=&quot;140&quot; /&gt;&lt;/Options&gt;&lt;/Border&gt; " />
+            <lang locale="zh_TW" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;Border&gt;&lt;Type&gt;6&lt;/Type&gt;&lt;Name&gt;Custom&lt;/Name&gt;&lt;CustomType&gt;62&lt;/CustomType&gt;&lt;Title&gt; 導出格式 &lt;/Title&gt;&lt;Options&gt;&lt;Width&gt;0&lt;/Width&gt;&lt;HighlightOuter R=&quot;255&quot; G=&quot;255&quot; B=&quot;255&quot; /&gt;&lt;ShadowOuter R=&quot;148&quot; G=&quot;145&quot; B=&quot;140&quot; /&gt;&lt;/Options&gt;&lt;/Border&gt; " />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[kDPanel2].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[kDPanel2].properties.property[border].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;Border&gt;&lt;Type&gt;6&lt;/Type&gt;&lt;Name&gt;Custom&lt;/Name&gt;&lt;CustomType&gt;62&lt;/CustomType&gt;&lt;Title&gt; 选项 &lt;/Title&gt;&lt;Options&gt;&lt;Width&gt;0&lt;/Width&gt;&lt;HighlightOuter R=&quot;255&quot; G=&quot;255&quot; B=&quot;255&quot; /&gt;&lt;ShadowOuter R=&quot;148&quot; G=&quot;145&quot; B=&quot;140&quot; /&gt;&lt;/Options&gt;&lt;/Border&gt; " />
+            <lang locale="zh_HK" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;Border&gt;&lt;Type&gt;6&lt;/Type&gt;&lt;Name&gt;Custom&lt;/Name&gt;&lt;CustomType&gt;62&lt;/CustomType&gt;&lt;Title&gt; 選項 &lt;/Title&gt;&lt;Options&gt;&lt;Width&gt;0&lt;/Width&gt;&lt;HighlightOuter R=&quot;255&quot; G=&quot;255&quot; B=&quot;255&quot; /&gt;&lt;ShadowOuter R=&quot;148&quot; G=&quot;145&quot; B=&quot;140&quot; /&gt;&lt;/Options&gt;&lt;/Border&gt; " />
+            <lang locale="zh_TW" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt; &lt;Border&gt;&lt;Type&gt;6&lt;/Type&gt;&lt;Name&gt;Custom&lt;/Name&gt;&lt;CustomType&gt;62&lt;/CustomType&gt;&lt;Title&gt; 選項 &lt;/Title&gt;&lt;Options&gt;&lt;Width&gt;0&lt;/Width&gt;&lt;HighlightOuter R=&quot;255&quot; G=&quot;255&quot; B=&quot;255&quot; /&gt;&lt;ShadowOuter R=&quot;148&quot; G=&quot;145&quot; B=&quot;140&quot; /&gt;&lt;/Options&gt;&lt;/Border&gt; " />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[labTitle].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[labTitle].properties.property[text].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="将预算表导出到：" />
+            <lang locale="zh_HK" value="將預算表導出到：" />
+            <lang locale="zh_TW" value="將預算表導出到：" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[rbDataANDExcelExpression].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[rbDataANDExcelExpression].properties.property[buttonGroup].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="groupExportType" />
+            <lang locale="zh_HK" value="groupExportType" />
+            <lang locale="zh_TW" value="groupExportType" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[rbDataANDExcelExpression].properties.property[text].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="导出数据和Excel公式" />
+            <lang locale="zh_HK" value="導出數據和Excel公式" />
+            <lang locale="zh_TW" value="導出數據和Excel公式" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[rbDataANDExpression].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[rbDataANDExpression].properties.property[buttonGroup].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="groupExportType" />
+            <lang locale="zh_HK" value="groupExportType" />
+            <lang locale="zh_TW" value="groupExportType" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[rbDataANDExpression].properties.property[text].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="导出数据和公式" />
+            <lang locale="zh_HK" value="導出數據和公式" />
+            <lang locale="zh_TW" value="導出數據和公式" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[rbData].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[rbData].properties.property[buttonGroup].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="groupExportType" />
+            <lang locale="zh_HK" value="groupExportType" />
+            <lang locale="zh_TW" value="groupExportType" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[rbData].properties.property[selected].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[rbData].properties.property[text].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="仅导出数据" />
+            <lang locale="zh_HK" value="僅導出數據" />
+            <lang locale="zh_TW" value="僅導出數據" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[rbExcel].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[rbExcel].properties.property[buttonGroup].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="groupType" />
+            <lang locale="zh_HK" value="groupType" />
+            <lang locale="zh_TW" value="groupType" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[rbExcel].properties.property[selected].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[rbExcel].properties.property[text].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="Excel2003" />
+            <lang locale="zh_HK" value="Excel2003" />
+            <lang locale="zh_TW" value="Excel2003" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[rbKDF].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[rbKDF].properties.property[buttonGroup].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="groupType" />
+            <lang locale="zh_HK" value="groupType" />
+            <lang locale="zh_TW" value="groupType" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[rbKDF].properties.property[text].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="KDF" />
+            <lang locale="zh_HK" value="KDF" />
+            <lang locale="zh_TW" value="KDF" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].components.component[txtFilepath].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="预算表数据导出界面" />
+            <lang locale="zh_HK" value="預算表數據導出介面" />
+            <lang locale="zh_TW" value="預算表數據導出介面" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.ma.nbudget.client.BgFormExportUI].title">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="预算表导出" />
+            <lang locale="zh_HK" value="預算表導出" />
+            <lang locale="zh_TW" value="預算表導出" />
+        </rs>
+    </resource>
+</uiObject>
+

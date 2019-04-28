@@ -1,0 +1,9 @@
+// 编码,名称,,出口卷号,合同号,合约号,机组号,重量,生产时间,物料id,是否入库
+SELECT FNUMBER,FNAME_L2,fcreatorid ,fcreatetime,fcontrolunitid,CFCKJH,CFHTH,CFHYH,CFJZH,CFZL,CFSCSJ,CFWLID,CFSFRK FROM CT_CUS_JZSCCCJL
+fcreatorid  256c221a-0106-1000-e000-10d7c0a813f413B7DE7F
+fcreatetime 
+fcontrolunitid 00000000-0000-0000-0000-000000000000CCE7AED4
+
+insert into CT_CUS_JZSCCCJL(FNUMBER,FNAME_L2,CFCKJH,CFHTH,CFHYH,CFJZH,CFZL,CFSCSJ,CFWLID,CFSFRK) values('01','02','01','02','03','04','05','2019-04-24','08','1')
+
+insert into CT_CUS_JZSCCCJL(fid,FNUMBER,FNAME_L2,fcreatorid,fcreatetime,fcontrolunitid,CFCKJH,CFHTH,CFHYH,CFJZH,CFZL,CFSCSJ,CFWLID,CFSFRK) values('01','02','01','02','03','04','05','2019-04-24','08','1')

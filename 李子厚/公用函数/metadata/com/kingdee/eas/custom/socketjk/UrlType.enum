@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizEnum xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.socketjk</package>
+    <name>UrlType</name>
+    <alias>bizEnum[com.kingdee.eas.custom.socketjk.UrlType].alias</alias>
+    <description>bizEnum[com.kingdee.eas.custom.socketjk.UrlType].description</description>
+    <userDefined>true</userDefined>
+    <className>com.kingdee.eas.custom.socketjk.UrlType</className>
+    <enumDataType>STRING</enumDataType>
+    <enumValues>
+        <enumValue>
+            <name>Server</name>
+            <alias>bizEnum[com.kingdee.eas.custom.socketjk.UrlType].enumValues.enumValue[Server].alias</alias>
+            <userDefined>true</userDefined>
+            <value>Server</value>
+        </enumValue>
+        <enumValue>
+            <name>Client</name>
+            <alias>bizEnum[com.kingdee.eas.custom.socketjk.UrlType].enumValues.enumValue[Client].alias</alias>
+            <userDefined>true</userDefined>
+            <value>Client</value>
+        </enumValue>
+    </enumValues>
+    <resource>
+        <rs key="bizEnum[com.kingdee.eas.custom.socketjk.UrlType].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="URL类型" />
+            <lang locale="zh_HK" value="URL類型" />
+            <lang locale="zh_TW" value="URL類型" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.socketjk.UrlType].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="服务端，客户端" />
+            <lang locale="zh_HK" value="服務端，客戶端" />
+            <lang locale="zh_TW" value="服務端，客戶端" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.socketjk.UrlType].enumValues.enumValue[Client].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="客户端" />
+            <lang locale="zh_HK" value="客戶端" />
+            <lang locale="zh_TW" value="客戶端" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.socketjk.UrlType].enumValues.enumValue[Server].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="服务端" />
+            <lang locale="zh_HK" value="服務端" />
+            <lang locale="zh_TW" value="服務端" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.socketjk.UrlType].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</bizEnum>
+

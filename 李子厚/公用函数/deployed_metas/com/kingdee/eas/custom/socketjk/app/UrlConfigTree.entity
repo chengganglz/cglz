@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entityObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.socketjk.app</package>
+    <name>UrlConfigTree</name>
+    <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].alias</alias>
+    <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].description</description>
+    <userDefined>true</userDefined>
+    <bosType>8BD19E20</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.custom.socketjk.UrlConfigTree</businessImplName>
+    <businessControllerName>com.kingdee.eas.custom.socketjk.app.UrlConfigTreeController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getValue].description</description>
+            <innerID>7ad531d4-71e7-423f-a848-8c0e5bda50e2</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.socketjk.app.UrlConfigTree</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getValue].description</description>
+            <innerID>d5b90582-9bc1-4b26-9f65-c63a9e9892cd</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.socketjk.app.UrlConfigTree</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>selector</name>
+                    <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getValue].parameters.parameter[selector].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getValue].parameters.parameter[selector].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SelectorItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getValue].description</description>
+            <innerID>1ff6f847-1d48-434e-8155-c04e73ee286f</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.socketjk.app.UrlConfigTree</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getValue].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getValue].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getCollection].description</description>
+            <innerID>98a3acd2-595e-44a1-b5bb-5027ba19b318</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.socketjk.app.UrlConfigTree</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getCollection].description</description>
+            <innerID>bd0461da-7c00-4f9c-9186-350344384f44</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.socketjk.app.UrlConfigTree</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>view</name>
+                    <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getCollection].parameters.parameter[view].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getCollection].parameters.parameter[view].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.EntityViewInfo</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getCollection].description</description>
+            <innerID>4b195e9b-3a32-4275-abae-63d4101df214</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.socketjk.app.UrlConfigTree</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getCollection].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getCollection].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <isAbstract>false</isAbstract>
+    <bizUnitPK>com.kingdee.eas.custom.socketjk.UrlConfig</bizUnitPK>
+    <baseEntity>
+        <key name="package" value="com.kingdee.eas.framework.app" />
+        <key name="name" value="TreeBase" />
+    </baseEntity>
+    <table>
+        <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+        <key name="name" value="T_SJK_UrlConfigTREE" />
+    </table>
+    <properties>
+        <linkProperty>
+            <name>parent</name>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].properties.linkProperty[parent].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].properties.linkProperty[parent].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FParentID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="R_UrlConfigTree_UrlConfigTree_parent" />
+            </relationship>
+        </linkProperty>
+    </properties>
+    <logicalKey>
+        <name>id</name>
+        <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].logicalKey[id].alias</alias>
+        <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].logicalKey[id].description</description>
+        <keyClass>com.kingdee.bos.dao.IObjectPK</keyClass>
+        <userDefined>true</userDefined>
+        <keyProperties>
+            <baseProperty>
+                <key name="name" value="id" />
+            </baseProperty>
+        </keyProperties>
+    </logicalKey>
+    <resource>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="传输参数配置组别" />
+            <lang locale="zh_HK" value="傳輸參數配置組別" />
+            <lang locale="zh_TW" value="傳輸參數配置組別" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="基础资料模板" />
+            <lang locale="zh_HK" value="基礎資料範本" />
+            <lang locale="zh_TW" value="基礎資料範本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].extendedProperty.OrgType">
+            <lang locale="en_US" value="Company" />
+            <lang locale="zh_CN" value="Company" />
+            <lang locale="zh_TW" value="Company" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].extendedProperty.bimTemplateType">
+            <lang locale="en_US" value="TreeBase" />
+            <lang locale="zh_CN" value="TreeBase" />
+            <lang locale="zh_TW" value="TreeBase" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].extendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].extendedProperty.defaultDisplayField">
+            <lang locale="en_US" value="name" />
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].extendedProperty.editUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.socketjk.client.UrlConfigTreeEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.socketjk.client.UrlConfigTreeEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.socketjk.client.UrlConfigTreeEditUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].extendedProperty.isSimpleEntity">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].logicalKey[id].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].logicalKey[id].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getCollection].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getCollection].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getCollection].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getCollection].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getCollection].parameters.parameter[view].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getCollection].parameters.parameter[view].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getValue].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getValue].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getValue].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getValue].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getValue].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getValue].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getValue].parameters.parameter[selector].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].methods.method[getValue].parameters.parameter[selector].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].properties.linkProperty[parent].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="父节点" />
+            <lang locale="zh_HK" value="父節點" />
+            <lang locale="zh_TW" value="父節點" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].properties.linkProperty[parent].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="父节点" />
+            <lang locale="zh_HK" value="父節點" />
+            <lang locale="zh_TW" value="父節點" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfigTree].properties.linkProperty[parent].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+    </resource>
+</entityObject>
+

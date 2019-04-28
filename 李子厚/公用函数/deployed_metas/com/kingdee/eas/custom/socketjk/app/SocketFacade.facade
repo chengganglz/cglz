@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facade xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.socketjk.app</package>
+    <name>SocketFacade</name>
+    <alias>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].alias</alias>
+    <description>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].description</description>
+    <userDefined>true</userDefined>
+    <bosType>908D6A7C</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.custom.socketjk.SocketFacade</businessImplName>
+    <businessControllerName>com.kingdee.eas.custom.socketjk.app.SocketFacadeController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>RunService</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[RunService].alias</alias>
+            <description>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[RunService].description</description>
+            <innerID>656bb632-aebb-4d41-9d0f-1972d7e583e3</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>StopService</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[StopService].alias</alias>
+            <description>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[StopService].description</description>
+            <innerID>ca1d7b47-a582-4d20-b2a4-07140efcec62</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getServerStatusList</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getServerStatusList].alias</alias>
+            <description>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getServerStatusList].description</description>
+            <innerID>bfc44700-bc3f-44cc-ae53-3482d531774d</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.socketjk.app.SocketServerStatus</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>executeScript</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[executeScript].alias</alias>
+            <description>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[executeScript].description</description>
+            <innerID>93a61b9f-6049-4aad-adb3-7c1a0e9a2c0b</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>Boolean</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>channelRead</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[channelRead].alias</alias>
+            <description>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[channelRead].description</description>
+            <innerID>21034f2b-da0d-4a1a-855b-d8b9f145fbbf</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>InsSocketLog</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[InsSocketLog].alias</alias>
+            <description>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[InsSocketLog].description</description>
+            <innerID>345f92c3-0b24-4463-9bc1-ff6233c14bc3</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>urlConfig</name>
+                    <alias>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[InsSocketLog].parameters.parameter[urlConfig].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[InsSocketLog].parameters.parameter[urlConfig].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.custom.socketjk.app.UrlConfig</metadataRef>
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>socketMsg</name>
+                    <alias>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[InsSocketLog].parameters.parameter[socketMsg].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[InsSocketLog].parameters.parameter[socketMsg].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>losMsg</name>
+                    <alias>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[InsSocketLog].parameters.parameter[losMsg].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[InsSocketLog].parameters.parameter[losMsg].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>sendSocketMsg</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[sendSocketMsg].alias</alias>
+            <description>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[sendSocketMsg].description</description>
+            <innerID>58f2a1a4-5e76-43e2-a5da-bac615fa738a</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.eas.custom.socketjk.SocketResult</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>socketMsgSetNo</name>
+                    <alias>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[sendSocketMsg].parameters.parameter[socketMsgSetNo].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[sendSocketMsg].parameters.parameter[socketMsgSetNo].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>billId</name>
+                    <alias>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[sendSocketMsg].parameters.parameter[billId].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[sendSocketMsg].parameters.parameter[billId].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getMaterialInfo</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].alias</alias>
+            <description>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].description</description>
+            <innerID>e8c849c3-cc1e-4843-bba5-98bf38c1918f</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.basedata.master.material.app.Material</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>zzbm</name>
+                    <alias>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[zzbm].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[zzbm].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>bs</name>
+                    <alias>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[bs].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[bs].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>fl</name>
+                    <alias>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[fl].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[fl].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>ph</name>
+                    <alias>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[ph].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[ph].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>phmc</name>
+                    <alias>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[phmc].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[phmc].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>kd</name>
+                    <alias>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[kd].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[kd].description</description>
+                    <direction>in</direction>
+                    <dataType>BigDecimal</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>hd</name>
+                    <alias>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[hd].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[hd].description</description>
+                    <direction>in</direction>
+                    <dataType>BigDecimal</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>dwmc</name>
+                    <alias>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[dwmc].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[dwmc].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>dwzbm</name>
+                    <alias>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[dwzbm].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[dwzbm].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>isBatchNo</name>
+                    <alias>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[isBatchNo].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[isBatchNo].description</description>
+                    <direction>in</direction>
+                    <dataType>Boolean</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <resource>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="socket接口服务功能" />
+            <lang locale="zh_HK" value="socket介面服務功能" />
+            <lang locale="zh_TW" value="socket介面服務功能" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[InsSocketLog].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="插入Socket日志" />
+            <lang locale="zh_HK" value="插入Socket日誌" />
+            <lang locale="zh_TW" value="插入Socket日誌" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[InsSocketLog].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[InsSocketLog].parameters.parameter[losMsg].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="日志消息" />
+            <lang locale="zh_HK" value="日誌消息" />
+            <lang locale="zh_TW" value="日誌消息" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[InsSocketLog].parameters.parameter[losMsg].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[InsSocketLog].parameters.parameter[socketMsg].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="报文内容" />
+            <lang locale="zh_HK" value="報文內容" />
+            <lang locale="zh_TW" value="報文內容" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[InsSocketLog].parameters.parameter[socketMsg].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[InsSocketLog].parameters.parameter[urlConfig].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="报文来源" />
+            <lang locale="zh_HK" value="報文來源" />
+            <lang locale="zh_TW" value="報文來源" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[InsSocketLog].parameters.parameter[urlConfig].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[RunService].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="运行服务" />
+            <lang locale="zh_HK" value="運行服務" />
+            <lang locale="zh_TW" value="運行服務" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[RunService].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="建立socket链接线程" />
+            <lang locale="zh_HK" value="建立socket鏈接線程" />
+            <lang locale="zh_TW" value="建立socket鏈接線程" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[StopService].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="停止服务" />
+            <lang locale="zh_HK" value="停止服務" />
+            <lang locale="zh_TW" value="停止服務" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[StopService].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[channelRead].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="接收数据执行脚本" />
+            <lang locale="zh_HK" value="接收數據執行腳本" />
+            <lang locale="zh_TW" value="接收數據執行腳本" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[channelRead].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[executeScript].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="执行脚本" />
+            <lang locale="zh_HK" value="執行腳本" />
+            <lang locale="zh_TW" value="執行腳本" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[executeScript].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="[description]根据牌号，厚度，宽度 判断是否存在物料，不存在则新增{BR}物料编码包括物料标识码、物料分类码、牌号码、规格码四部分共计14位组成，无间隔标志，详细说明如下：{BR} 第一段：物料标识码，1位字节，以5标识成品。{BR} 第二段：物料分类码，2位字节，09代表酸洗板，10代表酸洗开平板，17代表轧制板，18代表轧制开平板，19代表镀锌板，20代表镀锌开平板。{BR} 第三段：牌号码，4位字节，详细以冷轧MES中牌号流水号为准，如冷轧MES中牌号流水号不足4位则前置0补足。{BR} 第四段：规格码，7位字节，以物料厚度+宽度标识，其中物料厚度3位（物料厚度*100），物料宽度4位，不足相应位数的前置0补足。{BR} 例如：50900010801200代表冷轧MES牌号流水号为0001，规格型号为0.80*1200的酸洗板。{BR}三、物料命名规范{BR} 物料名称包括分类、牌号、规格三部分，以“_”间隔，详细说明如下：{BR}第一段：分类名称，包括酸洗板、酸洗开平板、轧制板、轧制开平板、镀锌板、镀锌开平板六类，不限制字节长度；{BR}第二段：牌号名称，详细以冷轧MES中牌号名称为准，不限制字节长度；{BR}第三段：规格，以物料厚度*宽度标识，其中物料厚度3位（物料厚度*100），物料宽度4位，不足相应位数的前置0补足，8位字节。{BR}例如：酸洗板_C600QK-CM_0.80*1200代表牌号为C600QK-CM，规格型号为0.80*1200的酸洗板。[%description][invokedemo][%invokedemo][returndesc]物料info[%returndesc]" />
+            <lang locale="zh_HK" value="[description]根據牌號，厚度，寬度 判斷是否存在物料，不存在則新增{BR}物料編碼包括物料標識碼、物料分類碼、牌號碼、規格碼四部分共計14位組成，無間隔標誌，詳細說明如下：{BR} 第一段：物料標識碼，1位字節，以5標識成品。{BR} 第二段：物料分類碼，2位字節，09代表酸洗板，10代表酸洗開平板，17代表軋製板，18代表軋製開平板，19代表鍍鋅板，20代表鍍鋅開平板。{BR} 第三段：牌號碼，4位字節，詳細以冷軋MES中牌號流水號為准，如冷軋MES中牌號流水號不足4位則前置0補足。{BR} 第四段：規格碼，7位字節，以物料厚度+寬度標識，其中物料厚度3位（物料厚度*100），物料寬度4位，不足相應位數的前置0補足。{BR} 例如：50900010801200代表冷軋MES牌號流水號為0001，規格型號為0.80*1200的酸洗板。{BR}三、物料命名規範{BR} 物料名稱包括分類、牌號、規格三部分，以“_”間隔，詳細說明如下：{BR}第一段：分類名稱，包括酸洗板、酸洗開平板、軋製板、軋製開平板、鍍鋅板、鍍鋅開平板六類，不限制字節長度；{BR}第二段：牌號名稱，詳細以冷軋MES中牌號名稱為准，不限制字節長度；{BR}第三段：規格，以物料厚度*寬度標識，其中物料厚度3位（物料厚度*100），物料寬度4位，不足相應位數的前置0補足，8位字節。{BR}例如：酸洗板_C600QK-CM_0.80*1200代表牌號為C600QK-CM，規格型號為0.80*1200的酸洗板。[%description][invokedemo][%invokedemo][returndesc]物料info[%returndesc]" />
+            <lang locale="zh_TW" value="[description]根據牌號，厚度，寬度 判斷是否存在物料，不存在則新增{BR}物料編碼包括物料標識碼、物料分類碼、牌號碼、規格碼四部分共計14位組成，無間隔標誌，詳細說明如下：{BR} 第一段：物料標識碼，1位字節，以5標識成品。{BR} 第二段：物料分類碼，2位字節，09代表酸洗板，10代表酸洗開平板，17代表軋製板，18代表軋製開平板，19代表鍍鋅板，20代表鍍鋅開平板。{BR} 第三段：牌號碼，4位字節，詳細以冷軋MES中牌號流水號為准，如冷軋MES中牌號流水號不足4位則前置0補足。{BR} 第四段：規格碼，7位字節，以物料厚度+寬度標識，其中物料厚度3位（物料厚度*100），物料寬度4位，不足相應位數的前置0補足。{BR} 例如：50900010801200代表冷軋MES牌號流水號為0001，規格型號為0.80*1200的酸洗板。{BR}三、物料命名規範{BR} 物料名稱包括分類、牌號、規格三部分，以“_”間隔，詳細說明如下：{BR}第一段：分類名稱，包括酸洗板、酸洗開平板、軋製板、軋製開平板、鍍鋅板、鍍鋅開平板六類，不限制字節長度；{BR}第二段：牌號名稱，詳細以冷軋MES中牌號名稱為准，不限制字節長度；{BR}第三段：規格，以物料厚度*寬度標識，其中物料厚度3位（物料厚度*100），物料寬度4位，不足相應位數的前置0補足，8位字節。{BR}例如：酸洗板_C600QK-CM_0.80*1200代表牌號為C600QK-CM，規格型號為0.80*1200的酸洗板。[%description][invokedemo][%invokedemo][returndesc]物料info[%returndesc]" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[bs].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="物料标识" />
+            <lang locale="zh_HK" value="物料標識" />
+            <lang locale="zh_TW" value="物料標識" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[bs].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="物料标识码，1位字节，以5标识成品" />
+            <lang locale="zh_HK" value="物料標識碼，1位字節，以5標識成品" />
+            <lang locale="zh_TW" value="物料標識碼，1位字節，以5標識成品" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[dwmc].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单位名称" />
+            <lang locale="zh_HK" value="單位名稱" />
+            <lang locale="zh_TW" value="單位名稱" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[dwmc].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[dwzbm].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单位组编码" />
+            <lang locale="zh_HK" value="單位組編碼" />
+            <lang locale="zh_TW" value="單位組編碼" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[dwzbm].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[fl].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="物料分类" />
+            <lang locale="zh_HK" value="物料分類" />
+            <lang locale="zh_TW" value="物料分類" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[fl].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="物料分类码，2位字节，09代表酸洗板，10代表酸洗开平板，17代表轧制板，18代表轧制开平板，19代表镀锌板，20代表镀锌开平板。" />
+            <lang locale="zh_HK" value="物料分類碼，2位字節，09代表酸洗板，10代表酸洗開平板，17代表軋製板，18代表軋製開平板，19代表鍍鋅板，20代表鍍鋅開平板。" />
+            <lang locale="zh_TW" value="物料分類碼，2位字節，09代表酸洗板，10代表酸洗開平板，17代表軋製板，18代表軋製開平板，19代表鍍鋅板，20代表鍍鋅開平板。" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[hd].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="厚度" />
+            <lang locale="zh_HK" value="厚度" />
+            <lang locale="zh_TW" value="厚度" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[hd].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[isBatchNo].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="启用批次" />
+            <lang locale="zh_HK" value="啟用批次" />
+            <lang locale="zh_TW" value="啟用批次" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[isBatchNo].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[kd].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="宽度" />
+            <lang locale="zh_HK" value="寬度" />
+            <lang locale="zh_TW" value="寬度" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[kd].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="规格码，7位字节，以物料厚度+宽度标识，其中物料厚度3位（物料厚度*100），物料宽度4位，不足相应位数的前置0补足。" />
+            <lang locale="zh_HK" value="規格碼，7位字節，以物料厚度+寬度標識，其中物料厚度3位（物料厚度*100），物料寬度4位，不足相應位數的前置0補足。" />
+            <lang locale="zh_TW" value="規格碼，7位字節，以物料厚度+寬度標識，其中物料厚度3位（物料厚度*100），物料寬度4位，不足相應位數的前置0補足。" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[ph].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="牌号" />
+            <lang locale="zh_HK" value="牌號" />
+            <lang locale="zh_TW" value="牌號" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[ph].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="牌号码，4位字节，详细以冷轧MES中牌号流水号为准，如冷轧MES中牌号流水号不足4位则前置0补足。" />
+            <lang locale="zh_HK" value="牌號碼，4位字節，詳細以冷軋MES中牌號流水號為准，如冷軋MES中牌號流水號不足4位則前置0補足。" />
+            <lang locale="zh_TW" value="牌號碼，4位字節，詳細以冷軋MES中牌號流水號為准，如冷軋MES中牌號流水號不足4位則前置0補足。" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[phmc].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="牌号名称" />
+            <lang locale="zh_HK" value="牌號名稱" />
+            <lang locale="zh_TW" value="牌號名稱" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[phmc].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[zzbm].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="公司编码" />
+            <lang locale="zh_HK" value="公司編碼" />
+            <lang locale="zh_TW" value="公司編碼" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getMaterialInfo].parameters.parameter[zzbm].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getServerStatusList].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[getServerStatusList].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="1" />
+            <lang locale="zh_HK" value="1" />
+            <lang locale="zh_TW" value="1" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[sendSocketMsg].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="发送电文请求" />
+            <lang locale="zh_HK" value="發送電文請求" />
+            <lang locale="zh_TW" value="發送電文請求" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[sendSocketMsg].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[sendSocketMsg].parameters.parameter[billId].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据ID" />
+            <lang locale="zh_HK" value="單據ID" />
+            <lang locale="zh_TW" value="單據ID" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[sendSocketMsg].parameters.parameter[billId].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[sendSocketMsg].parameters.parameter[socketMsgSetNo].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="电文设置单据编号" />
+            <lang locale="zh_HK" value="電文設置單據編號" />
+            <lang locale="zh_TW" value="電文設置單據編號" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.SocketFacade].methods.method[sendSocketMsg].parameters.parameter[socketMsgSetNo].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</facade>
+

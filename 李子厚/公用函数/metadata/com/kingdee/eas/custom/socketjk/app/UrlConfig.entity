@@ -1,0 +1,1532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entityObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.socketjk.app</package>
+    <name>UrlConfig</name>
+    <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].alias</alias>
+    <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].description</description>
+    <userDefined>true</userDefined>
+    <bosType>DB383762</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.custom.socketjk.UrlConfig</businessImplName>
+    <businessControllerName>com.kingdee.eas.custom.socketjk.app.UrlConfigController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getValue].description</description>
+            <innerID>faed29e7-ed6c-48d9-851c-385f0ad5320f</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.socketjk.app.UrlConfig</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getValue].description</description>
+            <innerID>aaee9b5f-095e-4581-b0bd-aae8691fbd02</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.socketjk.app.UrlConfig</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>selector</name>
+                    <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getValue].parameters.parameter[selector].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getValue].parameters.parameter[selector].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SelectorItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getValue].description</description>
+            <innerID>274f0f0d-e69a-4c0a-84b6-6df7b44bd2ba</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.socketjk.app.UrlConfig</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getValue].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getValue].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getCollection].description</description>
+            <innerID>42c0fbf2-c906-48c5-8f57-fb41d9e729fa</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.socketjk.app.UrlConfig</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getCollection].description</description>
+            <innerID>49c1f656-59ec-46b0-9e46-79e746da99d1</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.socketjk.app.UrlConfig</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>view</name>
+                    <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getCollection].parameters.parameter[view].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getCollection].parameters.parameter[view].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.EntityViewInfo</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getCollection].description</description>
+            <innerID>5486d24e-b10f-4d67-bb0a-b96d871d0738</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.socketjk.app.UrlConfig</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getCollection].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getCollection].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <isAbstract>false</isAbstract>
+    <bizUnitPK>com.kingdee.eas.custom.socketjk.UrlConfig</bizUnitPK>
+    <baseEntity>
+        <key name="package" value="com.kingdee.eas.framework.app" />
+        <key name="name" value="DataBase" />
+    </baseEntity>
+    <table>
+        <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+        <key name="name" value="CT_SJK_UrlConfig" />
+    </table>
+    <properties>
+        <linkProperty>
+            <name>treeid</name>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.linkProperty[treeid].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.linkProperty[treeid].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FTreeID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="UrlConfig_UrlConfigTree" />
+            </relationship>
+        </linkProperty>
+        <linkProperty>
+            <name>FICompany</name>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.linkProperty[FICompany].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.linkProperty[FICompany].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="CFFICompanyID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="R_UrlConfig_CompanyOrgUnit_FICompany" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>ip</name>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[ip].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[ip].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[ip].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFIp" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>port</name>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[port].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[port].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Integer</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>4</length>
+            <precision>10</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[port].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFPort" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>urlType</name>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[urlType].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[urlType].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Enum</dataType>
+            <metadataRef>com.kingdee.eas.custom.socketjk.UrlType</metadataRef>
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>80</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[urlType].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFUrlType" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>isUseHeartbeatMsg</name>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[isUseHeartbeatMsg].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[isUseHeartbeatMsg].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Boolean</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>1</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[isUseHeartbeatMsg].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFIsUseHeartbeatMsg" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>HeartbeatMsgTime</name>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[HeartbeatMsgTime].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[HeartbeatMsgTime].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Integer</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>4</length>
+            <precision>10</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[HeartbeatMsgTime].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFHeartbeatMsgTime" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>isWrite</name>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[isWrite].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[isWrite].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Boolean</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>1</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[isWrite].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFIsWrite" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>timeOut</name>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[timeOut].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[timeOut].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Integer</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>4</length>
+            <precision>10</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[timeOut].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFTimeOut" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>IsUse</name>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[IsUse].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[IsUse].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Boolean</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>1</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[IsUse].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFIsUse" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>ReTranTimes</name>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[ReTranTimes].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[ReTranTimes].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Integer</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>4</length>
+            <precision>10</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[ReTranTimes].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFReTranTimes" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>Charset</name>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[Charset].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[Charset].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Enum</dataType>
+            <metadataRef>com.kingdee.eas.custom.socketjk.CharsetEnum</metadataRef>
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>80</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[Charset].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFCharset" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>headLength</name>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[headLength].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[headLength].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Integer</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>4</length>
+            <precision>10</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[headLength].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFHeadLength" />
+            </mappingField>
+        </ownProperty>
+    </properties>
+    <logicalKey>
+        <name>id</name>
+        <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].logicalKey[id].alias</alias>
+        <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].logicalKey[id].description</description>
+        <keyClass>com.kingdee.bos.dao.IObjectPK</keyClass>
+        <userDefined>true</userDefined>
+        <keyProperties>
+            <baseProperty>
+                <key name="name" value="id" />
+            </baseProperty>
+        </keyProperties>
+    </logicalKey>
+    <defaultView>
+        <name />
+        <alias>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].defaultViewalias</alias>
+        <description>entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].defaultViewdescription</description>
+    </defaultView>
+    <resource>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="传输参数配置" />
+            <lang locale="zh_HK" value="傳輸參數配置" />
+            <lang locale="zh_TW" value="傳輸參數配置" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].defaultViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].defaultViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].defaultViewextendedProperty.MainOrgFieldName">
+            <lang locale="en_US" value="FICompany" />
+            <lang locale="zh_CN" value="FICompany" />
+            <lang locale="zh_TW" value="FICompany" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].defaultViewextendedProperty.OrgType">
+            <lang locale="en_US" value="Company" />
+            <lang locale="zh_CN" value="Company" />
+            <lang locale="zh_TW" value="Company" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].defaultViewextendedProperty.bimRelationObjectPK">
+            <lang locale="en_US" value="com.kingdee.bos.bim.templates.app.BizTreeBase" />
+            <lang locale="zh_CN" value="com.kingdee.bos.bim.templates.app.BizTreeBase" />
+            <lang locale="zh_TW" value="com.kingdee.bos.bim.templates.app.BizTreeBase" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].defaultViewextendedProperty.bimTemplateType">
+            <lang locale="en_US" value="TreeDetail" />
+            <lang locale="zh_CN" value="TreeDetail" />
+            <lang locale="zh_TW" value="TreeDetail" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].defaultViewextendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].defaultViewextendedProperty.defaultDisplayField">
+            <lang locale="en_US" value="" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].defaultViewextendedProperty.defaultF7Query">
+            <lang locale="en_US" value="com.kingdee.eas.custom.socketjk.app.UrlConfigQuery" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.socketjk.app.UrlConfigQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.socketjk.app.UrlConfigQuery" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].defaultViewextendedProperty.editUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].defaultViewextendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].defaultViewextendedProperty.isParamObject">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].defaultViewextendedProperty.isSimpleEntity">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].defaultViewextendedProperty.listUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.socketjk.client.UrlConfigListUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.socketjk.client.UrlConfigListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.socketjk.client.UrlConfigListUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="配置服务端与客户端参数" />
+            <lang locale="zh_HK" value="配置服務端與客戶端參數" />
+            <lang locale="zh_TW" value="配置服務端與客戶端參數" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].extendedProperty.MainOrgFieldName">
+            <lang locale="en_US" value="FICompany" />
+            <lang locale="zh_CN" value="FICompany" />
+            <lang locale="zh_TW" value="FICompany" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].extendedProperty.OrgType">
+            <lang locale="en_US" value="Company" />
+            <lang locale="zh_CN" value="Company" />
+            <lang locale="zh_TW" value="Company" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].extendedProperty.bimRelationObjectPK">
+            <lang locale="en_US" value="com.kingdee.bos.bim.templates.app.BizTreeBase" />
+            <lang locale="zh_CN" value="com.kingdee.bos.bim.templates.app.BizTreeBase" />
+            <lang locale="zh_TW" value="com.kingdee.bos.bim.templates.app.BizTreeBase" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].extendedProperty.bimTemplateType">
+            <lang locale="en_US" value="TreeDetail" />
+            <lang locale="zh_CN" value="TreeDetail" />
+            <lang locale="zh_TW" value="TreeDetail" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].extendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].extendedProperty.defaultDisplayField">
+            <lang locale="en_US" value="" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].extendedProperty.defaultF7Query">
+            <lang locale="en_US" value="com.kingdee.eas.custom.socketjk.app.UrlConfigQuery" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.socketjk.app.UrlConfigQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.socketjk.app.UrlConfigQuery" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].extendedProperty.editUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].extendedProperty.isParamObject">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].extendedProperty.isSimpleEntity">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].extendedProperty.listUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.socketjk.client.UrlConfigListUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.socketjk.client.UrlConfigListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.socketjk.client.UrlConfigListUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].logicalKey[id].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].logicalKey[id].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getCollection].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getCollection].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getCollection].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getCollection].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getCollection].parameters.parameter[view].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getCollection].parameters.parameter[view].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getValue].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getValue].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getValue].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getValue].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getValue].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getValue].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getValue].parameters.parameter[selector].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].methods.method[getValue].parameters.parameter[selector].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.linkProperty[FICompany].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="财务组织" />
+            <lang locale="zh_HK" value="財務組織" />
+            <lang locale="zh_TW" value="財務組織" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.linkProperty[FICompany].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="财务组织" />
+            <lang locale="zh_HK" value="財務組織" />
+            <lang locale="zh_TW" value="財務組織" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.linkProperty[FICompany].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.linkProperty[FICompany].extendedProperty.dataField">
+            <lang locale="en_US" value="name" />
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.linkProperty[FICompany].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.linkProperty[FICompany].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.linkProperty[FICompany].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.linkProperty[FICompany].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.linkProperty[FICompany].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.linkProperty[FICompany].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.linkProperty[FICompany].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.linkProperty[treeid].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="组别" />
+            <lang locale="zh_HK" value="組別" />
+            <lang locale="zh_TW" value="組別" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.linkProperty[treeid].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="组别" />
+            <lang locale="zh_HK" value="組別" />
+            <lang locale="zh_TW" value="組別" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.linkProperty[treeid].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.linkProperty[treeid].extendedProperty.isLinkedToGroupEntity">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[Charset].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="编码格式" />
+            <lang locale="zh_HK" value="編碼格式" />
+            <lang locale="zh_TW" value="編碼格式" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[Charset].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="UTF_8" />
+            <lang locale="zh_HK" value="UTF_8" />
+            <lang locale="zh_TW" value="UTF_8" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[Charset].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="编码格式" />
+            <lang locale="zh_HK" value="編碼格式" />
+            <lang locale="zh_TW" value="編碼格式" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[Charset].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[Charset].extendedProperty.bizDataType">
+            <lang locale="en_US" value="ENUM" />
+            <lang locale="zh_CN" value="ENUM" />
+            <lang locale="zh_TW" value="ENUM" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[Charset].extendedProperty.defaultValue">
+            <lang locale="en_US" value="UTF_8" />
+            <lang locale="zh_CN" value="UTF_8" />
+            <lang locale="zh_TW" value="UTF_8" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[Charset].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[Charset].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[Charset].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[Charset].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[Charset].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[Charset].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[Charset].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[Charset].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[HeartbeatMsgTime].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="心跳电文发送间隔（ms）" />
+            <lang locale="zh_HK" value="心跳電文發送間隔（ms）" />
+            <lang locale="zh_TW" value="心跳電文發送間隔（ms）" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[HeartbeatMsgTime].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[HeartbeatMsgTime].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="心跳电文发送间隔（ms）" />
+            <lang locale="zh_HK" value="心跳電文發送間隔（ms）" />
+            <lang locale="zh_TW" value="心跳電文發送間隔（ms）" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[HeartbeatMsgTime].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[HeartbeatMsgTime].extendedProperty.bizDataType">
+            <lang locale="en_US" value="INTEGER" />
+            <lang locale="zh_CN" value="INTEGER" />
+            <lang locale="zh_TW" value="INTEGER" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[HeartbeatMsgTime].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[HeartbeatMsgTime].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[HeartbeatMsgTime].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[HeartbeatMsgTime].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[HeartbeatMsgTime].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[HeartbeatMsgTime].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[HeartbeatMsgTime].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[HeartbeatMsgTime].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[IsUse].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="启用" />
+            <lang locale="zh_HK" value="啟用" />
+            <lang locale="zh_TW" value="啟用" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[IsUse].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="启用" />
+            <lang locale="zh_HK" value="啟用" />
+            <lang locale="zh_TW" value="啟用" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[IsUse].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="布尔" />
+            <lang locale="zh_HK" value="布爾" />
+            <lang locale="zh_TW" value="布爾" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[IsUse].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[IsUse].extendedProperty.bizDataType">
+            <lang locale="en_US" value="BOOLEAN" />
+            <lang locale="zh_CN" value="BOOLEAN" />
+            <lang locale="zh_TW" value="BOOLEAN" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[IsUse].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[IsUse].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[IsUse].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[IsUse].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[IsUse].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[IsUse].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[IsUse].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[IsUse].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[ReTranTimes].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="重发次数" />
+            <lang locale="zh_HK" value="重發次數" />
+            <lang locale="zh_TW" value="重發次數" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[ReTranTimes].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[ReTranTimes].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="重发此时" />
+            <lang locale="zh_HK" value="重發此時" />
+            <lang locale="zh_TW" value="重發此時" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[ReTranTimes].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[ReTranTimes].extendedProperty.bizDataType">
+            <lang locale="en_US" value="INTEGER" />
+            <lang locale="zh_CN" value="INTEGER" />
+            <lang locale="zh_TW" value="INTEGER" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[ReTranTimes].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[ReTranTimes].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[ReTranTimes].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[ReTranTimes].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[ReTranTimes].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[ReTranTimes].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[ReTranTimes].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[ReTranTimes].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[headLength].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="电文头长度" />
+            <lang locale="zh_HK" value="電文頭長度" />
+            <lang locale="zh_TW" value="電文頭長度" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[headLength].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[headLength].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="电文头长度" />
+            <lang locale="zh_HK" value="電文頭長度" />
+            <lang locale="zh_TW" value="電文頭長度" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[headLength].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[headLength].extendedProperty.bizDataType">
+            <lang locale="en_US" value="INTEGER" />
+            <lang locale="zh_CN" value="INTEGER" />
+            <lang locale="zh_TW" value="INTEGER" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[headLength].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[headLength].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[headLength].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[headLength].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[headLength].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[headLength].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[headLength].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[headLength].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[ip].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="ip地址" />
+            <lang locale="zh_HK" value="ip地址" />
+            <lang locale="zh_TW" value="ip地址" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[ip].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[ip].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="ip地址" />
+            <lang locale="zh_HK" value="ip地址" />
+            <lang locale="zh_TW" value="ip地址" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[ip].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[ip].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[ip].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[ip].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[ip].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[ip].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[ip].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[ip].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[ip].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[ip].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[isUseHeartbeatMsg].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否启用心跳电文" />
+            <lang locale="zh_HK" value="是否啟用心跳電文" />
+            <lang locale="zh_TW" value="是否啟用心跳電文" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[isUseHeartbeatMsg].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否启用心跳电文" />
+            <lang locale="zh_HK" value="是否啟用心跳電文" />
+            <lang locale="zh_TW" value="是否啟用心跳電文" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[isUseHeartbeatMsg].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否启用心跳电文" />
+            <lang locale="zh_HK" value="是否啟用心跳電文" />
+            <lang locale="zh_TW" value="是否啟用心跳電文" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[isUseHeartbeatMsg].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[isUseHeartbeatMsg].extendedProperty.bizDataType">
+            <lang locale="en_US" value="BOOLEAN" />
+            <lang locale="zh_CN" value="BOOLEAN" />
+            <lang locale="zh_TW" value="BOOLEAN" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[isUseHeartbeatMsg].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[isUseHeartbeatMsg].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[isUseHeartbeatMsg].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[isUseHeartbeatMsg].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[isUseHeartbeatMsg].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[isUseHeartbeatMsg].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[isUseHeartbeatMsg].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[isUseHeartbeatMsg].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[isWrite].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否输出实时日志" />
+            <lang locale="zh_HK" value="是否輸出實時日誌" />
+            <lang locale="zh_TW" value="是否輸出實時日誌" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[isWrite].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否输出实时日志" />
+            <lang locale="zh_HK" value="是否輸出實時日誌" />
+            <lang locale="zh_TW" value="是否輸出實時日誌" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[isWrite].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否启用心跳电文" />
+            <lang locale="zh_HK" value="是否啟用心跳電文" />
+            <lang locale="zh_TW" value="是否啟用心跳電文" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[isWrite].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[isWrite].extendedProperty.bizDataType">
+            <lang locale="en_US" value="BOOLEAN" />
+            <lang locale="zh_CN" value="BOOLEAN" />
+            <lang locale="zh_TW" value="BOOLEAN" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[isWrite].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[isWrite].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[isWrite].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[isWrite].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[isWrite].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[isWrite].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[isWrite].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[isWrite].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[port].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="端口" />
+            <lang locale="zh_HK" value="端口" />
+            <lang locale="zh_TW" value="端口" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[port].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[port].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="端口" />
+            <lang locale="zh_HK" value="端口" />
+            <lang locale="zh_TW" value="端口" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[port].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[port].extendedProperty.bizDataType">
+            <lang locale="en_US" value="INTEGER" />
+            <lang locale="zh_CN" value="INTEGER" />
+            <lang locale="zh_TW" value="INTEGER" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[port].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[port].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[port].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[port].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[port].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[port].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[port].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[port].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[timeOut].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="超时时间（ms）" />
+            <lang locale="zh_HK" value="超時時間（ms）" />
+            <lang locale="zh_TW" value="超時時間（ms）" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[timeOut].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[timeOut].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="超时时间（ms）" />
+            <lang locale="zh_HK" value="超時時間（ms）" />
+            <lang locale="zh_TW" value="超時時間（ms）" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[timeOut].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[timeOut].extendedProperty.bizDataType">
+            <lang locale="en_US" value="INTEGER" />
+            <lang locale="zh_CN" value="INTEGER" />
+            <lang locale="zh_TW" value="INTEGER" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[timeOut].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[timeOut].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[timeOut].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[timeOut].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[timeOut].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[timeOut].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[timeOut].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[timeOut].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[urlType].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="类型" />
+            <lang locale="zh_HK" value="類型" />
+            <lang locale="zh_TW" value="類型" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[urlType].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="Client" />
+            <lang locale="zh_HK" value="Client" />
+            <lang locale="zh_TW" value="Client" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[urlType].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="类型" />
+            <lang locale="zh_HK" value="類型" />
+            <lang locale="zh_TW" value="類型" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[urlType].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[urlType].extendedProperty.bizDataType">
+            <lang locale="en_US" value="ENUM" />
+            <lang locale="zh_CN" value="ENUM" />
+            <lang locale="zh_TW" value="ENUM" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[urlType].extendedProperty.defaultValue">
+            <lang locale="en_US" value="Client" />
+            <lang locale="zh_CN" value="Client" />
+            <lang locale="zh_TW" value="Client" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[urlType].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[urlType].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[urlType].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[urlType].extendedProperty.isForMapping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[urlType].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[urlType].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[urlType].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.UrlConfig].properties.ownProperty[urlType].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</entityObject>
+

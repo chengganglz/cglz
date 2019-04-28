@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entityObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.socketjk.app</package>
+    <name>SocketMsgSetTree</name>
+    <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].alias</alias>
+    <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].description</description>
+    <userDefined>true</userDefined>
+    <bosType>370B4941</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.custom.socketjk.SocketMsgSetTree</businessImplName>
+    <businessControllerName>com.kingdee.eas.custom.socketjk.app.SocketMsgSetTreeController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getValue].description</description>
+            <innerID>abf90349-4a3b-4df1-982f-beb74c38bdc1</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getValue].description</description>
+            <innerID>d9198f0c-67ff-4ba7-a1d5-9404d0da8cb7</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>selector</name>
+                    <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getValue].parameters.parameter[selector].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getValue].parameters.parameter[selector].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SelectorItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getValue].description</description>
+            <innerID>91f80897-a03b-4d72-8a08-57593ec4d30d</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getValue].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getValue].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getCollection].description</description>
+            <innerID>bc4bb0b3-6519-4153-9a12-6fbbc3d70b9c</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getCollection].description</description>
+            <innerID>af7eb414-56e6-426d-bd59-3ae120dc656f</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>view</name>
+                    <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getCollection].parameters.parameter[view].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getCollection].parameters.parameter[view].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.EntityViewInfo</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getCollection].description</description>
+            <innerID>a090a6a1-8e88-4f1d-92cb-05f68651d5d3</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getCollection].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getCollection].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <isAbstract>false</isAbstract>
+    <bizUnitPK>com.kingdee.eas.custom.socketjk.SocketMsgSet</bizUnitPK>
+    <baseEntity>
+        <key name="package" value="com.kingdee.eas.framework.app" />
+        <key name="name" value="TreeBase" />
+    </baseEntity>
+    <table>
+        <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+        <key name="name" value="T_SJK_SocketMsgSetTREE" />
+    </table>
+    <properties>
+        <linkProperty>
+            <name>parent</name>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].properties.linkProperty[parent].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].properties.linkProperty[parent].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FParentID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="R_SocketMsgSetTree_SocketMsgSetTree_parent" />
+            </relationship>
+        </linkProperty>
+    </properties>
+    <logicalKey>
+        <name>id</name>
+        <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].logicalKey[id].alias</alias>
+        <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].logicalKey[id].description</description>
+        <keyClass>com.kingdee.bos.dao.IObjectPK</keyClass>
+        <userDefined>true</userDefined>
+        <keyProperties>
+            <baseProperty>
+                <key name="name" value="id" />
+            </baseProperty>
+        </keyProperties>
+    </logicalKey>
+    <resource>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="报文配置组别" />
+            <lang locale="zh_HK" value="報文配置組別" />
+            <lang locale="zh_TW" value="報文配置組別" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="基础资料模板" />
+            <lang locale="zh_HK" value="基礎資料範本" />
+            <lang locale="zh_TW" value="基礎資料範本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].extendedProperty.OrgType">
+            <lang locale="en_US" value="NONE" />
+            <lang locale="zh_CN" value="NONE" />
+            <lang locale="zh_TW" value="NONE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].extendedProperty.bimTemplateType">
+            <lang locale="en_US" value="TreeBase" />
+            <lang locale="zh_CN" value="TreeBase" />
+            <lang locale="zh_TW" value="TreeBase" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].extendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].extendedProperty.defaultDisplayField">
+            <lang locale="en_US" value="name" />
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].extendedProperty.editUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.socketjk.client.SocketMsgSetTreeEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.socketjk.client.SocketMsgSetTreeEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.socketjk.client.SocketMsgSetTreeEditUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].extendedProperty.isSimpleEntity">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].logicalKey[id].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].logicalKey[id].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getCollection].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getCollection].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getCollection].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getCollection].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getCollection].parameters.parameter[view].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getCollection].parameters.parameter[view].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getValue].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getValue].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getValue].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getValue].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getValue].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getValue].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getValue].parameters.parameter[selector].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].methods.method[getValue].parameters.parameter[selector].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].properties.linkProperty[parent].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="父节点" />
+            <lang locale="zh_HK" value="父節點" />
+            <lang locale="zh_TW" value="父節點" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].properties.linkProperty[parent].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="父节点" />
+            <lang locale="zh_HK" value="父節點" />
+            <lang locale="zh_TW" value="父節點" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree].properties.linkProperty[parent].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+    </resource>
+</entityObject>
+

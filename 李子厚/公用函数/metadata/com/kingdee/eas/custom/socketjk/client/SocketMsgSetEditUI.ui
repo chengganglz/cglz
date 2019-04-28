@@ -1,0 +1,2975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.socketjk.client</package>
+    <name>SocketMsgSetEditUI</name>
+    <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].alias</alias>
+    <description>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].description</description>
+    <userDefined>true</userDefined>
+    <releasePackage>com.kingdee.eas.custom.socketjk.client</releasePackage>
+    <releaseClass>SocketMsgSetEditUI</releaseClass>
+    <title>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].title</title>
+    <uitype />
+    <defaultbutton />
+    <bizUnitPK>com.kingdee.eas.custom.socketjk.SocketMsgSet</bizUnitPK>
+    <ruleSet>
+        <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+        <key name="name" value="SocketMsgSetRuleSet" />
+    </ruleSet>
+    <parent>
+        <key name="package" value="com.kingdee.eas.framework.client" />
+        <key name="name" value="EditUI" />
+    </parent>
+    <components>
+        <component>
+            <name>CoreUI</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[CoreUI].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDPanel</classType>
+            <isContainer>true</isContainer>
+            <constraints>0,0,1013,629</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name>xYLayout1</name>
+                <type>KDLayout</type>
+                <value />
+            </layoutInfo>
+        </component>
+        <component>
+            <name>kDTabbedPane1</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDTabbedPane1].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDTabbedPane</classType>
+            <isContainer>true</isContainer>
+            <constraints>4,4,1003,621,15</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name>layout1</name>
+                <type>TabbedPaneLayout</type>
+                <value />
+            </layoutInfo>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>kDPanel1</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDPanel1].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDPanel</classType>
+            <isContainer>true</isContainer>
+            <constraints>报文设置</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name>layout2</name>
+                <type>KDLayout</type>
+                <value />
+            </layoutInfo>
+            <parent>
+                <key name="name" value="kDTabbedPane1" />
+            </parent>
+        </component>
+        <component>
+            <name>kDLabelContainer1</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDLabelContainer1].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>31,22,270,19,261</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name>labelContainerLayout1</name>
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDLabelContainer1].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDLabelContainer1].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDLabelContainer1].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="kDPanel1" />
+            </parent>
+        </component>
+        <component>
+            <name>kDLabelContainer2</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDLabelContainer2].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>329,22,270,19,385</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name>labelContainerLayout2</name>
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDLabelContainer2].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDLabelContainer2].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDLabelContainer2].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="kDPanel1" />
+            </parent>
+        </component>
+        <component>
+            <name>kDLabelContainer3</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDLabelContainer3].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>636,22,270,19,137</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name>labelContainerLayout3</name>
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDLabelContainer3].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDLabelContainer3].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDLabelContainer3].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="kDPanel1" />
+            </parent>
+        </component>
+        <component>
+            <name>kDLabelContainer4</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDLabelContainer4].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>636,53,270,19,137</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name>labelContainerLayout4</name>
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDLabelContainer4].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDLabelContainer4].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDLabelContainer4].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelAlignment</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDLabelContainer4].properties.property[boundLabelAlignment].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDLabelContainer4].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="kDPanel1" />
+            </parent>
+        </component>
+        <component>
+            <name>kDButtonSelectBiz</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDButtonSelectBiz].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDButton</classType>
+            <isContainer>false</isContainer>
+            <constraints>840,338,73,21,137</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDButtonSelectBiz].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>action</name>
+                    <type>javax.swing.Action</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDButtonSelectBiz].properties.property[action].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDButtonSelectBiz].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="kDPanel1" />
+            </parent>
+        </component>
+        <component>
+            <name>contEASBizType</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contEASBizType].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>48,340,470,19,261</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contEASBizType].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contEASBizType].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contEASBizType].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contEASBizType].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="kDPanel1" />
+            </parent>
+        </component>
+        <component>
+            <name>contEASBizTypeName</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contEASBizTypeName].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>545,340,270,19,385</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contEASBizTypeName].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contEASBizTypeName].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contEASBizTypeName].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contEASBizTypeName].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="kDPanel1" />
+            </parent>
+        </component>
+        <component>
+            <name>contMsgType</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contMsgType].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>31,53,270,19,261</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contMsgType].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contMsgType].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contMsgType].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contMsgType].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="kDPanel1" />
+            </parent>
+        </component>
+        <component>
+            <name>contChannel</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contChannel].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>329,53,270,19,385</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contChannel].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contChannel].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contChannel].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contChannel].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="kDPanel1" />
+            </parent>
+        </component>
+        <component>
+            <name>contheadLength</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contheadLength].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>48,372,270,19,261</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contheadLength].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contheadLength].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contheadLength].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contheadLength].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="kDPanel1" />
+            </parent>
+        </component>
+        <component>
+            <name>contdataLength</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contdataLength].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>346,372,270,19,385</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contdataLength].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contdataLength].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contdataLength].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contdataLength].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="kDPanel1" />
+            </parent>
+        </component>
+        <component>
+            <name>contendCharLength</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contendCharLength].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>653,372,270,19,137</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contendCharLength].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contendCharLength].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contendCharLength].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contendCharLength].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="kDPanel1" />
+            </parent>
+        </component>
+        <component>
+            <name>contendChar</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contendChar].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>48,402,270,19,261</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contendChar].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contendChar].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contendChar].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contendChar].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="kDPanel1" />
+            </parent>
+        </component>
+        <component>
+            <name>contmsgNo</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contmsgNo].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>33,98,270,19,261</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contmsgNo].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contmsgNo].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contmsgNo].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contmsgNo].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="kDPanel1" />
+            </parent>
+        </component>
+        <component>
+            <name>contmsgNoSta</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contmsgNoSta].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>331,98,270,19,385</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contmsgNoSta].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contmsgNoSta].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contmsgNoSta].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contmsgNoSta].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="kDPanel1" />
+            </parent>
+        </component>
+        <component>
+            <name>contmsgNoEnd</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contmsgNoEnd].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>638,98,270,19,137</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contmsgNoEnd].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contmsgNoEnd].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contmsgNoEnd].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contmsgNoEnd].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="kDPanel1" />
+            </parent>
+        </component>
+        <component>
+            <name>chkIsLog</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[chkIsLog].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDCheckBox</classType>
+            <isContainer>false</isContainer>
+            <constraints>36,132,270,19,0</constraints>
+            <tabIndex>23</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[chkIsLog].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[chkIsLog].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>horizontalAlignment</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[chkIsLog].properties.property[horizontalAlignment].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="kDPanel1" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>selected</propertyName>
+                    <propertyType>boolean</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>IsLog</bindingField>
+                    <fieldType>boolean</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>txtNumber</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtNumber].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDTextField</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>maxLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtNumber].properties.property[maxLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="kDLabelContainer1" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>text</propertyName>
+                    <propertyType>java.lang.String</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>number</bindingField>
+                    <fieldType>String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>txtName</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtName].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.extendcontrols.KDBizMultiLangBox</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtName].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="kDLabelContainer2" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>_multiLangItem</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>name</bindingField>
+                    <fieldType>String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>txtSimpleName</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtSimpleName].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDTextField</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>maxLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtSimpleName].properties.property[maxLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="kDLabelContainer3" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>text</propertyName>
+                    <propertyType>java.lang.String</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>simpleName</bindingField>
+                    <fieldType>String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>txtDescription</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtDescription].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.extendcontrols.KDBizMultiLangBox</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <parent>
+                <key name="name" value="kDLabelContainer4" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>_multiLangItem</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>description</bindingField>
+                    <fieldType>String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>txtEASBizType</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtEASBizType].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDTextField</classType>
+            <isContainer>false</isContainer>
+            <constraints>3</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtEASBizType].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>horizontalAlignment</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtEASBizType].properties.property[horizontalAlignment].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>maxLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtEASBizType].properties.property[maxLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtEASBizType].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>enabled</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtEASBizType].properties.property[enabled].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contEASBizType" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>text</propertyName>
+                    <propertyType>java.lang.String</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>EASBizType</bindingField>
+                    <fieldType>String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>txtEASBizTypeName</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtEASBizTypeName].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDTextField</classType>
+            <isContainer>false</isContainer>
+            <constraints>3</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtEASBizTypeName].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>horizontalAlignment</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtEASBizTypeName].properties.property[horizontalAlignment].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>maxLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtEASBizTypeName].properties.property[maxLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtEASBizTypeName].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>enabled</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtEASBizTypeName].properties.property[enabled].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contEASBizTypeName" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>text</propertyName>
+                    <propertyType>java.lang.String</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>EASBizTypeName</bindingField>
+                    <fieldType>String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>MsgType</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[MsgType].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDComboBox</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>13</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[MsgType].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>items</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[MsgType].properties.property[items].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[MsgType].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contMsgType" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>selectedItem</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>MsgType</bindingField>
+                    <fieldType>com.kingdee.eas.custom.socketjk.SocketMsgType</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>prmtChannel</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[prmtChannel].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.extendcontrols.KDBizPromptBox</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>14</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>queryInfo</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[prmtChannel].properties.property[queryInfo].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[prmtChannel].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>editable</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[prmtChannel].properties.property[editable].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>displayFormat</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[prmtChannel].properties.property[displayFormat].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>editFormat</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[prmtChannel].properties.property[editFormat].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>commitFormat</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[prmtChannel].properties.property[commitFormat].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[prmtChannel].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contChannel" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>data</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>Channel</bindingField>
+                    <fieldType>com.kingdee.eas.custom.socketjk.UrlConfigInfo</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>txtheadLength</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtheadLength].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDFormattedTextField</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>16</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtheadLength].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>horizontalAlignment</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtheadLength].properties.property[horizontalAlignment].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>dataType</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtheadLength].properties.property[dataType].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>supportedEmpty</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtheadLength].properties.property[supportedEmpty].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtheadLength].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contheadLength" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>value</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>headLength</bindingField>
+                    <fieldType>int</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>txtdataLength</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtdataLength].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDFormattedTextField</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtdataLength].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>horizontalAlignment</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtdataLength].properties.property[horizontalAlignment].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>dataType</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtdataLength].properties.property[dataType].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>supportedEmpty</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtdataLength].properties.property[supportedEmpty].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtdataLength].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contdataLength" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>value</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>dataLength</bindingField>
+                    <fieldType>int</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>txtendCharLength</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtendCharLength].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDFormattedTextField</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtendCharLength].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>horizontalAlignment</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtendCharLength].properties.property[horizontalAlignment].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>dataType</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtendCharLength].properties.property[dataType].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>supportedEmpty</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtendCharLength].properties.property[supportedEmpty].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtendCharLength].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contendCharLength" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>value</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>endCharLength</bindingField>
+                    <fieldType>int</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>txtendChar</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtendChar].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDTextField</classType>
+            <isContainer>false</isContainer>
+            <constraints>3</constraints>
+            <tabIndex>19</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtendChar].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>horizontalAlignment</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtendChar].properties.property[horizontalAlignment].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>maxLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtendChar].properties.property[maxLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtendChar].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contendChar" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>text</propertyName>
+                    <propertyType>java.lang.String</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>endChar</bindingField>
+                    <fieldType>String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>txtmsgNo</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtmsgNo].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDTextField</classType>
+            <isContainer>false</isContainer>
+            <constraints>3</constraints>
+            <tabIndex>20</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtmsgNo].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>horizontalAlignment</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtmsgNo].properties.property[horizontalAlignment].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>maxLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtmsgNo].properties.property[maxLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtmsgNo].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contmsgNo" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>text</propertyName>
+                    <propertyType>java.lang.String</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>msgNo</bindingField>
+                    <fieldType>String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>txtmsgNoSta</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtmsgNoSta].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDFormattedTextField</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>21</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtmsgNoSta].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>horizontalAlignment</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtmsgNoSta].properties.property[horizontalAlignment].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>dataType</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtmsgNoSta].properties.property[dataType].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>supportedEmpty</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtmsgNoSta].properties.property[supportedEmpty].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtmsgNoSta].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contmsgNoSta" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>value</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>msgNoSta</bindingField>
+                    <fieldType>int</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>txtmsgNoEnd</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtmsgNoEnd].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDFormattedTextField</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtmsgNoEnd].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>horizontalAlignment</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtmsgNoEnd].properties.property[horizontalAlignment].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>dataType</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtmsgNoEnd].properties.property[dataType].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>supportedEmpty</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtmsgNoEnd].properties.property[supportedEmpty].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtmsgNoEnd].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contmsgNoEnd" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>value</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>msgNoEnd</bindingField>
+                    <fieldType>int</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>btnPrint</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[btnPrint].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDWorkButton</classType>
+            <isContainer>false</isContainer>
+            <constraints />
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[btnPrint].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+        </component>
+        <component>
+            <name>btnPrintPreview</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[btnPrintPreview].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDWorkButton</classType>
+            <isContainer>false</isContainer>
+            <constraints />
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[btnPrintPreview].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+        </component>
+        <component>
+            <name>menuItemPrint</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[menuItemPrint].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDMenuItem</classType>
+            <isContainer>false</isContainer>
+            <constraints />
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[menuItemPrint].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+        </component>
+        <component>
+            <name>menuItemPrintPreview</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[menuItemPrintPreview].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDMenuItem</classType>
+            <isContainer>false</isContainer>
+            <constraints />
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[menuItemPrintPreview].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+        </component>
+    </components>
+    <dataObjects>
+        <dataObject>
+            <name>editData</name>
+            <type>com.kingdee.eas.custom.socketjk.app.SocketMsgSet</type>
+            <objectType>enty</objectType>
+            <herited>true</herited>
+            <userDefined>false</userDefined>
+        </dataObject>
+    </dataObjects>
+    <actions>
+        <action>
+            <instanceName>selectEASBiz</instanceName>
+            <className>SelectEASBiz</className>
+            <name>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].actions.action[selectEASBiz].name</name>
+            <enabled>true</enabled>
+            <actionPerformed />
+            <beforeActionPerformed />
+            <afterActionPerformed />
+            <finallyActionPerformed />
+            <actionCommandKey />
+            <acceleratorKey />
+            <mnemonicKey />
+            <smallIcon>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].actions.action[selectEASBiz].smallIcon</smallIcon>
+            <shortDescription>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].actions.action[selectEASBiz].shortDescription</shortDescription>
+            <longDescription>uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].actions.action[selectEASBiz].longDescription</longDescription>
+            <isBindWorkFlow>false</isBindWorkFlow>
+            <herited>false</herited>
+            <daemonRun>false</daemonRun>
+            <actionExtendProperty />
+            <services>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;root&gt;&lt;service class="com.kingdee.eas.framework.client.service.PermissionService" /&gt;&lt;/root&gt;</services>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <oprtIntent />
+            <nextUI />
+            <isUIPNavigator>false</isUIPNavigator>
+            <isBatchAction>false</isBatchAction>
+            <isEntryAction>false</isEntryAction>
+            <batchMethodName />
+        </action>
+    </actions>
+    <resource>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].actions.action[selectEASBiz].longDescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].actions.action[selectEASBiz].name">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].actions.action[selectEASBiz].shortDescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].actions.action[selectEASBiz].smallIcon">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="报文配置" />
+            <lang locale="zh_HK" value="報文配置" />
+            <lang locale="zh_TW" value="報文配置" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[CoreUI].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[MsgType].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="报文类型" />
+            <lang locale="zh_HK" value="報文類型" />
+            <lang locale="zh_TW" value="報文類型" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[MsgType].extendedProperty.requiredPrompt">
+            <lang locale="en_US" value="报文类型" />
+            <lang locale="zh_CN" value="报文类型" />
+            <lang locale="zh_TW" value="报文类型" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[MsgType].properties.property[items].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="[Enum]com.kingdee.eas.custom.socketjk.SocketMsgType" />
+            <lang locale="zh_HK" value="[Enum]com.kingdee.eas.custom.socketjk.SocketMsgType" />
+            <lang locale="zh_TW" value="[Enum]com.kingdee.eas.custom.socketjk.SocketMsgType" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[MsgType].properties.property[required].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[MsgType].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[btnPrintPreview].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[btnPrintPreview].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[btnPrint].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[btnPrint].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[chkIsLog].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否记录日志" />
+            <lang locale="zh_HK" value="是否記錄日誌" />
+            <lang locale="zh_TW" value="是否記錄日誌" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[chkIsLog].properties.property[horizontalAlignment].value">
+            <lang locale="en_US" value="2" />
+            <lang locale="zh_CN" value="2" />
+            <lang locale="zh_HK" value="2" />
+            <lang locale="zh_TW" value="2" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[chkIsLog].properties.property[text].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否记录日志" />
+            <lang locale="zh_HK" value="是否記錄日誌" />
+            <lang locale="zh_TW" value="是否記錄日誌" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[chkIsLog].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contChannel].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contChannel].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contChannel].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="使用通道" />
+            <lang locale="zh_HK" value="使用通道" />
+            <lang locale="zh_TW" value="使用通道" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contChannel].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contChannel].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contEASBizTypeName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contEASBizTypeName].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contEASBizTypeName].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务单元名称" />
+            <lang locale="zh_HK" value="業務單元名稱" />
+            <lang locale="zh_TW" value="業務單元名稱" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contEASBizTypeName].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contEASBizTypeName].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contEASBizType].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contEASBizType].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contEASBizType].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务单元" />
+            <lang locale="zh_HK" value="業務單元" />
+            <lang locale="zh_TW" value="業務單元" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contEASBizType].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contEASBizType].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contMsgType].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contMsgType].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contMsgType].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="报文类型" />
+            <lang locale="zh_HK" value="報文類型" />
+            <lang locale="zh_TW" value="報文類型" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contMsgType].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contMsgType].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contdataLength].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contdataLength].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contdataLength].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="数据长度" />
+            <lang locale="zh_HK" value="數據長度" />
+            <lang locale="zh_TW" value="數據長度" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contdataLength].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contdataLength].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contendCharLength].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contendCharLength].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contendCharLength].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="结束符长度" />
+            <lang locale="zh_HK" value="結束符長度" />
+            <lang locale="zh_TW" value="結束符長度" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contendCharLength].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contendCharLength].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contendChar].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contendChar].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contendChar].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="结束符" />
+            <lang locale="zh_HK" value="結束符" />
+            <lang locale="zh_TW" value="結束符" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contendChar].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contendChar].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contheadLength].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contheadLength].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contheadLength].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="电文头长度" />
+            <lang locale="zh_HK" value="電文頭長度" />
+            <lang locale="zh_TW" value="電文頭長度" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contheadLength].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contheadLength].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contmsgNoEnd].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contmsgNoEnd].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contmsgNoEnd].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="电文号截止位置" />
+            <lang locale="zh_HK" value="電文號截止位置" />
+            <lang locale="zh_TW" value="電文號截止位置" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contmsgNoEnd].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contmsgNoEnd].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contmsgNoSta].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contmsgNoSta].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contmsgNoSta].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="电文号开始位置" />
+            <lang locale="zh_HK" value="電文號開始位置" />
+            <lang locale="zh_TW" value="電文號開始位置" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contmsgNoSta].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contmsgNoSta].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contmsgNo].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contmsgNo].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contmsgNo].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="电文号" />
+            <lang locale="zh_HK" value="電文號" />
+            <lang locale="zh_TW" value="電文號" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contmsgNo].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[contmsgNo].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDButtonSelectBiz].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDButtonSelectBiz].properties.property[action].value">
+            <lang locale="en_US" value="selectEASBiz" />
+            <lang locale="zh_CN" value="selectEASBiz" />
+            <lang locale="zh_HK" value="selectEASBiz" />
+            <lang locale="zh_TW" value="selectEASBiz" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDButtonSelectBiz].properties.property[text].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="选择" />
+            <lang locale="zh_HK" value="選擇" />
+            <lang locale="zh_TW" value="選擇" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDButtonSelectBiz].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDLabelContainer1].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDLabelContainer1].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDLabelContainer1].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="编码:" />
+            <lang locale="zh_HK" value="編碼:" />
+            <lang locale="zh_TW" value="編碼:" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDLabelContainer1].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDLabelContainer2].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDLabelContainer2].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDLabelContainer2].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="名称:" />
+            <lang locale="zh_HK" value="名稱:" />
+            <lang locale="zh_TW" value="名稱:" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDLabelContainer2].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDLabelContainer3].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDLabelContainer3].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDLabelContainer3].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="简称:" />
+            <lang locale="zh_HK" value="簡稱:" />
+            <lang locale="zh_TW" value="簡稱:" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDLabelContainer3].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDLabelContainer4].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDLabelContainer4].properties.property[boundLabelAlignment].value">
+            <lang locale="en_US" value="7" />
+            <lang locale="zh_CN" value="7" />
+            <lang locale="zh_HK" value="7" />
+            <lang locale="zh_TW" value="7" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDLabelContainer4].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDLabelContainer4].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="描述:" />
+            <lang locale="zh_HK" value="描述:" />
+            <lang locale="zh_TW" value="描述:" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDLabelContainer4].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDLabelContainer4].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDPanel1].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[kDTabbedPane1].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[menuItemPrintPreview].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[menuItemPrintPreview].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[menuItemPrint].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[menuItemPrint].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[prmtChannel].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="使用通道" />
+            <lang locale="zh_HK" value="使用通道" />
+            <lang locale="zh_TW" value="使用通道" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[prmtChannel].extendedProperty.requiredPrompt">
+            <lang locale="en_US" value="使用通道" />
+            <lang locale="zh_CN" value="使用通道" />
+            <lang locale="zh_TW" value="使用通道" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[prmtChannel].properties.property[commitFormat].value">
+            <lang locale="en_US" value="$number$" />
+            <lang locale="zh_CN" value="$number$" />
+            <lang locale="zh_HK" value="$number$" />
+            <lang locale="zh_TW" value="$number$" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[prmtChannel].properties.property[displayFormat].value">
+            <lang locale="en_US" value="$name$" />
+            <lang locale="zh_CN" value="$name$" />
+            <lang locale="zh_HK" value="$name$" />
+            <lang locale="zh_TW" value="$name$" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[prmtChannel].properties.property[editFormat].value">
+            <lang locale="en_US" value="$number$" />
+            <lang locale="zh_CN" value="$number$" />
+            <lang locale="zh_HK" value="$number$" />
+            <lang locale="zh_TW" value="$number$" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[prmtChannel].properties.property[editable].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[prmtChannel].properties.property[queryInfo].value">
+            <lang locale="en_US" value="com.kingdee.eas.custom.socketjk.app.UrlConfigQuery" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.socketjk.app.UrlConfigQuery" />
+            <lang locale="zh_HK" value="com.kingdee.eas.custom.socketjk.app.UrlConfigQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.socketjk.app.UrlConfigQuery" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[prmtChannel].properties.property[required].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[prmtChannel].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtDescription].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="描述" />
+            <lang locale="zh_HK" value="描述" />
+            <lang locale="zh_TW" value="描述" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtEASBizTypeName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务单元名称" />
+            <lang locale="zh_HK" value="業務單元名稱" />
+            <lang locale="zh_TW" value="業務單元名稱" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtEASBizTypeName].properties.property[enabled].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtEASBizTypeName].properties.property[horizontalAlignment].value">
+            <lang locale="en_US" value="2" />
+            <lang locale="zh_CN" value="2" />
+            <lang locale="zh_HK" value="2" />
+            <lang locale="zh_TW" value="2" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtEASBizTypeName].properties.property[maxLength].value">
+            <lang locale="en_US" value="255" />
+            <lang locale="zh_CN" value="255" />
+            <lang locale="zh_HK" value="255" />
+            <lang locale="zh_TW" value="255" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtEASBizTypeName].properties.property[required].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtEASBizTypeName].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtEASBizType].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务单元" />
+            <lang locale="zh_HK" value="業務單元" />
+            <lang locale="zh_TW" value="業務單元" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtEASBizType].properties.property[enabled].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtEASBizType].properties.property[horizontalAlignment].value">
+            <lang locale="en_US" value="2" />
+            <lang locale="zh_CN" value="2" />
+            <lang locale="zh_HK" value="2" />
+            <lang locale="zh_TW" value="2" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtEASBizType].properties.property[maxLength].value">
+            <lang locale="en_US" value="255" />
+            <lang locale="zh_CN" value="255" />
+            <lang locale="zh_HK" value="255" />
+            <lang locale="zh_TW" value="255" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtEASBizType].properties.property[required].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtEASBizType].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="zh_HK" value="名稱" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtName].extendedProperty.requiredPrompt">
+            <lang locale="en_US" value="名称" />
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="zh_TW" value="名称" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtName].properties.property[required].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtNumber].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="编码" />
+            <lang locale="zh_HK" value="編碼" />
+            <lang locale="zh_TW" value="編碼" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtNumber].properties.property[maxLength].value">
+            <lang locale="en_US" value="80" />
+            <lang locale="zh_CN" value="80" />
+            <lang locale="zh_HK" value="80" />
+            <lang locale="zh_TW" value="80" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtSimpleName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="简称" />
+            <lang locale="zh_HK" value="簡稱" />
+            <lang locale="zh_TW" value="簡稱" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtSimpleName].properties.property[maxLength].value">
+            <lang locale="en_US" value="80" />
+            <lang locale="zh_CN" value="80" />
+            <lang locale="zh_HK" value="80" />
+            <lang locale="zh_TW" value="80" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtdataLength].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="数据长度" />
+            <lang locale="zh_HK" value="數據長度" />
+            <lang locale="zh_TW" value="數據長度" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtdataLength].properties.property[dataType].value">
+            <lang locale="en_US" value="0" />
+            <lang locale="zh_CN" value="0" />
+            <lang locale="zh_HK" value="0" />
+            <lang locale="zh_TW" value="0" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtdataLength].properties.property[horizontalAlignment].value">
+            <lang locale="en_US" value="2" />
+            <lang locale="zh_CN" value="2" />
+            <lang locale="zh_HK" value="2" />
+            <lang locale="zh_TW" value="2" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtdataLength].properties.property[required].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtdataLength].properties.property[supportedEmpty].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtdataLength].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtendCharLength].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="结束符长度" />
+            <lang locale="zh_HK" value="結束符長度" />
+            <lang locale="zh_TW" value="結束符長度" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtendCharLength].properties.property[dataType].value">
+            <lang locale="en_US" value="0" />
+            <lang locale="zh_CN" value="0" />
+            <lang locale="zh_HK" value="0" />
+            <lang locale="zh_TW" value="0" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtendCharLength].properties.property[horizontalAlignment].value">
+            <lang locale="en_US" value="2" />
+            <lang locale="zh_CN" value="2" />
+            <lang locale="zh_HK" value="2" />
+            <lang locale="zh_TW" value="2" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtendCharLength].properties.property[required].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtendCharLength].properties.property[supportedEmpty].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtendCharLength].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtendChar].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="结束符" />
+            <lang locale="zh_HK" value="結束符" />
+            <lang locale="zh_TW" value="結束符" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtendChar].properties.property[horizontalAlignment].value">
+            <lang locale="en_US" value="2" />
+            <lang locale="zh_CN" value="2" />
+            <lang locale="zh_HK" value="2" />
+            <lang locale="zh_TW" value="2" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtendChar].properties.property[maxLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtendChar].properties.property[required].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtendChar].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtheadLength].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="电文头长度" />
+            <lang locale="zh_HK" value="電文頭長度" />
+            <lang locale="zh_TW" value="電文頭長度" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtheadLength].properties.property[dataType].value">
+            <lang locale="en_US" value="0" />
+            <lang locale="zh_CN" value="0" />
+            <lang locale="zh_HK" value="0" />
+            <lang locale="zh_TW" value="0" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtheadLength].properties.property[horizontalAlignment].value">
+            <lang locale="en_US" value="2" />
+            <lang locale="zh_CN" value="2" />
+            <lang locale="zh_HK" value="2" />
+            <lang locale="zh_TW" value="2" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtheadLength].properties.property[required].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtheadLength].properties.property[supportedEmpty].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtheadLength].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtmsgNoEnd].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="电文号截止位置" />
+            <lang locale="zh_HK" value="電文號截止位置" />
+            <lang locale="zh_TW" value="電文號截止位置" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtmsgNoEnd].properties.property[dataType].value">
+            <lang locale="en_US" value="0" />
+            <lang locale="zh_CN" value="0" />
+            <lang locale="zh_HK" value="0" />
+            <lang locale="zh_TW" value="0" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtmsgNoEnd].properties.property[horizontalAlignment].value">
+            <lang locale="en_US" value="2" />
+            <lang locale="zh_CN" value="2" />
+            <lang locale="zh_HK" value="2" />
+            <lang locale="zh_TW" value="2" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtmsgNoEnd].properties.property[required].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtmsgNoEnd].properties.property[supportedEmpty].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtmsgNoEnd].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtmsgNoSta].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="电文号开始位置" />
+            <lang locale="zh_HK" value="電文號開始位置" />
+            <lang locale="zh_TW" value="電文號開始位置" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtmsgNoSta].properties.property[dataType].value">
+            <lang locale="en_US" value="0" />
+            <lang locale="zh_CN" value="0" />
+            <lang locale="zh_HK" value="0" />
+            <lang locale="zh_TW" value="0" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtmsgNoSta].properties.property[horizontalAlignment].value">
+            <lang locale="en_US" value="2" />
+            <lang locale="zh_CN" value="2" />
+            <lang locale="zh_HK" value="2" />
+            <lang locale="zh_TW" value="2" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtmsgNoSta].properties.property[required].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtmsgNoSta].properties.property[supportedEmpty].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtmsgNoSta].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtmsgNo].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="电文号" />
+            <lang locale="zh_HK" value="電文號" />
+            <lang locale="zh_TW" value="電文號" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtmsgNo].extendedProperty.requiredPrompt">
+            <lang locale="en_US" value="电文号" />
+            <lang locale="zh_CN" value="电文号" />
+            <lang locale="zh_TW" value="电文号" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtmsgNo].properties.property[horizontalAlignment].value">
+            <lang locale="en_US" value="2" />
+            <lang locale="zh_CN" value="2" />
+            <lang locale="zh_HK" value="2" />
+            <lang locale="zh_TW" value="2" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtmsgNo].properties.property[maxLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtmsgNo].properties.property[required].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].components.component[txtmsgNo].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单级基础资料模板界面" />
+            <lang locale="zh_HK" value="單級基礎資料範本介面" />
+            <lang locale="zh_TW" value="單級基礎資料範本介面" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].extendedProperty.bimRelationObjectPK">
+            <lang locale="en_US" value="com.kingdee.bos.bim.templates.client.BizTreeEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.bos.bim.templates.client.BizTreeEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.bos.bim.templates.client.BizTreeEditUI" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].extendedProperty.bimTemplateType">
+            <lang locale="en_US" value="TreeDetail" />
+            <lang locale="zh_CN" value="TreeDetail" />
+            <lang locale="zh_TW" value="TreeDetail" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].extendedProperty.bimUIType">
+            <lang locale="en_US" value="EditUI" />
+            <lang locale="zh_CN" value="EditUI" />
+            <lang locale="zh_TW" value="EditUI" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI].title">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="报文配置" />
+            <lang locale="zh_HK" value="報文配置" />
+            <lang locale="zh_TW" value="報文配置" />
+        </rs>
+    </resource>
+</uiObject>
+

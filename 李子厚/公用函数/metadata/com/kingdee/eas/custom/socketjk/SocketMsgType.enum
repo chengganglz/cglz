@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizEnum xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.socketjk</package>
+    <name>SocketMsgType</name>
+    <alias>bizEnum[com.kingdee.eas.custom.socketjk.SocketMsgType].alias</alias>
+    <description>bizEnum[com.kingdee.eas.custom.socketjk.SocketMsgType].description</description>
+    <userDefined>true</userDefined>
+    <className>com.kingdee.eas.custom.socketjk.SocketMsgType</className>
+    <enumDataType>STRING</enumDataType>
+    <enumValues>
+        <enumValue>
+            <name>ACK</name>
+            <alias>bizEnum[com.kingdee.eas.custom.socketjk.SocketMsgType].enumValues.enumValue[ACK].alias</alias>
+            <userDefined>true</userDefined>
+            <value>ACK</value>
+        </enumValue>
+        <enumValue>
+            <name>Ordinary</name>
+            <alias>bizEnum[com.kingdee.eas.custom.socketjk.SocketMsgType].enumValues.enumValue[Ordinary].alias</alias>
+            <userDefined>true</userDefined>
+            <value>Ordinary</value>
+        </enumValue>
+        <enumValue>
+            <name>HeartBeat</name>
+            <alias>bizEnum[com.kingdee.eas.custom.socketjk.SocketMsgType].enumValues.enumValue[HeartBeat].alias</alias>
+            <userDefined>true</userDefined>
+            <value>HeartBeat</value>
+        </enumValue>
+    </enumValues>
+    <resource>
+        <rs key="bizEnum[com.kingdee.eas.custom.socketjk.SocketMsgType].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="电文类型" />
+            <lang locale="zh_HK" value="電文類型" />
+            <lang locale="zh_TW" value="電文類型" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.socketjk.SocketMsgType].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.socketjk.SocketMsgType].enumValues.enumValue[ACK].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="应答电文" />
+            <lang locale="zh_HK" value="應答電文" />
+            <lang locale="zh_TW" value="應答電文" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.socketjk.SocketMsgType].enumValues.enumValue[HeartBeat].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="心跳电文" />
+            <lang locale="zh_HK" value="心跳電文" />
+            <lang locale="zh_TW" value="心跳電文" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.socketjk.SocketMsgType].enumValues.enumValue[Ordinary].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="普通电文" />
+            <lang locale="zh_HK" value="普通電文" />
+            <lang locale="zh_TW" value="普通電文" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.socketjk.SocketMsgType].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</bizEnum>
+

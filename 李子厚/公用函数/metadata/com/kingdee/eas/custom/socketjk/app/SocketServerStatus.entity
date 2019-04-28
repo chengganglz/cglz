@@ -1,0 +1,2051 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entityObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.socketjk.app</package>
+    <name>SocketServerStatus</name>
+    <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].alias</alias>
+    <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].description</description>
+    <userDefined>true</userDefined>
+    <bosType>04227577</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.custom.socketjk.SocketServerStatus</businessImplName>
+    <businessControllerName>com.kingdee.eas.custom.socketjk.app.SocketServerStatusController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getCollection].description</description>
+            <innerID>6f9ba238-56a9-4d02-950b-027399955123</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.socketjk.app.SocketServerStatus</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getCollection].description</description>
+            <innerID>24b4ee6b-30b2-4c1e-9c86-966c04d538fb</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.socketjk.app.SocketServerStatus</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>view</name>
+                    <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getCollection].parameters.parameter[view].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getCollection].parameters.parameter[view].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.EntityViewInfo</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getCollection].description</description>
+            <innerID>c461ffb3-a540-44f4-8a38-d6ae3fea93d7</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.socketjk.app.SocketServerStatus</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getCollection].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getCollection].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getValue].description</description>
+            <innerID>045aadd8-1883-4929-9281-29c2b01f0af3</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.socketjk.app.SocketServerStatus</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getValue].description</description>
+            <innerID>4cbc7243-9cd4-450b-bf1b-5c085c3f56b8</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.socketjk.app.SocketServerStatus</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+                <parameter>
+                    <name>selector</name>
+                    <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getValue].parameters.parameter[selector].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getValue].parameters.parameter[selector].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SelectorItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getValue].description</description>
+            <innerID>876dbf46-ef21-4630-baef-98ee6341c0ee</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.socketjk.app.SocketServerStatus</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getValue].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getValue].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <isAbstract>false</isAbstract>
+    <bizUnitPK>com.kingdee.eas.custom.socketjk.SocketServerStatus</bizUnitPK>
+    <baseEntity>
+        <key name="package" value="com.kingdee.eas.framework.app" />
+        <key name="name" value="CoreBillBase" />
+    </baseEntity>
+    <table>
+        <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+        <key name="name" value="CT_SJK_SocketServerStatus" />
+    </table>
+    <properties>
+        <ownProperty>
+            <name>Fivouchered</name>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[Fivouchered].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[Fivouchered].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Boolean</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>1</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[Fivouchered].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FFivouchered" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>CompanyID</name>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[CompanyID].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[CompanyID].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[CompanyID].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFCompanyID" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>CompanyName</name>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[CompanyName].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[CompanyName].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>200</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[CompanyName].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFCompanyName" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>ServerType</name>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerType].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerType].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerType].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFServerType" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>ServerName</name>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerName].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerName].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerName].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFServerName" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>TimeOut</name>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[TimeOut].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[TimeOut].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Integer</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>4</length>
+            <precision>10</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[TimeOut].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFTimeOut" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>IsUseHeartbeatMsg</name>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[IsUseHeartbeatMsg].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[IsUseHeartbeatMsg].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[IsUseHeartbeatMsg].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFIsUseHeartbeatMsg" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>HeartbeatMsgTime</name>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[HeartbeatMsgTime].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[HeartbeatMsgTime].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Integer</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>4</length>
+            <precision>10</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[HeartbeatMsgTime].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFHeartbeatMsgTime" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>IsWirte</name>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[IsWirte].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[IsWirte].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[IsWirte].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFIsWirte" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>LocalIP</name>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[LocalIP].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[LocalIP].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[LocalIP].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFLocalIP" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>LocalPort</name>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[LocalPort].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[LocalPort].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Integer</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>4</length>
+            <precision>10</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[LocalPort].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFLocalPort" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>ServerStatus</name>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerStatus].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerStatus].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerStatus].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFServerStatus" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>RemoteIP</name>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[RemoteIP].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[RemoteIP].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[RemoteIP].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFRemoteIP" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>ChannelStatus</name>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ChannelStatus].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ChannelStatus].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ChannelStatus].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFChannelStatus" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>RemotePort</name>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[RemotePort].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[RemotePort].description</description>
+            <userDefined>true</userDefined>
+            <configured>false</configured>
+            <dataType>Integer</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>4</length>
+            <precision>10</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[RemotePort].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="CFRemotePort" />
+            </mappingField>
+        </ownProperty>
+    </properties>
+    <logicalKey>
+        <name>id</name>
+        <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].logicalKey[id].alias</alias>
+        <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].logicalKey[id].description</description>
+        <keyClass>com.kingdee.bos.dao.IObjectPK</keyClass>
+        <userDefined>true</userDefined>
+        <keyProperties>
+            <baseProperty>
+                <key name="name" value="id" />
+            </baseProperty>
+        </keyProperties>
+    </logicalKey>
+    <events>
+        <event>
+            <name>submitEvent</name>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[submitEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[submitEvent].description</description>
+            <userDefined>true</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>dfd2c083-00fa-1000-e000-001fc0a813e6</name>
+                    <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="submit" />
+                        <key name="innerID" value="dfd2c083-00fa-1000-e000-001fc0a813e6" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-0096c0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-0096c0a813a4evfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>model</name>
+                        <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[submitEvent].formalParameters.formalParameter.parameter[model].alias</alias>
+                        <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[submitEvent].formalParameters.formalParameter.parameter[model].description</description>
+                        <direction>in</direction>
+                        <dataType>ObjectValue</dataType>
+                        <metadataRef>com.kingdee.eas.custom.socketjk.app.SocketServerStatus</metadataRef>
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>deleteEvent</name>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[deleteEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[deleteEvent].description</description>
+            <userDefined>true</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>be5779dd-00fe-1000-e000-0007c0a813a9</name>
+                    <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="delete" />
+                        <key name="innerID" value="be5779dd-00fe-1000-e000-0007c0a813a9" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-009ac0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-009ac0a813a4evfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>pk</name>
+                        <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[deleteEvent].formalParameters.formalParameter.parameter[pk].alias</alias>
+                        <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[deleteEvent].formalParameters.formalParameter.parameter[pk].description</description>
+                        <direction>in</direction>
+                        <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                        <metadataRef>com.kingdee.eas.custom.socketjk.app.SocketServerStatus</metadataRef>
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>passAuditEvent</name>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[passAuditEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[passAuditEvent].description</description>
+            <userDefined>true</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>bbce8906-00fa-1000-e000-000ec0a813e6</name>
+                    <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="passAudit" />
+                        <key name="innerID" value="bbce8906-00fa-1000-e000-000ec0a813e6" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-009dc0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-009ec0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>1</actualParameterIndex>
+                            <isBOPK>false</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-009dc0a813a4evfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>pk</name>
+                        <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[passAuditEvent].formalParameters.formalParameter.parameter[pk].alias</alias>
+                        <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[passAuditEvent].formalParameters.formalParameter.parameter[pk].description</description>
+                        <direction>in</direction>
+                        <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                        <metadataRef>com.kingdee.eas.custom.socketjk.app.SocketServerStatus</metadataRef>
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-009ec0a813a4evfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>model</name>
+                        <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[passAuditEvent].formalParameters.formalParameter.parameter[model].alias</alias>
+                        <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[passAuditEvent].formalParameters.formalParameter.parameter[model].description</description>
+                        <direction>in</direction>
+                        <dataType>ObjectValue</dataType>
+                        <metadataRef>com.kingdee.eas.custom.socketjk.app.SocketServerStatus</metadataRef>
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>unpassAuditEvent</name>
+            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[unpassAuditEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[unpassAuditEvent].description</description>
+            <userDefined>true</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>bbce8906-00fa-1000-e000-000fc0a813e6</name>
+                    <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="unpassAudit" />
+                        <key name="innerID" value="bbce8906-00fa-1000-e000-000fc0a813e6" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-00a5c0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-00a6c0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>1</actualParameterIndex>
+                            <isBOPK>false</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-00a5c0a813a4evfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>pk</name>
+                        <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[pk].alias</alias>
+                        <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[pk].description</description>
+                        <direction>in</direction>
+                        <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                        <metadataRef>com.kingdee.eas.custom.socketjk.app.SocketServerStatus</metadataRef>
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-00a6c0a813a4evfp</innerID>
+                    <userDefined>true</userDefined>
+                    <parameter>
+                        <name>model</name>
+                        <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[model].alias</alias>
+                        <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[model].description</description>
+                        <direction>in</direction>
+                        <dataType>ObjectValue</dataType>
+                        <metadataRef>com.kingdee.eas.custom.socketjk.app.SocketServerStatus</metadataRef>
+                        <userDefined>true</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+    </events>
+    <defaultView>
+        <name />
+        <alias>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].defaultViewalias</alias>
+        <description>entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].defaultViewdescription</description>
+        <filter>
+            <maskString />
+        </filter>
+    </defaultView>
+    <resource>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="服务状态" />
+            <lang locale="zh_HK" value="服務狀態" />
+            <lang locale="zh_TW" value="服務狀態" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].defaultView.filterextendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].defaultViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].defaultViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].defaultViewextendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="多分錄基礎單據範本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[deleteEvent].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="删除事件" />
+            <lang locale="zh_HK" value="刪除事件" />
+            <lang locale="zh_TW" value="刪除事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[deleteEvent].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="删除事件" />
+            <lang locale="zh_HK" value="刪除事件" />
+            <lang locale="zh_TW" value="刪除事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].parameterMappings.parameterMappingalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].parameterMappings.parameterMappingdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[deleteEvent].formalParameters.formalParameter.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="主键" />
+            <lang locale="zh_HK" value="主鍵" />
+            <lang locale="zh_TW" value="主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[deleteEvent].formalParameters.formalParameter.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="主键" />
+            <lang locale="zh_HK" value="主鍵" />
+            <lang locale="zh_TW" value="主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[passAuditEvent].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核通过事件" />
+            <lang locale="zh_HK" value="審核通過事件" />
+            <lang locale="zh_TW" value="審核通過事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[passAuditEvent].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="审核通过事件" />
+            <lang locale="zh_HK" value="審核通過事件" />
+            <lang locale="zh_TW" value="審核通過事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[passAuditEvent].formalParameters.formalParameter.parameter[model].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="值对象" />
+            <lang locale="zh_HK" value="值對象" />
+            <lang locale="zh_TW" value="值對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[passAuditEvent].formalParameters.formalParameter.parameter[model].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="值对象" />
+            <lang locale="zh_HK" value="值對象" />
+            <lang locale="zh_TW" value="值對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[passAuditEvent].formalParameters.formalParameter.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="对象主键" />
+            <lang locale="zh_HK" value="對象主鍵" />
+            <lang locale="zh_TW" value="對象主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[passAuditEvent].formalParameters.formalParameter.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="对象主键" />
+            <lang locale="zh_HK" value="對象主鍵" />
+            <lang locale="zh_TW" value="對象主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[submitEvent].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="提交" />
+            <lang locale="zh_HK" value="提交" />
+            <lang locale="zh_TW" value="提交" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[submitEvent].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].parameterMappings.parameterMappingalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].parameterMappings.parameterMappingdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[submitEvent].formalParameters.formalParameter.parameter[model].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="值对象" />
+            <lang locale="zh_HK" value="值對象" />
+            <lang locale="zh_TW" value="值對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[submitEvent].formalParameters.formalParameter.parameter[model].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[unpassAuditEvent].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="反审核事件" />
+            <lang locale="zh_HK" value="反審核事件" />
+            <lang locale="zh_TW" value="反審核事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[unpassAuditEvent].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="反审核事件" />
+            <lang locale="zh_HK" value="反審核事件" />
+            <lang locale="zh_TW" value="反審核事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[model].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="值对象" />
+            <lang locale="zh_HK" value="值對象" />
+            <lang locale="zh_TW" value="值對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[model].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="值对象" />
+            <lang locale="zh_HK" value="值對象" />
+            <lang locale="zh_TW" value="值對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="对象主键" />
+            <lang locale="zh_HK" value="對象主鍵" />
+            <lang locale="zh_TW" value="對象主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="对象主键" />
+            <lang locale="zh_HK" value="對象主鍵" />
+            <lang locale="zh_TW" value="對象主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].extendedProperty.OrgType">
+            <lang locale="en_US" value="NONE" />
+            <lang locale="zh_CN" value="NONE" />
+            <lang locale="zh_TW" value="NONE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].extendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].extendedProperty.defaultDisplayField">
+            <lang locale="en_US" value="" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].extendedProperty.defaultF7Query">
+            <lang locale="en_US" value="com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].extendedProperty.editUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.socketjk.client.SocketServerStatusEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.socketjk.client.SocketServerStatusEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.socketjk.client.SocketServerStatusEditUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].extendedProperty.isParamObject">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].extendedProperty.isUseCodeRule">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].extendedProperty.listUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.socketjk.client.SocketServerStatusListUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.socketjk.client.SocketServerStatusListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.socketjk.client.SocketServerStatusListUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].logicalKey[id].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].logicalKey[id].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getCollection].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getCollection].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getCollection].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getCollection].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getCollection].parameters.parameter[view].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getCollection].parameters.parameter[view].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getValue].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getValue].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getValue].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getValue].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getValue].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getValue].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getValue].parameters.parameter[selector].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].methods.method[getValue].parameters.parameter[selector].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ChannelStatus].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="通道状态" />
+            <lang locale="zh_HK" value="通道狀態" />
+            <lang locale="zh_TW" value="通道狀態" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ChannelStatus].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ChannelStatus].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="通道状态" />
+            <lang locale="zh_HK" value="通道狀態" />
+            <lang locale="zh_TW" value="通道狀態" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ChannelStatus].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ChannelStatus].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ChannelStatus].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ChannelStatus].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ChannelStatus].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ChannelStatus].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ChannelStatus].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ChannelStatus].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ChannelStatus].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[CompanyID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="公司ID" />
+            <lang locale="zh_HK" value="公司ID" />
+            <lang locale="zh_TW" value="公司ID" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[CompanyID].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[CompanyID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="公司ID" />
+            <lang locale="zh_HK" value="公司ID" />
+            <lang locale="zh_TW" value="公司ID" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[CompanyID].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[CompanyID].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[CompanyID].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[CompanyID].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[CompanyID].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[CompanyID].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[CompanyID].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[CompanyID].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[CompanyID].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[CompanyName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="公司名称" />
+            <lang locale="zh_HK" value="公司名稱" />
+            <lang locale="zh_TW" value="公司名稱" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[CompanyName].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[CompanyName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="公司名称" />
+            <lang locale="zh_HK" value="公司名稱" />
+            <lang locale="zh_TW" value="公司名稱" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[CompanyName].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[CompanyName].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[CompanyName].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[CompanyName].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[CompanyName].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[CompanyName].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[CompanyName].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[CompanyName].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[CompanyName].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[Fivouchered].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否生成凭证" />
+            <lang locale="zh_HK" value="是否生成憑證" />
+            <lang locale="zh_TW" value="是否生成憑證" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[Fivouchered].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[Fivouchered].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否生成凭证" />
+            <lang locale="zh_HK" value="是否生成憑證" />
+            <lang locale="zh_TW" value="是否生成憑證" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[Fivouchered].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[Fivouchered].extendedProperty.bizDataType">
+            <lang locale="en_US" value="BOOLEAN" />
+            <lang locale="zh_CN" value="BOOLEAN" />
+            <lang locale="zh_TW" value="BOOLEAN" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[Fivouchered].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[Fivouchered].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[Fivouchered].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[Fivouchered].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[Fivouchered].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[Fivouchered].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[Fivouchered].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[HeartbeatMsgTime].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="心跳电文间隔时间" />
+            <lang locale="zh_HK" value="心跳電文間隔時間" />
+            <lang locale="zh_TW" value="心跳電文間隔時間" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[HeartbeatMsgTime].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[HeartbeatMsgTime].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="心跳电文间隔时间" />
+            <lang locale="zh_HK" value="心跳電文間隔時間" />
+            <lang locale="zh_TW" value="心跳電文間隔時間" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[HeartbeatMsgTime].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[HeartbeatMsgTime].extendedProperty.bizDataType">
+            <lang locale="en_US" value="INTEGER" />
+            <lang locale="zh_CN" value="INTEGER" />
+            <lang locale="zh_TW" value="INTEGER" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[HeartbeatMsgTime].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[HeartbeatMsgTime].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[HeartbeatMsgTime].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[HeartbeatMsgTime].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[HeartbeatMsgTime].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[HeartbeatMsgTime].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[HeartbeatMsgTime].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[IsUseHeartbeatMsg].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否启用心跳电文" />
+            <lang locale="zh_HK" value="是否啟用心跳電文" />
+            <lang locale="zh_TW" value="是否啟用心跳電文" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[IsUseHeartbeatMsg].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[IsUseHeartbeatMsg].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否启用心跳电文" />
+            <lang locale="zh_HK" value="是否啟用心跳電文" />
+            <lang locale="zh_TW" value="是否啟用心跳電文" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[IsUseHeartbeatMsg].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[IsUseHeartbeatMsg].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[IsUseHeartbeatMsg].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[IsUseHeartbeatMsg].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[IsUseHeartbeatMsg].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[IsUseHeartbeatMsg].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[IsUseHeartbeatMsg].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[IsUseHeartbeatMsg].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[IsUseHeartbeatMsg].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[IsWirte].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否输出日志" />
+            <lang locale="zh_HK" value="是否輸出日誌" />
+            <lang locale="zh_TW" value="是否輸出日誌" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[IsWirte].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[IsWirte].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否输出日志" />
+            <lang locale="zh_HK" value="是否輸出日誌" />
+            <lang locale="zh_TW" value="是否輸出日誌" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[IsWirte].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[IsWirte].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[IsWirte].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[IsWirte].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[IsWirte].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[IsWirte].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[IsWirte].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[IsWirte].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[IsWirte].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[LocalIP].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="本地IP" />
+            <lang locale="zh_HK" value="本地IP" />
+            <lang locale="zh_TW" value="本地IP" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[LocalIP].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[LocalIP].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="本地IP" />
+            <lang locale="zh_HK" value="本地IP" />
+            <lang locale="zh_TW" value="本地IP" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[LocalIP].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[LocalIP].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[LocalIP].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[LocalIP].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[LocalIP].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[LocalIP].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[LocalIP].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[LocalIP].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[LocalIP].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[LocalPort].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="本地端口" />
+            <lang locale="zh_HK" value="本地端口" />
+            <lang locale="zh_TW" value="本地端口" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[LocalPort].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[LocalPort].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="本地端口" />
+            <lang locale="zh_HK" value="本地端口" />
+            <lang locale="zh_TW" value="本地端口" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[LocalPort].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[LocalPort].extendedProperty.bizDataType">
+            <lang locale="en_US" value="INTEGER" />
+            <lang locale="zh_CN" value="INTEGER" />
+            <lang locale="zh_TW" value="INTEGER" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[LocalPort].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[LocalPort].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[LocalPort].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[LocalPort].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[LocalPort].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[LocalPort].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[LocalPort].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[RemoteIP].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="远程IP" />
+            <lang locale="zh_HK" value="遠程IP" />
+            <lang locale="zh_TW" value="遠程IP" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[RemoteIP].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[RemoteIP].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="远程IP" />
+            <lang locale="zh_HK" value="遠程IP" />
+            <lang locale="zh_TW" value="遠程IP" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[RemoteIP].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[RemoteIP].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[RemoteIP].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[RemoteIP].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[RemoteIP].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[RemoteIP].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[RemoteIP].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[RemoteIP].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[RemoteIP].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[RemotePort].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="远程端口" />
+            <lang locale="zh_HK" value="遠程端口" />
+            <lang locale="zh_TW" value="遠程端口" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[RemotePort].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[RemotePort].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="远程端口" />
+            <lang locale="zh_HK" value="遠程端口" />
+            <lang locale="zh_TW" value="遠程端口" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[RemotePort].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[RemotePort].extendedProperty.bizDataType">
+            <lang locale="en_US" value="INTEGER" />
+            <lang locale="zh_CN" value="INTEGER" />
+            <lang locale="zh_TW" value="INTEGER" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[RemotePort].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[RemotePort].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[RemotePort].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[RemotePort].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[RemotePort].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[RemotePort].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[RemotePort].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="服务名称" />
+            <lang locale="zh_HK" value="服務名稱" />
+            <lang locale="zh_TW" value="服務名稱" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerName].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="服务名称" />
+            <lang locale="zh_HK" value="服務名稱" />
+            <lang locale="zh_TW" value="服務名稱" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerName].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerName].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerName].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerName].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerName].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerName].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerName].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerName].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerName].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerStatus].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="服务状态" />
+            <lang locale="zh_HK" value="服務狀態" />
+            <lang locale="zh_TW" value="服務狀態" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerStatus].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerStatus].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="服务状态" />
+            <lang locale="zh_HK" value="服務狀態" />
+            <lang locale="zh_TW" value="服務狀態" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerStatus].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerStatus].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerStatus].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerStatus].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerStatus].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerStatus].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerStatus].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerStatus].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerStatus].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerType].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="服务类型" />
+            <lang locale="zh_HK" value="服務類型" />
+            <lang locale="zh_TW" value="服務類型" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerType].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerType].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="服务类型" />
+            <lang locale="zh_HK" value="服務類型" />
+            <lang locale="zh_TW" value="服務類型" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerType].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerType].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerType].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerType].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerType].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerType].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerType].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerType].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[ServerType].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[TimeOut].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="超时时间" />
+            <lang locale="zh_HK" value="超時時間" />
+            <lang locale="zh_TW" value="超時時間" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[TimeOut].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[TimeOut].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="超时时间" />
+            <lang locale="zh_HK" value="超時時間" />
+            <lang locale="zh_TW" value="超時時間" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[TimeOut].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[TimeOut].extendedProperty.bizDataType">
+            <lang locale="en_US" value="INTEGER" />
+            <lang locale="zh_CN" value="INTEGER" />
+            <lang locale="zh_TW" value="INTEGER" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[TimeOut].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[TimeOut].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[TimeOut].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[TimeOut].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[TimeOut].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[TimeOut].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.socketjk.app.SocketServerStatus].properties.ownProperty[TimeOut].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</entityObject>
+

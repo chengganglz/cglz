@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizEnum xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.socketjk</package>
+    <name>CharsetEnum</name>
+    <alias>bizEnum[com.kingdee.eas.custom.socketjk.CharsetEnum].alias</alias>
+    <description>bizEnum[com.kingdee.eas.custom.socketjk.CharsetEnum].description</description>
+    <userDefined>true</userDefined>
+    <className>com.kingdee.eas.custom.socketjk.CharsetEnum</className>
+    <enumDataType>STRING</enumDataType>
+    <enumValues>
+        <enumValue>
+            <name>UTF_8</name>
+            <alias>bizEnum[com.kingdee.eas.custom.socketjk.CharsetEnum].enumValues.enumValue[UTF_8].alias</alias>
+            <userDefined>true</userDefined>
+            <value>UTF-8</value>
+        </enumValue>
+        <enumValue>
+            <name>UTF_16</name>
+            <alias>bizEnum[com.kingdee.eas.custom.socketjk.CharsetEnum].enumValues.enumValue[UTF_16].alias</alias>
+            <userDefined>true</userDefined>
+            <value>UTF-16</value>
+        </enumValue>
+        <enumValue>
+            <name>UTF_16BE</name>
+            <alias>bizEnum[com.kingdee.eas.custom.socketjk.CharsetEnum].enumValues.enumValue[UTF_16BE].alias</alias>
+            <userDefined>true</userDefined>
+            <value>UTF-16BE</value>
+        </enumValue>
+        <enumValue>
+            <name>UTF_16LE</name>
+            <alias>bizEnum[com.kingdee.eas.custom.socketjk.CharsetEnum].enumValues.enumValue[UTF_16LE].alias</alias>
+            <userDefined>true</userDefined>
+            <value>UTF-16LE</value>
+        </enumValue>
+        <enumValue>
+            <name>ISO_8859_1</name>
+            <alias>bizEnum[com.kingdee.eas.custom.socketjk.CharsetEnum].enumValues.enumValue[ISO_8859_1].alias</alias>
+            <userDefined>true</userDefined>
+            <value>ISO-8859-1</value>
+        </enumValue>
+        <enumValue>
+            <name>US_ASCII</name>
+            <alias>bizEnum[com.kingdee.eas.custom.socketjk.CharsetEnum].enumValues.enumValue[US_ASCII].alias</alias>
+            <userDefined>true</userDefined>
+            <value>US-ASCII</value>
+        </enumValue>
+        <enumValue>
+            <name>GBK</name>
+            <alias>bizEnum[com.kingdee.eas.custom.socketjk.CharsetEnum].enumValues.enumValue[GBK].alias</alias>
+            <userDefined>true</userDefined>
+            <value>GBK</value>
+        </enumValue>
+        <enumValue>
+            <name>ASCII</name>
+            <alias>bizEnum[com.kingdee.eas.custom.socketjk.CharsetEnum].enumValues.enumValue[ASCII].alias</alias>
+            <userDefined>true</userDefined>
+            <value>ASCII</value>
+        </enumValue>
+    </enumValues>
+    <resource>
+        <rs key="bizEnum[com.kingdee.eas.custom.socketjk.CharsetEnum].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="编码格式枚举" />
+            <lang locale="zh_HK" value="編碼格式枚舉" />
+            <lang locale="zh_TW" value="編碼格式枚舉" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.socketjk.CharsetEnum].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.socketjk.CharsetEnum].enumValues.enumValue[ASCII].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="ASCII" />
+            <lang locale="zh_HK" value="ASCII" />
+            <lang locale="zh_TW" value="ASCII" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.socketjk.CharsetEnum].enumValues.enumValue[GBK].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="GBK" />
+            <lang locale="zh_HK" value="GBK" />
+            <lang locale="zh_TW" value="GBK" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.socketjk.CharsetEnum].enumValues.enumValue[ISO_8859_1].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="ISO_8859_1" />
+            <lang locale="zh_HK" value="ISO_8859_1" />
+            <lang locale="zh_TW" value="ISO_8859_1" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.socketjk.CharsetEnum].enumValues.enumValue[US_ASCII].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="US_ASCII" />
+            <lang locale="zh_HK" value="US_ASCII" />
+            <lang locale="zh_TW" value="US_ASCII" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.socketjk.CharsetEnum].enumValues.enumValue[UTF_16BE].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="UTF_16BE" />
+            <lang locale="zh_HK" value="UTF_16BE" />
+            <lang locale="zh_TW" value="UTF_16BE" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.socketjk.CharsetEnum].enumValues.enumValue[UTF_16LE].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="UTF_16LE" />
+            <lang locale="zh_HK" value="UTF_16LE" />
+            <lang locale="zh_TW" value="UTF_16LE" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.socketjk.CharsetEnum].enumValues.enumValue[UTF_16].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="UTF_16" />
+            <lang locale="zh_HK" value="UTF_16" />
+            <lang locale="zh_TW" value="UTF_16" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.socketjk.CharsetEnum].enumValues.enumValue[UTF_8].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="UTF_8" />
+            <lang locale="zh_HK" value="UTF_8" />
+            <lang locale="zh_TW" value="UTF_8" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.socketjk.CharsetEnum].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</bizEnum>
+

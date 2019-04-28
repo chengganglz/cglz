@@ -1,0 +1,1874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<joinQuery xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.socketjk.app</package>
+    <name>SocketServerStatusQuery</name>
+    <alias>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].alias</alias>
+    <description>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].description</description>
+    <userDefined>true</userDefined>
+    <reportDataSource />
+    <bizUnitPK>com.kingdee.eas.custom.socketjk.SocketServerStatus</bizUnitPK>
+    <connectionProvider />
+    <subObjects>
+        <subEntity>
+            <name>SocketServerStatus</name>
+            <alias>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].subObjects.subEntity[SocketServerStatus].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatus" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>auditor</name>
+            <alias>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].subObjects.subEntity[auditor].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>creator</name>
+            <alias>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].subObjects.subEntity[creator].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>lastUpdateUser</name>
+            <alias>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].subObjects.subEntity[lastUpdateUser].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>handler</name>
+            <alias>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].subObjects.subEntity[handler].alias</alias>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+    </subObjects>
+    <units>
+        <propertyUnit>
+            <name>NewUnit0</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.propertyUnit[NewUnit0].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit0" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketServerStatus" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="auditor" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit1</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.propertyUnit[NewUnit1].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit1" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="auditor" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit2</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.propertyUnit[NewUnit2].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit2" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketServerStatus" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="creator" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit3</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.propertyUnit[NewUnit3].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit3" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit4</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.propertyUnit[NewUnit4].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit4" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketServerStatus" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastUpdateUser" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit5</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.propertyUnit[NewUnit5].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit5" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>id</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketServerStatus" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketServerStatus" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>bizDate</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[bizDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="bizDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketServerStatus" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="bizDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>description</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[description].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="description" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketServerStatus" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="description" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>createTime</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[createTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Timestamp</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="createTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketServerStatus" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="createTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateTime</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[lastUpdateTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Timestamp</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketServerStatus" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastUpdateTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>auditor.number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[auditor.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="auditor.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="auditor" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>auditor.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[auditor.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="auditor.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="auditor" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>creator.number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[creator.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="creator.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>creator.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[creator.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="creator.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateUser.number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[lastUpdateUser.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateUser.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateUser.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[lastUpdateUser.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateUser.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>handler.number</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[handler.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="handler.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="handler" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>handler.name</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[handler.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="handler.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="handler" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>NewUnit9</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.propertyUnit[NewUnit9].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit9" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketServerStatus" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="handler" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit8</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.propertyUnit[NewUnit8].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit8" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="handler" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>Fivouchered</name>
+            <userDefined>true</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[Fivouchered].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Boolean</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="Fivouchered" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketServerStatus" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="Fivouchered" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>CompanyID</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[CompanyID].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>34a2b6a6-e892-4598-a52d-8790b3b1177d</key>
+                    <parentUnit>
+                        <key name="name" value="CompanyID" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketServerStatus" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="CompanyID" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>CompanyName</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[CompanyName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>98d41b75-3908-48ad-8536-4cd2591b1081</key>
+                    <parentUnit>
+                        <key name="name" value="CompanyName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketServerStatus" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="CompanyName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>ServerType</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[ServerType].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>b4d9c0ec-4173-4d73-8575-866c6d88dfcc</key>
+                    <parentUnit>
+                        <key name="name" value="ServerType" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketServerStatus" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="ServerType" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>ServerName</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[ServerName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>b417427e-5b7b-41b9-aa9b-9cb7cc34cb96</key>
+                    <parentUnit>
+                        <key name="name" value="ServerName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketServerStatus" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="ServerName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>TimeOut</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[TimeOut].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>faf19c3f-f012-435d-8852-a8127d3014e5</key>
+                    <parentUnit>
+                        <key name="name" value="TimeOut" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketServerStatus" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="TimeOut" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>IsUseHeartbeatMsg</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[IsUseHeartbeatMsg].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>c1796c05-d4e1-4a9f-ada3-7da4a81090aa</key>
+                    <parentUnit>
+                        <key name="name" value="IsUseHeartbeatMsg" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketServerStatus" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="IsUseHeartbeatMsg" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>HeartbeatMsgTime</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[HeartbeatMsgTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>bbce4adf-7a5e-4bc0-9c6f-9e354bfc1750</key>
+                    <parentUnit>
+                        <key name="name" value="HeartbeatMsgTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketServerStatus" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="HeartbeatMsgTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>IsWirte</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[IsWirte].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>2dbebd6a-d61d-46d3-8cde-8eb5726d9557</key>
+                    <parentUnit>
+                        <key name="name" value="IsWirte" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketServerStatus" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="IsWirte" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>LocalIP</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[LocalIP].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>b574c6ab-0a0a-4602-b8c8-427699c9b999</key>
+                    <parentUnit>
+                        <key name="name" value="LocalIP" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketServerStatus" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="LocalIP" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>LocalPort</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[LocalPort].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>09e320a2-8723-4d33-b3be-3e24615f50c7</key>
+                    <parentUnit>
+                        <key name="name" value="LocalPort" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketServerStatus" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="LocalPort" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>ServerStatus</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[ServerStatus].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>fe581db7-64cf-4d83-b548-024612ed8a01</key>
+                    <parentUnit>
+                        <key name="name" value="ServerStatus" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketServerStatus" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="ServerStatus" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>RemoteIP</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[RemoteIP].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>deb35c9b-cea7-40f4-9ca6-c35c6b50f897</key>
+                    <parentUnit>
+                        <key name="name" value="RemoteIP" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketServerStatus" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="RemoteIP" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>ChannelStatus</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[ChannelStatus].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>e4d10e4d-628a-4ec5-ae72-62d2ea0a2c1b</key>
+                    <parentUnit>
+                        <key name="name" value="ChannelStatus" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketServerStatus" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="ChannelStatus" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>RemotePort</name>
+            <userDefined>true</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[RemotePort].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>23606861-f08d-45ca-a65e-bae76c82a3d0</key>
+                    <parentUnit>
+                        <key name="name" value="RemotePort" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SocketServerStatus" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="RemotePort" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </queryField>
+    </units>
+    <defaultFilter>
+        <name>defaultFilter</name>
+        <formulaString />
+        <query>
+            <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+            <key name="name" value="SocketServerStatusQuery" />
+        </query>
+    </defaultFilter>
+    <defaultSorters>
+        <querySorterItem>
+            <propertyName>number</propertyName>
+            <sortType>ASC</sortType>
+            <userDefined>true</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+            <configured>false</configured>
+        </querySorterItem>
+    </defaultSorters>
+    <queryPK>
+        <name>QueryPK</name>
+        <alias>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].queryPK[QueryPK].alias</alias>
+        <description>joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].queryPK[QueryPK].description</description>
+        <keyProperties>
+            <queryField>
+                <key name="name" value="id" />
+            </queryField>
+        </keyProperties>
+    </queryPK>
+    <isDistinct>false</isDistinct>
+    <joins>
+        <join>
+            <name>NewJoin0</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="SocketServerStatus" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="auditor" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit0" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit1" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin0" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin1</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="SocketServerStatus" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="creator" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit2" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit3" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin1" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin2</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="SocketServerStatus" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="lastUpdateUser" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit4" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit5" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin2" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin4</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="SocketServerStatus" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="handler" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit9" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit8" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin4" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="SocketServerStatusQuery" />
+            </query>
+        </join>
+    </joins>
+    <resource>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="服务状态" />
+            <lang locale="zh_HK" value="服務狀態" />
+            <lang locale="zh_TW" value="服務狀態" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].defaultSorters.querySorterItemextendedProperty.f7WindowTitle">
+            <lang locale="en_US" value="多分录基础单据模板" />
+            <lang locale="zh_CN" value="多分录基础单据模板" />
+            <lang locale="zh_TW" value="多分录基础单据模板" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="多分录基础单据查询" />
+            <lang locale="zh_HK" value="多分錄基礎單據查詢" />
+            <lang locale="zh_TW" value="多分錄基礎單據查詢" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].extendedProperty.F7WindowTitle">
+            <lang locale="en_US" value="com.kingdee.eas.custom.socketjk.client.SocketjkResource.SocketServerStatusQueryF7WindowTitle" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.socketjk.client.SocketjkResource.SocketServerStatusQueryF7WindowTitle" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.socketjk.client.SocketjkResource.SocketServerStatusQueryF7WindowTitle" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].extendedProperty.f7WindowTitle">
+            <lang locale="en_US" value="服务状态" />
+            <lang locale="zh_CN" value="服务状态" />
+            <lang locale="zh_TW" value="服务状态" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].queryPK[QueryPK].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].queryPK[QueryPK].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].subObjects.subEntity[SocketServerStatus].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].subObjects.subEntity[auditor].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].subObjects.subEntity[creator].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].subObjects.subEntity[handler].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].subObjects.subEntity[lastUpdateUser].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.propertyUnit[NewUnit0].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.propertyUnit[NewUnit1].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.propertyUnit[NewUnit2].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.propertyUnit[NewUnit3].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.propertyUnit[NewUnit4].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.propertyUnit[NewUnit5].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.propertyUnit[NewUnit8].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.propertyUnit[NewUnit9].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[ChannelStatus].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="通道状态" />
+            <lang locale="zh_HK" value="通道狀態" />
+            <lang locale="zh_TW" value="通道狀態" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[ChannelStatus].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[ChannelStatus].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[CompanyID].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="公司ID" />
+            <lang locale="zh_HK" value="公司ID" />
+            <lang locale="zh_TW" value="公司ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[CompanyID].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[CompanyID].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[CompanyName].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="公司名称" />
+            <lang locale="zh_HK" value="公司名稱" />
+            <lang locale="zh_TW" value="公司名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[CompanyName].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[CompanyName].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[Fivouchered].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否生成凭证" />
+            <lang locale="zh_HK" value="是否生成憑證" />
+            <lang locale="zh_TW" value="是否生成憑證" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[Fivouchered].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[Fivouchered].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[HeartbeatMsgTime].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="心跳电文间隔时间" />
+            <lang locale="zh_HK" value="心跳電文間隔時間" />
+            <lang locale="zh_TW" value="心跳電文間隔時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[HeartbeatMsgTime].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[HeartbeatMsgTime].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[IsUseHeartbeatMsg].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否启用心跳电文" />
+            <lang locale="zh_HK" value="是否啟用心跳電文" />
+            <lang locale="zh_TW" value="是否啟用心跳電文" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[IsUseHeartbeatMsg].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[IsUseHeartbeatMsg].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[IsWirte].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否输出日志" />
+            <lang locale="zh_HK" value="是否輸出日誌" />
+            <lang locale="zh_TW" value="是否輸出日誌" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[IsWirte].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[IsWirte].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[LocalIP].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="本地IP" />
+            <lang locale="zh_HK" value="本地IP" />
+            <lang locale="zh_TW" value="本地IP" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[LocalIP].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[LocalIP].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[LocalPort].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="本地端口" />
+            <lang locale="zh_HK" value="本地端口" />
+            <lang locale="zh_TW" value="本地端口" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[LocalPort].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[LocalPort].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[RemoteIP].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="远程IP" />
+            <lang locale="zh_HK" value="遠程IP" />
+            <lang locale="zh_TW" value="遠程IP" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[RemoteIP].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[RemoteIP].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[RemotePort].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="远程端口" />
+            <lang locale="zh_HK" value="遠程端口" />
+            <lang locale="zh_TW" value="遠程端口" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[RemotePort].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[RemotePort].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[ServerName].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="服务名称" />
+            <lang locale="zh_HK" value="服務名稱" />
+            <lang locale="zh_TW" value="服務名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[ServerName].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[ServerName].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[ServerStatus].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="服务状态" />
+            <lang locale="zh_HK" value="服務狀態" />
+            <lang locale="zh_TW" value="服務狀態" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[ServerStatus].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[ServerStatus].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[ServerType].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="服务类型" />
+            <lang locale="zh_HK" value="服務類型" />
+            <lang locale="zh_TW" value="服務類型" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[ServerType].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[ServerType].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[TimeOut].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="超时时间" />
+            <lang locale="zh_HK" value="超時時間" />
+            <lang locale="zh_TW" value="超時時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[TimeOut].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[TimeOut].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[auditor.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="别名" />
+            <lang locale="zh_HK" value="別名" />
+            <lang locale="zh_TW" value="別名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[auditor.number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="用户名" />
+            <lang locale="zh_HK" value="用戶名" />
+            <lang locale="zh_TW" value="用戶名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[bizDate].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务日期" />
+            <lang locale="zh_HK" value="業務日期" />
+            <lang locale="zh_TW" value="業務日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[bizDate].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[bizDate].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[createTime].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建时间" />
+            <lang locale="zh_HK" value="創建時間" />
+            <lang locale="zh_TW" value="創建時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[createTime].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[createTime].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[creator.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="别名" />
+            <lang locale="zh_HK" value="別名" />
+            <lang locale="zh_TW" value="別名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[creator.number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="用户名" />
+            <lang locale="zh_HK" value="用戶名" />
+            <lang locale="zh_TW" value="用戶名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[description].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="参考信息" />
+            <lang locale="zh_HK" value="參考信息" />
+            <lang locale="zh_TW" value="參考信息" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[description].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[description].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[handler.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="别名" />
+            <lang locale="zh_HK" value="別名" />
+            <lang locale="zh_TW" value="別名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[handler.number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="用户名" />
+            <lang locale="zh_HK" value="用戶名" />
+            <lang locale="zh_TW" value="用戶名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[id].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[lastUpdateTime].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改时间" />
+            <lang locale="zh_HK" value="最後修改時間" />
+            <lang locale="zh_TW" value="最後修改時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[lastUpdateTime].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[lastUpdateTime].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[lastUpdateUser.name].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="别名" />
+            <lang locale="zh_HK" value="別名" />
+            <lang locale="zh_TW" value="別名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[lastUpdateUser.number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="用户名" />
+            <lang locale="zh_HK" value="用戶名" />
+            <lang locale="zh_TW" value="用戶名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[number].displayName">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据编号" />
+            <lang locale="zh_HK" value="單據編號" />
+            <lang locale="zh_TW" value="單據編號" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[number].extendedProperty.isCommonQueryFilter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery].units.queryField[number].extendedProperty.isCommonQuerySorter">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</joinQuery>
+

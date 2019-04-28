@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizUnit xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.socketjk</package>
+    <name>SocketServerStatus</name>
+    <alias>bizUnit[com.kingdee.eas.custom.socketjk.SocketServerStatus].alias</alias>
+    <description>bizUnit[com.kingdee.eas.custom.socketjk.SocketServerStatus].description</description>
+    <userDefined>true</userDefined>
+    <bizType>BusinessBill</bizType>
+    <template>false</template>
+    <entityPK>com.kingdee.eas.custom.socketjk.app.SocketServerStatus</entityPK>
+    <queryPK>com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery</queryPK>
+    <editUIPK>com.kingdee.eas.custom.socketjk.client.SocketServerStatusEditUI</editUIPK>
+    <listUIPK>com.kingdee.eas.custom.socketjk.client.SocketServerStatusListUI</listUIPK>
+    <webEditUIPK />
+    <webListUIPK />
+    <entityFunctionPK />
+    <editUIFunctionPK>com.kingdee.eas.custom.socketjk.app.SocketServerStatusEditUIFunction</editUIFunctionPK>
+    <listUIFunctionPK>com.kingdee.eas.custom.socketjk.app.SocketServerStatusListUIFunction</listUIFunctionPK>
+    <entryUIPK />
+    <versionDate />
+    <versionNumber />
+    <extendTablePKs />
+    <extendEntityPKs />
+    <extendQueryPKs />
+    <extendEditUIPKs />
+    <extendListUIPKs />
+    <menuPKList />
+    <bimTemplateType>MCoreBillBase</bimTemplateType>
+    <relatedTablePK />
+    <relatedEntityPK />
+    <relatedEditUIPK />
+    <genImplementCode>true</genImplementCode>
+    <webEditPagePK />
+    <webListPagePK />
+    <webPagePKS />
+    <webViewPagePK />
+    <webBriefPagePK />
+    <relatedWebEditPagePK />
+    <relatedQueryPK />
+    <resource>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.SocketServerStatus].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="服务状态" />
+            <lang locale="zh_HK" value="服務狀態" />
+            <lang locale="zh_TW" value="服務狀態" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.SocketServerStatus].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.SocketServerStatus].extendedProperty.OrgType">
+            <lang locale="en_US" value="NONE" />
+            <lang locale="zh_CN" value="NONE" />
+            <lang locale="zh_TW" value="NONE" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.SocketServerStatus].extendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.SocketServerStatus].extendedProperty.configured">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.SocketServerStatus].extendedProperty.defaultDisplayField">
+            <lang locale="en_US" value="" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.SocketServerStatus].extendedProperty.defaultF7Query">
+            <lang locale="en_US" value="com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.socketjk.app.SocketServerStatusQuery" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.SocketServerStatus].extendedProperty.editUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.socketjk.client.SocketServerStatusEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.socketjk.client.SocketServerStatusEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.socketjk.client.SocketServerStatusEditUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.SocketServerStatus].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.SocketServerStatus].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.SocketServerStatus].extendedProperty.isParamObject">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.SocketServerStatus].extendedProperty.isUseCodeRule">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.SocketServerStatus].extendedProperty.listUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.socketjk.client.SocketServerStatusListUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.socketjk.client.SocketServerStatusListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.socketjk.client.SocketServerStatusListUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.SocketServerStatus].extendedProperty.maxFieldIndex">
+            <lang locale="en_US" value="15" />
+            <lang locale="zh_CN" value="15" />
+            <lang locale="zh_TW" value="15" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.SocketServerStatus].extendedProperty.useTableEditUI">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.SocketServerStatus].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</bizUnit>
+

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizEnum xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.socketjk</package>
+    <name>objTypeEnum</name>
+    <alias>bizEnum[com.kingdee.eas.custom.socketjk.objTypeEnum].alias</alias>
+    <description>bizEnum[com.kingdee.eas.custom.socketjk.objTypeEnum].description</description>
+    <userDefined>true</userDefined>
+    <className>com.kingdee.eas.custom.socketjk.objTypeEnum</className>
+    <enumDataType>STRING</enumDataType>
+    <enumValues>
+        <enumValue>
+            <name>Customer</name>
+            <alias>bizEnum[com.kingdee.eas.custom.socketjk.objTypeEnum].enumValues.enumValue[Customer].alias</alias>
+            <userDefined>true</userDefined>
+            <value>Customer</value>
+        </enumValue>
+        <enumValue>
+            <name>Supplier</name>
+            <alias>bizEnum[com.kingdee.eas.custom.socketjk.objTypeEnum].enumValues.enumValue[Supplier].alias</alias>
+            <userDefined>true</userDefined>
+            <value>Supplier</value>
+        </enumValue>
+    </enumValues>
+    <resource>
+        <rs key="bizEnum[com.kingdee.eas.custom.socketjk.objTypeEnum].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="EAS接口对象" />
+            <lang locale="zh_TW" value="EAS介面對象" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.socketjk.objTypeEnum].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="基础资料单据等" />
+            <lang locale="zh_TW" value="基礎資料單據等" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.socketjk.objTypeEnum].enumValues.enumValue[Customer].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="客户" />
+            <lang locale="zh_TW" value="客戶" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.socketjk.objTypeEnum].enumValues.enumValue[Supplier].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="供应商" />
+            <lang locale="zh_TW" value="供應商" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.socketjk.objTypeEnum].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</bizEnum>
+

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizUnit xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.socketjk</package>
+    <name>SocketMsgSet</name>
+    <alias>bizUnit[com.kingdee.eas.custom.socketjk.SocketMsgSet].alias</alias>
+    <description>bizUnit[com.kingdee.eas.custom.socketjk.SocketMsgSet].description</description>
+    <userDefined>true</userDefined>
+    <bizType>BaseData</bizType>
+    <template>false</template>
+    <entityPK>com.kingdee.eas.custom.socketjk.app.SocketMsgSet</entityPK>
+    <queryPK>com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery</queryPK>
+    <editUIPK>com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI</editUIPK>
+    <listUIPK>com.kingdee.eas.custom.socketjk.client.SocketMsgSetListUI</listUIPK>
+    <webEditUIPK />
+    <webListUIPK />
+    <entityFunctionPK />
+    <editUIFunctionPK />
+    <listUIFunctionPK />
+    <entryUIPK />
+    <versionDate />
+    <versionNumber />
+    <extendTablePKs />
+    <extendEntityPKs />
+    <extendQueryPKs />
+    <extendEditUIPKs />
+    <extendListUIPKs />
+    <menuPKList />
+    <bimTemplateType>TreeDetail</bimTemplateType>
+    <relatedTablePK>com.kingdee.eas.custom.socketjk.app.T_SJK_SocketMsgSetTREE</relatedTablePK>
+    <relatedEntityPK>com.kingdee.eas.custom.socketjk.app.SocketMsgSetTree</relatedEntityPK>
+    <relatedEditUIPK>com.kingdee.eas.custom.socketjk.client.SocketMsgSetTreeEditUI</relatedEditUIPK>
+    <genImplementCode>true</genImplementCode>
+    <webEditPagePK />
+    <webListPagePK />
+    <webPagePKS />
+    <webViewPagePK />
+    <webBriefPagePK />
+    <relatedWebEditPagePK />
+    <relatedQueryPK />
+    <resource>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.SocketMsgSet].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="报文配置" />
+            <lang locale="zh_HK" value="報文配置" />
+            <lang locale="zh_TW" value="報文配置" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.SocketMsgSet].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.SocketMsgSet].extendedProperty.OrgType">
+            <lang locale="en_US" value="NONE" />
+            <lang locale="zh_CN" value="NONE" />
+            <lang locale="zh_TW" value="NONE" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.SocketMsgSet].extendedProperty.bimRelationObjectPK">
+            <lang locale="en_US" value="com.kingdee.bos.bim.templates.app.BizTreeBase" />
+            <lang locale="zh_CN" value="com.kingdee.bos.bim.templates.app.BizTreeBase" />
+            <lang locale="zh_TW" value="com.kingdee.bos.bim.templates.app.BizTreeBase" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.SocketMsgSet].extendedProperty.bimTemplateType">
+            <lang locale="en_US" value="TreeDetail" />
+            <lang locale="zh_CN" value="TreeDetail" />
+            <lang locale="zh_TW" value="TreeDetail" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.SocketMsgSet].extendedProperty.codingRuleEnabled">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.SocketMsgSet].extendedProperty.configured">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.SocketMsgSet].extendedProperty.defaultDisplayField">
+            <lang locale="en_US" value="" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.SocketMsgSet].extendedProperty.defaultF7Query">
+            <lang locale="en_US" value="com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.socketjk.app.SocketMsgSetQuery" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.SocketMsgSet].extendedProperty.editUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.socketjk.client.SocketMsgSetEditUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.SocketMsgSet].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.SocketMsgSet].extendedProperty.isAsstAcctType">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.SocketMsgSet].extendedProperty.isParamObject">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.SocketMsgSet].extendedProperty.isSimpleEntity">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.SocketMsgSet].extendedProperty.isUseCodeRule">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.SocketMsgSet].extendedProperty.listUI">
+            <lang locale="en_US" value="com.kingdee.eas.custom.socketjk.client.SocketMsgSetListUI" />
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.socketjk.client.SocketMsgSetListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.socketjk.client.SocketMsgSetListUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.SocketMsgSet].extendedProperty.maxFieldIndex">
+            <lang locale="en_US" value="21" />
+            <lang locale="zh_CN" value="21" />
+            <lang locale="zh_TW" value="21" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.SocketMsgSet].extendedProperty.useTableEditUI">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.custom.socketjk.SocketMsgSet].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</bizUnit>
+

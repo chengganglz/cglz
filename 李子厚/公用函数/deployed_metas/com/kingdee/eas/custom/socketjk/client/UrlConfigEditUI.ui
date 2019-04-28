@@ -1,0 +1,2635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.socketjk.client</package>
+    <name>UrlConfigEditUI</name>
+    <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].alias</alias>
+    <description>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].description</description>
+    <userDefined>true</userDefined>
+    <releasePackage>com.kingdee.eas.custom.socketjk.client</releasePackage>
+    <releaseClass>UrlConfigEditUI</releaseClass>
+    <title>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].title</title>
+    <uitype />
+    <defaultbutton />
+    <bizUnitPK>com.kingdee.eas.custom.socketjk.UrlConfig</bizUnitPK>
+    <ruleSet>
+        <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+        <key name="name" value="UrlConfigRuleSet" />
+    </ruleSet>
+    <parent>
+        <key name="package" value="com.kingdee.eas.framework.client" />
+        <key name="name" value="EditUI" />
+    </parent>
+    <components>
+        <component>
+            <name>CoreUI</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[CoreUI].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDPanel</classType>
+            <isContainer>true</isContainer>
+            <constraints>0,0,1013,629</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+        </component>
+        <component>
+            <name>kDLabelContainer1</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[kDLabelContainer1].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>81,45,270,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name>labelContainerLayout1</name>
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[kDLabelContainer1].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[kDLabelContainer1].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[kDLabelContainer1].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>kDLabelContainer2</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[kDLabelContainer2].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>404,45,270,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name>labelContainerLayout2</name>
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[kDLabelContainer2].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[kDLabelContainer2].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[kDLabelContainer2].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>kDLabelContainer3</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[kDLabelContainer3].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>81,109,270,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name>labelContainerLayout3</name>
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[kDLabelContainer3].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[kDLabelContainer3].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[kDLabelContainer3].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>kDLabelContainer4</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[kDLabelContainer4].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>404,109,270,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name>labelContainerLayout4</name>
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[kDLabelContainer4].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[kDLabelContainer4].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[kDLabelContainer4].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelAlignment</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[kDLabelContainer4].properties.property[boundLabelAlignment].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[kDLabelContainer4].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>contFICompany</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contFICompany].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>81,436,270,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contFICompany].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contFICompany].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contFICompany].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contFICompany].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>contip</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contip].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>81,172,270,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contip].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contip].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contip].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contip].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>contport</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contport].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>404,172,270,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contport].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contport].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contport].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contport].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>conturlType</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[conturlType].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>404,235,270,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[conturlType].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[conturlType].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[conturlType].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[conturlType].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>chkisUseHeartbeatMsg</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[chkisUseHeartbeatMsg].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDCheckBox</classType>
+            <isContainer>false</isContainer>
+            <constraints>81,298,270,19</constraints>
+            <tabIndex>15</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[chkisUseHeartbeatMsg].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[chkisUseHeartbeatMsg].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>horizontalAlignment</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[chkisUseHeartbeatMsg].properties.property[horizontalAlignment].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>selected</propertyName>
+                    <propertyType>boolean</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>isUseHeartbeatMsg</bindingField>
+                    <fieldType>boolean</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>contHeartbeatMsgTime</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contHeartbeatMsgTime].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>404,298,270,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contHeartbeatMsgTime].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contHeartbeatMsgTime].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contHeartbeatMsgTime].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contHeartbeatMsgTime].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>chkisWrite</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[chkisWrite].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDCheckBox</classType>
+            <isContainer>false</isContainer>
+            <constraints>81,235,270,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[chkisWrite].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[chkisWrite].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>horizontalAlignment</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[chkisWrite].properties.property[horizontalAlignment].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>selected</propertyName>
+                    <propertyType>boolean</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>isWrite</bindingField>
+                    <fieldType>boolean</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>conttimeOut</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[conttimeOut].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>81,346,270,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[conttimeOut].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[conttimeOut].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[conttimeOut].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[conttimeOut].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>chkIsUse</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[chkIsUse].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDCheckBox</classType>
+            <isContainer>false</isContainer>
+            <constraints>408,346,270,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[chkIsUse].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[chkIsUse].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>horizontalAlignment</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[chkIsUse].properties.property[horizontalAlignment].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>selected</propertyName>
+                    <propertyType>boolean</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>IsUse</bindingField>
+                    <fieldType>boolean</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>contReTranTimes</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contReTranTimes].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>80,386,270,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contReTranTimes].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contReTranTimes].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contReTranTimes].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contReTranTimes].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>contCharset</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contCharset].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>407,386,270,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contCharset].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contCharset].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contCharset].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contCharset].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>contheadLength</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contheadLength].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>406,432,270,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contheadLength].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contheadLength].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contheadLength].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contheadLength].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>txtNumber</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtNumber].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDTextField</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>maxLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtNumber].properties.property[maxLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="kDLabelContainer1" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>text</propertyName>
+                    <propertyType>java.lang.String</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>number</bindingField>
+                    <fieldType>String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>txtName</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtName].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.extendcontrols.KDBizMultiLangBox</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <parent>
+                <key name="name" value="kDLabelContainer2" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>_multiLangItem</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>name</bindingField>
+                    <fieldType>String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>txtSimpleName</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtSimpleName].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDTextField</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>maxLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtSimpleName].properties.property[maxLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="kDLabelContainer3" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>text</propertyName>
+                    <propertyType>java.lang.String</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>simpleName</bindingField>
+                    <fieldType>String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>txtDescription</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtDescription].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.extendcontrols.KDBizMultiLangBox</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <parent>
+                <key name="name" value="kDLabelContainer4" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>_multiLangItem</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>description</bindingField>
+                    <fieldType>String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>prmtFICompany</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[prmtFICompany].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.extendcontrols.KDBizPromptBox</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>queryInfo</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[prmtFICompany].properties.property[queryInfo].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[prmtFICompany].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>editable</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[prmtFICompany].properties.property[editable].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>displayFormat</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[prmtFICompany].properties.property[displayFormat].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>editFormat</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[prmtFICompany].properties.property[editFormat].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>commitFormat</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[prmtFICompany].properties.property[commitFormat].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[prmtFICompany].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contFICompany" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>data</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>FICompany</bindingField>
+                    <fieldType>com.kingdee.eas.basedata.org.CompanyOrgUnitInfo</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>txtip</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtip].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDTextField</classType>
+            <isContainer>false</isContainer>
+            <constraints>3</constraints>
+            <tabIndex>12</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtip].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>horizontalAlignment</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtip].properties.property[horizontalAlignment].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>maxLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtip].properties.property[maxLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtip].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contip" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>text</propertyName>
+                    <propertyType>java.lang.String</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>ip</bindingField>
+                    <fieldType>String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>txtport</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtport].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDFormattedTextField</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>13</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtport].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>horizontalAlignment</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtport].properties.property[horizontalAlignment].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>dataType</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtport].properties.property[dataType].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>supportedEmpty</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtport].properties.property[supportedEmpty].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtport].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contport" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>value</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>port</bindingField>
+                    <fieldType>int</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>urlType</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[urlType].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDComboBox</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>14</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[urlType].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>items</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[urlType].properties.property[items].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[urlType].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="conturlType" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>selectedItem</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>urlType</bindingField>
+                    <fieldType>com.kingdee.eas.custom.socketjk.UrlType</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>txtHeartbeatMsgTime</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtHeartbeatMsgTime].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDFormattedTextField</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>16</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtHeartbeatMsgTime].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>horizontalAlignment</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtHeartbeatMsgTime].properties.property[horizontalAlignment].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>dataType</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtHeartbeatMsgTime].properties.property[dataType].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>supportedEmpty</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtHeartbeatMsgTime].properties.property[supportedEmpty].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtHeartbeatMsgTime].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contHeartbeatMsgTime" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>value</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>HeartbeatMsgTime</bindingField>
+                    <fieldType>int</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>txttimeOut</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txttimeOut].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDFormattedTextField</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>18</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txttimeOut].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>horizontalAlignment</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txttimeOut].properties.property[horizontalAlignment].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>dataType</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txttimeOut].properties.property[dataType].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>supportedEmpty</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txttimeOut].properties.property[supportedEmpty].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txttimeOut].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="conttimeOut" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>value</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>timeOut</bindingField>
+                    <fieldType>int</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>txtReTranTimes</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtReTranTimes].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDFormattedTextField</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>20</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtReTranTimes].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>horizontalAlignment</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtReTranTimes].properties.property[horizontalAlignment].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>dataType</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtReTranTimes].properties.property[dataType].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>supportedEmpty</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtReTranTimes].properties.property[supportedEmpty].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtReTranTimes].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contReTranTimes" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>value</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>ReTranTimes</bindingField>
+                    <fieldType>int</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>Charset</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[Charset].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDComboBox</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>22</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[Charset].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>items</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[Charset].properties.property[items].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[Charset].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contCharset" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>selectedItem</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>Charset</bindingField>
+                    <fieldType>com.kingdee.eas.custom.socketjk.CharsetEnum</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>txtheadLength</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtheadLength].alias</alias>
+            <userDefined>true</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDFormattedTextField</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>23</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtheadLength].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>horizontalAlignment</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtheadLength].properties.property[horizontalAlignment].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>dataType</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtheadLength].properties.property[dataType].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>supportedEmpty</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtheadLength].properties.property[supportedEmpty].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtheadLength].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contheadLength" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>value</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>headLength</bindingField>
+                    <fieldType>int</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>btnPrint</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[btnPrint].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDWorkButton</classType>
+            <isContainer>false</isContainer>
+            <constraints />
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[btnPrint].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+        </component>
+        <component>
+            <name>btnPrintPreview</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[btnPrintPreview].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDWorkButton</classType>
+            <isContainer>false</isContainer>
+            <constraints />
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[btnPrintPreview].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>true</userDefined>
+                </property>
+            </properties>
+        </component>
+        <component>
+            <name>menuItemPrint</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[menuItemPrint].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDMenuItem</classType>
+            <isContainer>false</isContainer>
+            <constraints />
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[menuItemPrint].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+        </component>
+        <component>
+            <name>menuItemPrintPreview</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[menuItemPrintPreview].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDMenuItem</classType>
+            <isContainer>false</isContainer>
+            <constraints />
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[menuItemPrintPreview].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+        </component>
+    </components>
+    <dataObjects>
+        <dataObject>
+            <name>editData</name>
+            <type>com.kingdee.eas.custom.socketjk.app.UrlConfig</type>
+            <objectType>enty</objectType>
+            <herited>true</herited>
+            <userDefined>false</userDefined>
+        </dataObject>
+    </dataObjects>
+    <statuses>
+        <status>
+            <id />
+            <name>ADDNEW</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].statuses.status[ADDNEW].alias</alias>
+            <default />
+            <description>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].statuses.status[ADDNEW].description</description>
+            <herited>false</herited>
+            <userDefined>true</userDefined>
+            <statusItems>
+                <statusItem>
+                    <name>txtName</name>
+                    <visible />
+                    <enabled>true</enabled>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </statusItem>
+                <statusItem>
+                    <name>txtDescription</name>
+                    <visible />
+                    <enabled>true</enabled>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </statusItem>
+                <statusItem>
+                    <name>txtNumber</name>
+                    <visible />
+                    <enabled>true</enabled>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </statusItem>
+                <statusItem>
+                    <name>txtSimpleName</name>
+                    <visible />
+                    <enabled>true</enabled>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </statusItem>
+            </statusItems>
+        </status>
+        <status>
+            <id />
+            <name>EDIT</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].statuses.status[EDIT].alias</alias>
+            <default />
+            <description>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].statuses.status[EDIT].description</description>
+            <herited>false</herited>
+            <userDefined>true</userDefined>
+            <statusItems>
+                <statusItem>
+                    <name>txtName</name>
+                    <visible />
+                    <enabled>true</enabled>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </statusItem>
+                <statusItem>
+                    <name>txtDescription</name>
+                    <visible />
+                    <enabled>true</enabled>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </statusItem>
+                <statusItem>
+                    <name>txtNumber</name>
+                    <visible />
+                    <enabled>true</enabled>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </statusItem>
+                <statusItem>
+                    <name>txtSimpleName</name>
+                    <visible />
+                    <enabled>true</enabled>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </statusItem>
+            </statusItems>
+        </status>
+        <status>
+            <id />
+            <name>VIEW</name>
+            <alias>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].statuses.status[VIEW].alias</alias>
+            <default />
+            <description>uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].statuses.status[VIEW].description</description>
+            <herited>false</herited>
+            <userDefined>true</userDefined>
+            <statusItems>
+                <statusItem>
+                    <name>txtName</name>
+                    <visible />
+                    <enabled>false</enabled>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </statusItem>
+                <statusItem>
+                    <name>txtDescription</name>
+                    <visible />
+                    <enabled>false</enabled>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </statusItem>
+                <statusItem>
+                    <name>txtNumber</name>
+                    <visible />
+                    <enabled>false</enabled>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </statusItem>
+                <statusItem>
+                    <name>txtSimpleName</name>
+                    <visible />
+                    <enabled>false</enabled>
+                    <herited>false</herited>
+                    <userDefined>true</userDefined>
+                </statusItem>
+            </statusItems>
+        </status>
+    </statuses>
+    <resource>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="传输参数配置" />
+            <lang locale="zh_HK" value="傳輸參數配置" />
+            <lang locale="zh_TW" value="傳輸參數配置" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[Charset].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="编码格式" />
+            <lang locale="zh_HK" value="編碼格式" />
+            <lang locale="zh_TW" value="編碼格式" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[Charset].properties.property[items].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="[Enum]com.kingdee.eas.custom.socketjk.CharsetEnum" />
+            <lang locale="zh_HK" value="[Enum]com.kingdee.eas.custom.socketjk.CharsetEnum" />
+            <lang locale="zh_TW" value="[Enum]com.kingdee.eas.custom.socketjk.CharsetEnum" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[Charset].properties.property[required].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[Charset].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[CoreUI].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[btnPrintPreview].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[btnPrintPreview].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[btnPrint].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[btnPrint].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[chkIsUse].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="启用" />
+            <lang locale="zh_HK" value="啟用" />
+            <lang locale="zh_TW" value="啟用" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[chkIsUse].properties.property[horizontalAlignment].value">
+            <lang locale="en_US" value="2" />
+            <lang locale="zh_CN" value="2" />
+            <lang locale="zh_HK" value="2" />
+            <lang locale="zh_TW" value="2" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[chkIsUse].properties.property[text].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="启用" />
+            <lang locale="zh_HK" value="啟用" />
+            <lang locale="zh_TW" value="啟用" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[chkIsUse].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[chkisUseHeartbeatMsg].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否启用心跳电文" />
+            <lang locale="zh_HK" value="是否啟用心跳電文" />
+            <lang locale="zh_TW" value="是否啟用心跳電文" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[chkisUseHeartbeatMsg].properties.property[horizontalAlignment].value">
+            <lang locale="en_US" value="2" />
+            <lang locale="zh_CN" value="2" />
+            <lang locale="zh_HK" value="2" />
+            <lang locale="zh_TW" value="2" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[chkisUseHeartbeatMsg].properties.property[text].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否启用心跳电文" />
+            <lang locale="zh_HK" value="是否啟用心跳電文" />
+            <lang locale="zh_TW" value="是否啟用心跳電文" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[chkisUseHeartbeatMsg].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[chkisWrite].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否输出实时日志" />
+            <lang locale="zh_HK" value="是否輸出實時日誌" />
+            <lang locale="zh_TW" value="是否輸出實時日誌" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[chkisWrite].properties.property[horizontalAlignment].value">
+            <lang locale="en_US" value="2" />
+            <lang locale="zh_CN" value="2" />
+            <lang locale="zh_HK" value="2" />
+            <lang locale="zh_TW" value="2" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[chkisWrite].properties.property[text].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否输出实时日志" />
+            <lang locale="zh_HK" value="是否輸出實時日誌" />
+            <lang locale="zh_TW" value="是否輸出實時日誌" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[chkisWrite].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contCharset].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contCharset].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contCharset].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="编码格式" />
+            <lang locale="zh_HK" value="編碼格式" />
+            <lang locale="zh_TW" value="編碼格式" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contCharset].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contCharset].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contFICompany].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contFICompany].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contFICompany].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="财务组织" />
+            <lang locale="zh_HK" value="財務組織" />
+            <lang locale="zh_TW" value="財務組織" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contFICompany].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contFICompany].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contHeartbeatMsgTime].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contHeartbeatMsgTime].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contHeartbeatMsgTime].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="心跳电文发送间隔（ms）" />
+            <lang locale="zh_HK" value="心跳電文發送間隔（ms）" />
+            <lang locale="zh_TW" value="心跳電文發送間隔（ms）" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contHeartbeatMsgTime].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contHeartbeatMsgTime].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contReTranTimes].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contReTranTimes].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contReTranTimes].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="重发次数" />
+            <lang locale="zh_HK" value="重發次數" />
+            <lang locale="zh_TW" value="重發次數" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contReTranTimes].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contReTranTimes].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contheadLength].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contheadLength].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contheadLength].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="电文头长度" />
+            <lang locale="zh_HK" value="電文頭長度" />
+            <lang locale="zh_TW" value="電文頭長度" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contheadLength].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contheadLength].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contip].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contip].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contip].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="ip地址" />
+            <lang locale="zh_HK" value="ip地址" />
+            <lang locale="zh_TW" value="ip地址" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contip].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contip].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contport].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contport].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contport].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="端口" />
+            <lang locale="zh_HK" value="端口" />
+            <lang locale="zh_TW" value="端口" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contport].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[contport].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[conttimeOut].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[conttimeOut].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[conttimeOut].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="超时时间（ms）" />
+            <lang locale="zh_HK" value="超時時間（ms）" />
+            <lang locale="zh_TW" value="超時時間（ms）" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[conttimeOut].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[conttimeOut].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[conturlType].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[conturlType].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[conturlType].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="类型" />
+            <lang locale="zh_HK" value="類型" />
+            <lang locale="zh_TW" value="類型" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[conturlType].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[conturlType].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[kDLabelContainer1].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[kDLabelContainer1].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[kDLabelContainer1].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="编码:" />
+            <lang locale="zh_HK" value="編碼:" />
+            <lang locale="zh_TW" value="編碼:" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[kDLabelContainer1].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[kDLabelContainer2].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[kDLabelContainer2].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[kDLabelContainer2].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="名称:" />
+            <lang locale="zh_HK" value="名稱:" />
+            <lang locale="zh_TW" value="名稱:" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[kDLabelContainer2].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[kDLabelContainer3].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[kDLabelContainer3].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[kDLabelContainer3].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="简称:" />
+            <lang locale="zh_HK" value="簡稱:" />
+            <lang locale="zh_TW" value="簡稱:" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[kDLabelContainer3].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[kDLabelContainer4].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[kDLabelContainer4].properties.property[boundLabelAlignment].value">
+            <lang locale="en_US" value="7" />
+            <lang locale="zh_CN" value="7" />
+            <lang locale="zh_HK" value="7" />
+            <lang locale="zh_TW" value="7" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[kDLabelContainer4].properties.property[boundLabelLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[kDLabelContainer4].properties.property[boundLabelText].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="描述:" />
+            <lang locale="zh_HK" value="描述:" />
+            <lang locale="zh_TW" value="描述:" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[kDLabelContainer4].properties.property[boundLabelUnderline].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[kDLabelContainer4].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[menuItemPrintPreview].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[menuItemPrintPreview].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[menuItemPrint].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[menuItemPrint].properties.property[visible].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[prmtFICompany].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="财务组织" />
+            <lang locale="zh_HK" value="財務組織" />
+            <lang locale="zh_TW" value="財務組織" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[prmtFICompany].properties.property[commitFormat].value">
+            <lang locale="en_US" value="$number$" />
+            <lang locale="zh_CN" value="$number$" />
+            <lang locale="zh_HK" value="$number$" />
+            <lang locale="zh_TW" value="$number$" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[prmtFICompany].properties.property[displayFormat].value">
+            <lang locale="en_US" value="$name$" />
+            <lang locale="zh_CN" value="$name$" />
+            <lang locale="zh_HK" value="$name$" />
+            <lang locale="zh_TW" value="$name$" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[prmtFICompany].properties.property[editFormat].value">
+            <lang locale="en_US" value="$number$" />
+            <lang locale="zh_CN" value="$number$" />
+            <lang locale="zh_HK" value="$number$" />
+            <lang locale="zh_TW" value="$number$" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[prmtFICompany].properties.property[editable].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[prmtFICompany].properties.property[queryInfo].value">
+            <lang locale="en_US" value="com.kingdee.eas.basedata.org.app.CompanyOrgUnitQuery4AsstAcct" />
+            <lang locale="zh_CN" value="com.kingdee.eas.basedata.org.app.CompanyOrgUnitQuery4AsstAcct" />
+            <lang locale="zh_HK" value="com.kingdee.eas.basedata.org.app.CompanyOrgUnitQuery4AsstAcct" />
+            <lang locale="zh_TW" value="com.kingdee.eas.basedata.org.app.CompanyOrgUnitQuery4AsstAcct" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[prmtFICompany].properties.property[required].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[prmtFICompany].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtDescription].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="描述" />
+            <lang locale="zh_HK" value="描述" />
+            <lang locale="zh_TW" value="描述" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtHeartbeatMsgTime].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="心跳电文发送间隔（ms）" />
+            <lang locale="zh_HK" value="心跳電文發送間隔（ms）" />
+            <lang locale="zh_TW" value="心跳電文發送間隔（ms）" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtHeartbeatMsgTime].properties.property[dataType].value">
+            <lang locale="en_US" value="0" />
+            <lang locale="zh_CN" value="0" />
+            <lang locale="zh_HK" value="0" />
+            <lang locale="zh_TW" value="0" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtHeartbeatMsgTime].properties.property[horizontalAlignment].value">
+            <lang locale="en_US" value="2" />
+            <lang locale="zh_CN" value="2" />
+            <lang locale="zh_HK" value="2" />
+            <lang locale="zh_TW" value="2" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtHeartbeatMsgTime].properties.property[required].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtHeartbeatMsgTime].properties.property[supportedEmpty].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtHeartbeatMsgTime].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="zh_HK" value="名稱" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtNumber].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="编码" />
+            <lang locale="zh_HK" value="編碼" />
+            <lang locale="zh_TW" value="編碼" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtNumber].properties.property[maxLength].value">
+            <lang locale="en_US" value="80" />
+            <lang locale="zh_CN" value="80" />
+            <lang locale="zh_HK" value="80" />
+            <lang locale="zh_TW" value="80" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtReTranTimes].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="重发次数" />
+            <lang locale="zh_HK" value="重發次數" />
+            <lang locale="zh_TW" value="重發次數" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtReTranTimes].properties.property[dataType].value">
+            <lang locale="en_US" value="0" />
+            <lang locale="zh_CN" value="0" />
+            <lang locale="zh_HK" value="0" />
+            <lang locale="zh_TW" value="0" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtReTranTimes].properties.property[horizontalAlignment].value">
+            <lang locale="en_US" value="2" />
+            <lang locale="zh_CN" value="2" />
+            <lang locale="zh_HK" value="2" />
+            <lang locale="zh_TW" value="2" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtReTranTimes].properties.property[required].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtReTranTimes].properties.property[supportedEmpty].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtReTranTimes].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtSimpleName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="简称" />
+            <lang locale="zh_HK" value="簡稱" />
+            <lang locale="zh_TW" value="簡稱" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtSimpleName].properties.property[maxLength].value">
+            <lang locale="en_US" value="80" />
+            <lang locale="zh_CN" value="80" />
+            <lang locale="zh_HK" value="80" />
+            <lang locale="zh_TW" value="80" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtheadLength].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="电文头长度" />
+            <lang locale="zh_HK" value="電文頭長度" />
+            <lang locale="zh_TW" value="電文頭長度" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtheadLength].properties.property[dataType].value">
+            <lang locale="en_US" value="0" />
+            <lang locale="zh_CN" value="0" />
+            <lang locale="zh_HK" value="0" />
+            <lang locale="zh_TW" value="0" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtheadLength].properties.property[horizontalAlignment].value">
+            <lang locale="en_US" value="2" />
+            <lang locale="zh_CN" value="2" />
+            <lang locale="zh_HK" value="2" />
+            <lang locale="zh_TW" value="2" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtheadLength].properties.property[required].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtheadLength].properties.property[supportedEmpty].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtheadLength].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtip].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="ip地址" />
+            <lang locale="zh_HK" value="ip地址" />
+            <lang locale="zh_TW" value="ip地址" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtip].properties.property[horizontalAlignment].value">
+            <lang locale="en_US" value="2" />
+            <lang locale="zh_CN" value="2" />
+            <lang locale="zh_HK" value="2" />
+            <lang locale="zh_TW" value="2" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtip].properties.property[maxLength].value">
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_CN" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtip].properties.property[required].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtip].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtport].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="端口" />
+            <lang locale="zh_HK" value="端口" />
+            <lang locale="zh_TW" value="端口" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtport].properties.property[dataType].value">
+            <lang locale="en_US" value="0" />
+            <lang locale="zh_CN" value="0" />
+            <lang locale="zh_HK" value="0" />
+            <lang locale="zh_TW" value="0" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtport].properties.property[horizontalAlignment].value">
+            <lang locale="en_US" value="2" />
+            <lang locale="zh_CN" value="2" />
+            <lang locale="zh_HK" value="2" />
+            <lang locale="zh_TW" value="2" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtport].properties.property[required].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtport].properties.property[supportedEmpty].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txtport].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txttimeOut].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="超时时间（ms）" />
+            <lang locale="zh_HK" value="超時時間（ms）" />
+            <lang locale="zh_TW" value="超時時間（ms）" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txttimeOut].properties.property[dataType].value">
+            <lang locale="en_US" value="0" />
+            <lang locale="zh_CN" value="0" />
+            <lang locale="zh_HK" value="0" />
+            <lang locale="zh_TW" value="0" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txttimeOut].properties.property[horizontalAlignment].value">
+            <lang locale="en_US" value="2" />
+            <lang locale="zh_CN" value="2" />
+            <lang locale="zh_HK" value="2" />
+            <lang locale="zh_TW" value="2" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txttimeOut].properties.property[required].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txttimeOut].properties.property[supportedEmpty].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[txttimeOut].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[urlType].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="类型" />
+            <lang locale="zh_HK" value="類型" />
+            <lang locale="zh_TW" value="類型" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[urlType].properties.property[items].value">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="[Enum]com.kingdee.eas.custom.socketjk.UrlType" />
+            <lang locale="zh_HK" value="[Enum]com.kingdee.eas.custom.socketjk.UrlType" />
+            <lang locale="zh_TW" value="[Enum]com.kingdee.eas.custom.socketjk.UrlType" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[urlType].properties.property[required].value">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].components.component[urlType].properties.property[visible].value">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单级基础资料模板界面" />
+            <lang locale="zh_HK" value="單級基礎資料範本介面" />
+            <lang locale="zh_TW" value="單級基礎資料範本介面" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].extendedProperty.bimRelationObjectPK">
+            <lang locale="en_US" value="com.kingdee.bos.bim.templates.client.BizTreeEditUI" />
+            <lang locale="zh_CN" value="com.kingdee.bos.bim.templates.client.BizTreeEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.bos.bim.templates.client.BizTreeEditUI" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].extendedProperty.bimTemplateType">
+            <lang locale="en_US" value="TreeDetail" />
+            <lang locale="zh_CN" value="TreeDetail" />
+            <lang locale="zh_TW" value="TreeDetail" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].extendedProperty.bimUIType">
+            <lang locale="en_US" value="EditUI" />
+            <lang locale="zh_CN" value="EditUI" />
+            <lang locale="zh_TW" value="EditUI" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].statuses.status[ADDNEW].alias">
+            <lang locale="en_US" value="AddNew" />
+            <lang locale="zh_CN" value="AddNew" />
+            <lang locale="zh_HK" value="AddNew" />
+            <lang locale="zh_TW" value="AddNew" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].statuses.status[ADDNEW].description">
+            <lang locale="en_US" value="AddNew" />
+            <lang locale="zh_CN" value="AddNew" />
+            <lang locale="zh_HK" value="AddNew" />
+            <lang locale="zh_TW" value="AddNew" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].statuses.status[EDIT].alias">
+            <lang locale="en_US" value="EDIT" />
+            <lang locale="zh_CN" value="EDIT" />
+            <lang locale="zh_HK" value="EDIT" />
+            <lang locale="zh_TW" value="EDIT" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].statuses.status[EDIT].description">
+            <lang locale="en_US" value="EDIT" />
+            <lang locale="zh_CN" value="EDIT" />
+            <lang locale="zh_HK" value="EDIT" />
+            <lang locale="zh_TW" value="EDIT" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].statuses.status[VIEW].alias">
+            <lang locale="en_US" value="View" />
+            <lang locale="zh_CN" value="View" />
+            <lang locale="zh_HK" value="View" />
+            <lang locale="zh_TW" value="View" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].statuses.status[VIEW].description">
+            <lang locale="en_US" value="View" />
+            <lang locale="zh_CN" value="View" />
+            <lang locale="zh_HK" value="View" />
+            <lang locale="zh_TW" value="View" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.custom.socketjk.client.UrlConfigEditUI].title">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="传输参数配置" />
+            <lang locale="zh_HK" value="傳輸參數配置" />
+            <lang locale="zh_TW" value="傳輸參數配置" />
+        </rs>
+    </resource>
+</uiObject>
+

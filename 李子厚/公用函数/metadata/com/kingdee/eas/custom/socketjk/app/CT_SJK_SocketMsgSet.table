@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataTable xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.socketjk.app</package>
+    <name>CT_SJK_SocketMsgSet</name>
+    <alias>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].alias</alias>
+    <description>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].description</description>
+    <userDefined>true</userDefined>
+    <bizUnitPK>com.kingdee.eas.custom.socketjk.SocketMsgSet</bizUnitPK>
+    <columns>
+        <column>
+            <name>FName</name>
+            <alias>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FName].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FName].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>true</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>255</length>
+            <scale>0</scale>
+            <precision>255</precision>
+        </column>
+        <column>
+            <name>FNumber</name>
+            <alias>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FNumber].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FNumber].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>80</precision>
+        </column>
+        <column>
+            <name>FDescription</name>
+            <alias>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FDescription].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FDescription].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>true</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>255</length>
+            <scale>0</scale>
+            <precision>255</precision>
+        </column>
+        <column>
+            <name>FSimpleName</name>
+            <alias>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FSimpleName].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FSimpleName].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>80</precision>
+        </column>
+        <column>
+            <name>FID</name>
+            <alias>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FID].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue>''</defaultValue>
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>44</precision>
+        </column>
+        <column>
+            <name>FCreatorID</name>
+            <alias>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FCreatorID].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FCreatorID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FCreateTime</name>
+            <alias>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FCreateTime].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FCreateTime].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>8</precision>
+        </column>
+        <column>
+            <name>FLastUpdateUserID</name>
+            <alias>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FLastUpdateUserID].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FLastUpdateUserID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FLastUpdateTime</name>
+            <alias>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FLastUpdateTime].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FLastUpdateTime].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>8</precision>
+        </column>
+        <column>
+            <name>FTreeID</name>
+            <alias>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FTreeID].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FTreeID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FControlUnitID</name>
+            <alias>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FControlUnitID].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FControlUnitID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue>'11111111-1111-1111-1111-111111111111CCE7AED4'</defaultValue>
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFEASBizType</name>
+            <alias>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFEASBizType].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFEASBizType].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>255</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFEASBizTypeName</name>
+            <alias>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFEASBizTypeName].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFEASBizTypeName].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>255</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFMsgType</name>
+            <alias>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFMsgType].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFMsgType].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFChannelID</name>
+            <alias>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFChannelID].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFChannelID].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFScript</name>
+            <alias>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFScript].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFScript].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>CLOB</sqlType>
+            <length>800000</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFHeadLength</name>
+            <alias>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFHeadLength].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFHeadLength].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>10</precision>
+        </column>
+        <column>
+            <name>CFDataLength</name>
+            <alias>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFDataLength].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFDataLength].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>10</precision>
+        </column>
+        <column>
+            <name>CFEndCharLength</name>
+            <alias>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFEndCharLength].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFEndCharLength].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>10</precision>
+        </column>
+        <column>
+            <name>CFEndChar</name>
+            <alias>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFEndChar].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFEndChar].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFMsgNo</name>
+            <alias>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFMsgNo].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFMsgNo].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>CFMsgNoSta</name>
+            <alias>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFMsgNoSta].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFMsgNoSta].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>10</precision>
+        </column>
+        <column>
+            <name>CFMsgNoEnd</name>
+            <alias>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFMsgNoEnd].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFMsgNoEnd].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>10</precision>
+        </column>
+        <column>
+            <name>CFIsLog</name>
+            <alias>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFIsLog].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFIsLog].description</description>
+            <userDefined>true</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>1</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+    </columns>
+    <primaryKey>
+        <name>CPK_SJK_SocketMcg8</name>
+        <userDefined>true</userDefined>
+        <primaryKeyColumns>
+            <primaryKeyColumn>
+                <indexID>0</indexID>
+                <sortType>ASC</sortType>
+                <column>
+                    <key name="name" value="FID" />
+                </column>
+            </primaryKeyColumn>
+        </primaryKeyColumns>
+    </primaryKey>
+    <foreignKeys>
+        <foreignKey>
+            <name>CFK_SJK_SJKSMSCrcg</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="T_PM_User" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FCreatorID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_SJK_SJKSMSLUdg</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="T_PM_User" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FLastUpdateUserID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_SJK_SJKSMSCUeg</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.org" />
+                <key name="name" value="T_ORG_OUPartCtrl" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FUnitID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FControlUnitID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>CFK_SJK_SJKSMSHnm1</name>
+            <userDefined>true</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.custom.socketjk.app" />
+                <key name="name" value="CT_SJK_UrlConfig" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="CFChannelID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+    </foreignKeys>
+    <resource>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="报文配置" />
+            <lang locale="zh_HK" value="報文配置" />
+            <lang locale="zh_TW" value="報文配置" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFChannelID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="使用通道" />
+            <lang locale="zh_HK" value="使用通道" />
+            <lang locale="zh_TW" value="使用通道" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFChannelID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="使用通道" />
+            <lang locale="zh_HK" value="使用通道" />
+            <lang locale="zh_TW" value="使用通道" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFDataLength].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="数据长度" />
+            <lang locale="zh_HK" value="數據長度" />
+            <lang locale="zh_TW" value="數據長度" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFDataLength].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="电文头长度" />
+            <lang locale="zh_HK" value="電文頭長度" />
+            <lang locale="zh_TW" value="電文頭長度" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFEASBizTypeName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务单元名称" />
+            <lang locale="zh_HK" value="業務單元名稱" />
+            <lang locale="zh_TW" value="業務單元名稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFEASBizTypeName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFEASBizType].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="业务单元" />
+            <lang locale="zh_HK" value="業務單元" />
+            <lang locale="zh_TW" value="業務單元" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFEASBizType].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFEndCharLength].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="结束符长度" />
+            <lang locale="zh_HK" value="結束符長度" />
+            <lang locale="zh_TW" value="結束符長度" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFEndCharLength].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="电文头长度" />
+            <lang locale="zh_HK" value="電文頭長度" />
+            <lang locale="zh_TW" value="電文頭長度" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFEndChar].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="结束符" />
+            <lang locale="zh_HK" value="結束符" />
+            <lang locale="zh_TW" value="結束符" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFEndChar].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="结束符" />
+            <lang locale="zh_HK" value="結束符" />
+            <lang locale="zh_TW" value="結束符" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFHeadLength].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="电文头长度" />
+            <lang locale="zh_HK" value="電文頭長度" />
+            <lang locale="zh_TW" value="電文頭長度" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFHeadLength].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="电文头长度" />
+            <lang locale="zh_HK" value="電文頭長度" />
+            <lang locale="zh_TW" value="電文頭長度" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFIsLog].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否记录日志" />
+            <lang locale="zh_HK" value="是否記錄日誌" />
+            <lang locale="zh_TW" value="是否記錄日誌" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFIsLog].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="是否记录日志" />
+            <lang locale="zh_HK" value="是否記錄日誌" />
+            <lang locale="zh_TW" value="是否記錄日誌" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFMsgNoEnd].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="电文号截止位置" />
+            <lang locale="zh_HK" value="電文號截止位置" />
+            <lang locale="zh_TW" value="電文號截止位置" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFMsgNoEnd].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="电文号开始位置" />
+            <lang locale="zh_HK" value="電文號開始位置" />
+            <lang locale="zh_TW" value="電文號開始位置" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFMsgNoSta].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="电文号开始位置" />
+            <lang locale="zh_HK" value="電文號開始位置" />
+            <lang locale="zh_TW" value="電文號開始位置" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFMsgNoSta].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="电文号开始位置" />
+            <lang locale="zh_HK" value="電文號開始位置" />
+            <lang locale="zh_TW" value="電文號開始位置" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFMsgNo].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="电文号" />
+            <lang locale="zh_HK" value="電文號" />
+            <lang locale="zh_TW" value="電文號" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFMsgNo].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="电文号" />
+            <lang locale="zh_HK" value="電文號" />
+            <lang locale="zh_TW" value="電文號" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFMsgType].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="报文类型" />
+            <lang locale="zh_HK" value="報文類型" />
+            <lang locale="zh_TW" value="報文類型" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFMsgType].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="报文类型" />
+            <lang locale="zh_HK" value="報文類型" />
+            <lang locale="zh_TW" value="報文類型" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFScript].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="执行脚本" />
+            <lang locale="zh_HK" value="執行腳本" />
+            <lang locale="zh_TW" value="執行腳本" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[CFScript].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="执行脚本" />
+            <lang locale="zh_HK" value="執行腳本" />
+            <lang locale="zh_TW" value="執行腳本" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FControlUnitID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="控制单元" />
+            <lang locale="zh_HK" value="控制單元" />
+            <lang locale="zh_TW" value="控制單元" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FControlUnitID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="控制单元" />
+            <lang locale="zh_HK" value="控制單元" />
+            <lang locale="zh_TW" value="控制單元" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FCreateTime].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建时间" />
+            <lang locale="zh_HK" value="創建時間" />
+            <lang locale="zh_TW" value="創建時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FCreateTime].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建时间" />
+            <lang locale="zh_HK" value="創建時間" />
+            <lang locale="zh_TW" value="創建時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FCreatorID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建者" />
+            <lang locale="zh_HK" value="創建者" />
+            <lang locale="zh_TW" value="創建者" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FCreatorID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建者" />
+            <lang locale="zh_HK" value="創建者" />
+            <lang locale="zh_TW" value="創建者" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FDescription].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="描述" />
+            <lang locale="zh_HK" value="描述" />
+            <lang locale="zh_TW" value="描述" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FDescription].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="描述" />
+            <lang locale="zh_HK" value="描述" />
+            <lang locale="zh_TW" value="描述" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FLastUpdateTime].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改时间" />
+            <lang locale="zh_HK" value="最後修改時間" />
+            <lang locale="zh_TW" value="最後修改時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FLastUpdateTime].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改时间" />
+            <lang locale="zh_HK" value="最後修改時間" />
+            <lang locale="zh_TW" value="最後修改時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FLastUpdateUserID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改者" />
+            <lang locale="zh_HK" value="最後修改者" />
+            <lang locale="zh_TW" value="最後修改者" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FLastUpdateUserID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="最后修改者" />
+            <lang locale="zh_HK" value="最後修改者" />
+            <lang locale="zh_TW" value="最後修改者" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="zh_HK" value="名稱" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="zh_HK" value="名稱" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FNumber].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="编码" />
+            <lang locale="zh_HK" value="編碼" />
+            <lang locale="zh_TW" value="編碼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FNumber].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="编码" />
+            <lang locale="zh_HK" value="編碼" />
+            <lang locale="zh_TW" value="編碼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FSimpleName].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="简称" />
+            <lang locale="zh_HK" value="簡稱" />
+            <lang locale="zh_TW" value="簡稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FSimpleName].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="简称" />
+            <lang locale="zh_HK" value="簡稱" />
+            <lang locale="zh_TW" value="簡稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FTreeID].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="组别" />
+            <lang locale="zh_HK" value="組別" />
+            <lang locale="zh_TW" value="組別" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].columns.column[FTreeID].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="组别" />
+            <lang locale="zh_HK" value="組別" />
+            <lang locale="zh_TW" value="組別" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="分組基礎資料範本" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].extendedProperty.bimRelationObjectPK">
+            <lang locale="en_US" value="com.kingdee.bos.bim.templates.app.T_BizTreeBase" />
+            <lang locale="zh_CN" value="com.kingdee.bos.bim.templates.app.T_BizTreeBase" />
+            <lang locale="zh_TW" value="com.kingdee.bos.bim.templates.app.T_BizTreeBase" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.socketjk.app.CT_SJK_SocketMsgSet].extendedProperty.bimTemplateType">
+            <lang locale="en_US" value="TreeDetail" />
+            <lang locale="zh_CN" value="TreeDetail" />
+            <lang locale="zh_TW" value="TreeDetail" />
+        </rs>
+    </resource>
+</dataTable>
+

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facade xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.socketjk.app</package>
+    <name>testFacade</name>
+    <alias>facade[com.kingdee.eas.custom.socketjk.app.testFacade].alias</alias>
+    <description>facade[com.kingdee.eas.custom.socketjk.app.testFacade].description</description>
+    <userDefined>true</userDefined>
+    <bosType>49C3F7FB</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.custom.socketjk.testFacade</businessImplName>
+    <businessControllerName>com.kingdee.eas.custom.socketjk.app.testFacadeController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>CreateBill</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>facade[com.kingdee.eas.custom.socketjk.app.testFacade].methods.method[CreateBill].alias</alias>
+            <description>facade[com.kingdee.eas.custom.socketjk.app.testFacade].methods.method[CreateBill].description</description>
+            <innerID>83c8d661-f041-4b44-8b63-c072ac29498d</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>true</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>strMsg</name>
+                    <alias>facade[com.kingdee.eas.custom.socketjk.app.testFacade].methods.method[CreateBill].parameters.parameter[strMsg].alias</alias>
+                    <description>facade[com.kingdee.eas.custom.socketjk.app.testFacade].methods.method[CreateBill].parameters.parameter[strMsg].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>true</userDefined>
+                </parameter>
+            </parameters>
+            <exceptions>
+                <bizException>
+                    <key name="package" value="com.kingdee.eas.common" />
+                    <key name="name" value="EASBizException" />
+                </bizException>
+            </exceptions>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <resource>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.testFacade].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="测试功能" />
+            <lang locale="zh_HK" value="測試功能" />
+            <lang locale="zh_TW" value="測試功能" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.testFacade].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.testFacade].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.testFacade].methods.method[CreateBill].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="创建单据" />
+            <lang locale="zh_HK" value="創建單據" />
+            <lang locale="zh_TW" value="創建單據" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.testFacade].methods.method[CreateBill].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.testFacade].methods.method[CreateBill].parameters.parameter[strMsg].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="出入电文" />
+            <lang locale="zh_HK" value="出入電文" />
+            <lang locale="zh_TW" value="出入電文" />
+        </rs>
+        <rs key="facade[com.kingdee.eas.custom.socketjk.app.testFacade].methods.method[CreateBill].parameters.parameter[strMsg].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</facade>
+

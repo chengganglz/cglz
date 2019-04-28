@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizEnum xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.socketjk</package>
+    <name>ValueTypeEnum</name>
+    <alias>bizEnum[com.kingdee.eas.custom.socketjk.ValueTypeEnum].alias</alias>
+    <description>bizEnum[com.kingdee.eas.custom.socketjk.ValueTypeEnum].description</description>
+    <userDefined>true</userDefined>
+    <className>com.kingdee.eas.custom.socketjk.ValueTypeEnum</className>
+    <enumDataType>STRING</enumDataType>
+    <enumValues>
+        <enumValue>
+            <name>Fixed</name>
+            <alias>bizEnum[com.kingdee.eas.custom.socketjk.ValueTypeEnum].enumValues.enumValue[Fixed].alias</alias>
+            <userDefined>true</userDefined>
+            <value>Fixed</value>
+        </enumValue>
+        <enumValue>
+            <name>Link</name>
+            <alias>bizEnum[com.kingdee.eas.custom.socketjk.ValueTypeEnum].enumValues.enumValue[Link].alias</alias>
+            <userDefined>true</userDefined>
+            <value>Link</value>
+        </enumValue>
+    </enumValues>
+    <resource>
+        <rs key="bizEnum[com.kingdee.eas.custom.socketjk.ValueTypeEnum].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="值类型" />
+            <lang locale="zh_HK" value="值類型" />
+            <lang locale="zh_TW" value="值類型" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.socketjk.ValueTypeEnum].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.socketjk.ValueTypeEnum].enumValues.enumValue[Fixed].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="固定值" />
+            <lang locale="zh_HK" value="固定值" />
+            <lang locale="zh_TW" value="固定值" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.socketjk.ValueTypeEnum].enumValues.enumValue[Link].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="关联属性" />
+            <lang locale="zh_HK" value="關聯屬性" />
+            <lang locale="zh_TW" value="關聯屬性" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.socketjk.ValueTypeEnum].extendedProperty.userDefined">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</bizEnum>
+
