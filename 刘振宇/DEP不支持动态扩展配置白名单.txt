@@ -1,0 +1,15 @@
+﻿DEP不支持动态扩展，修改那个配置文件
+
+路径：
+E:\Kingdee\eas\server\properties\dep\whitelist
+
+在whitelist下新建文件 depwhitelist_BASE.xml 内容如下
+
+<?xml version="1.0" encoding="utf-8"?>
+<metas>
+  <uis>
+    <ui name="com.kingdee.eas.basedata.master.material.client.F7MaterialGroupUI" alias="物料分类"/>
+  </uis>
+</metas>
+
+com.kingdee.eas.basedata.master.material.app.MaterialGroup
