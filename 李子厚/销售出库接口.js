@@ -33,7 +33,7 @@ imp.importPackage(Packages.com.kingdee.eas.basedata.scm.common);
 imp.importPackage(Packages.com.kingdee.jdbc.rowset);
 with(imp){ 
 	var socketMsg = methodCtx.getParamValue(0);  //接收报文 
-	//socketMsg="0231CCCW1620190425094529CCCWDL11940002100        C0290040912C0290424003                     X190425002              DD11                                              00350015000000679406000000000010000028000C02     201904250945240 ";
+	//socketMsg="0231CCCW1620190501224543CCCWDL11940006300        C0290041912C0290430001 TESTSHIHUI2019042501X190425002              DD11                                              00350015040000532399000000000010000022000C02     201904302201400 ";
 	var billID = methodCtx.getParamValue(1); // 业务单元ID  
 	var result = methodCtx.getParamValue(2); //成功失败  true:false  必须有返回值  methodCtx.getParam(2).setValue("true") 
 	var sendMsg = methodCtx.getParamValue(3); // 发送报文   如果需要发送电文,将电文拼好放到这里返回  methodCtx.getParam(3).setValue("")
@@ -189,72 +189,84 @@ with(imp){
 			view.setFilter(filter);
 			var sourceColl=com.kingdee.eas.scm.sd.sale.SaleOrderFactory.getLocalInstance(ctx).getSaleOrderCollection(view);
 			//var sourceColl = CoreBillBaseCustomFactory.getLocalInstance(ctx).getCoreBillBaseCollection(view);
-			var newcoll=sourceColl.cast(new CoreBillBaseCollection().getClass());
-			System.out.println("销售出库接口:"+newcoll.get(0).get("number"));
-			var destinfo=PublicBaseUtil.botp(ctx,sourceType,destType,newcoll,botpId);
-			System.out.println("销售出库接口"+destinfo.get(0).get("number"));
-			var id=destinfo.get(0).get("id");
-			if(id!=null){
-				//var strSQL2 = "update  T_SD_SaleOrder set cfisxiatui =1 where fid='"+orderid+"'";
-				//System.out.println("销售出库接口"+strSQL2);
-				//DbUtil.execute(ctx, strSQL2);
-				var saleisinfo=SaleIssueBillFactory.getLocalInstance(ctx).getSaleIssueBillInfo(new ObjectUuidPK(id));
-				System.out.println("销售出库接口"+saleisinfo.getTransactionType().get("id"));
-				
-				var sdfDate = new SimpleDateFormat("yyyyMMdd");
-				
-				var bizdate = sdfDate.parse(sdfstr);
-				saleisinfo.setBizDate(bizdate);
-				var wah=PublicBaseUtil.getWarehouseInfoByNumber(ctx,strStockNo);
-				
-				var bgPrice=new BigDecimal("0"); //单价
-				var bgTaxRate=new BigDecimal("0"); //税率
-				var strSQLEntry = "select * from T_IM_SaleIssueEntry where FParentID='"+id+"'";
-				System.out.println("销售出库接口"+strSQLEntry);
-				var rsEntry = DbUtil.executeQuery(ctx, strSQLEntry);
-				while (rsEntry.next()) {
-					bgPrice=rsEntry.getBigDecimal("fPrice");
-					bgTaxRate=rsEntry.getBigDecimal("fTaxRate");
-				}
-				var bgAmount =bgPrice.multiply(bgQty);// 金额
-				var bgTaxPrice=bgPrice.multiply(bgTaxRate.divide(new BigDecimal("100"),8,BigDecimal.ROUND_HALF_UP).add(BigDecimal.ONE));
-				var bgTaxAmount=bgTaxPrice.multiply(bgQty);
-				var bgTax=bgTaxAmount.subtract(bgAmount); //税额
-				var strSQL = "update T_IM_SaleIssueEntry set FWarehouseID='"+wah.getId()+"',flot='"+lot+"',fqty="+bgQty.toString()+",FUNDELIVERQTY="+bgQty.toString()+",FUNDELIVERBASEQTY="+bgQty.toString()+",FUNINQTY="+bgQty.toString()+",FASSOCIATEBASEQTY="+bgQty.toString()+",FUNINBASEQTY="+bgQty.toString()+",FUNWRITEOFFQTY="+bgQty.toString()+",FUNWRITEOFFBASEQTY="+bgQty.toString()+",FUNRETURNEDBASEQTY="+bgQty.toString()+",fbaseqty="+bgQty.toString()+",famount="+bgTaxAmount.toString()+",ftax="+bgTax.toString()+",FLOCALTAX="+bgTax.toString()+",FLOCALAMOUNT="+bgTaxAmount.toString()+",FNONTAXAMOUNT="+bgAmount.toString()+",FLOCALNONTAXAMOUNT="+bgAmount.toString()+" where FParentID='"+id+"'";
-				System.out.println("销售出库接口"+strSQL);
-				DbUtil.execute(ctx, strSQL);
-				var strSQLsi = "update T_IM_SaleIssueBill set cfbxNumber='发货完成电文CCCW16' where fid='"+id+"'";
-				System.out.println("销售出库接口"+strSQLsi);
-				DbUtil.execute(ctx, strSQLsi);
-				//saleisinfo.getEntries().getObject(0).put("warehouse", wah);
-				//saleisinfo.getEntries().getObject(0).put("warehouse", wah);
-				var sic2 = new SelectorItemCollection();
-				sic2.add("id");
-				sic2.add("bizDate");
-				SaleIssueBillFactory.getLocalInstance(ctx).updatePartial(saleisinfo, sic2);
-				saleisinfo=SaleIssueBillFactory.getLocalInstance(ctx).getSaleIssueBillInfo(new ObjectUuidPK(id));
-				var transid=saleisinfo.getTransactionType().get("id");
-				var view1 = new EntityViewInfo();
-				var sic1 = view1.getSelector();
-				sic1.add("id");
-				sic1.add("riType.id");
-				sic1.add("riType.bizDirection");
-				var filter1 = new FilterInfo();
-				var fic1 = filter1.getFilterItems();
-				fic1.add(new FilterItemInfo("id", transid));
-				view1.setFilter(filter1);
-				var transinfo=TransactionTypeFactory.getLocalInstance(ctx).getTransactionTypeCollection(view1);
-				saleisinfo.setTransactionType(transinfo.get(0));
-				
-				if(saleisinfo!=null){
-					if(saleisinfo.getBaseStatus().equals(com.kingdee.eas.scm.common.BillBaseStatusEnum.TEMPORARILYSAVED)){
-						SaleIssueBillFactory.getLocalInstance(ctx).submit(saleisinfo);
+			var e = null;
+			var id="";
+			try {
+				var newcoll=sourceColl.cast(new CoreBillBaseCollection().getClass());
+				System.out.println("销售出库接口:"+newcoll.get(0).get("number"));
+				var destinfo=PublicBaseUtil.botp(ctx,sourceType,destType,newcoll,botpId);
+				System.out.println("销售出库接口"+destinfo.get(0).get("number"));
+				id=destinfo.get(0).get("id");
+				if(id!=null){
+					//var strSQL2 = "update  T_SD_SaleOrder set cfisxiatui =1 where fid='"+orderid+"'";
+					//System.out.println("销售出库接口"+strSQL2);
+					//DbUtil.execute(ctx, strSQL2);
+					var saleisinfo=SaleIssueBillFactory.getLocalInstance(ctx).getSaleIssueBillInfo(new ObjectUuidPK(id));
+					System.out.println("销售出库接口"+saleisinfo.getTransactionType().get("id"));
+					
+					var sdfDate = new SimpleDateFormat("yyyyMMdd");
+					
+					var bizdate = sdfDate.parse(sdfstr);
+					saleisinfo.setBizDate(bizdate);
+					var wah=PublicBaseUtil.getWarehouseInfoByNumber(ctx,strStockNo);
+					
+					var bgPrice=new BigDecimal("0"); //单价
+					var bgTaxRate=new BigDecimal("0"); //税率
+					var strSQLEntry = "select * from T_IM_SaleIssueEntry where FParentID='"+id+"'";
+					System.out.println("销售出库接口"+strSQLEntry);
+					var rsEntry = DbUtil.executeQuery(ctx, strSQLEntry);
+					while (rsEntry.next()) {
+						bgPrice=rsEntry.getBigDecimal("fPrice");
+						bgTaxRate=rsEntry.getBigDecimal("fTaxRate");
 					}
+					var bgAmount =bgPrice.multiply(bgQty);// 金额
+					var bgTaxPrice=bgPrice.multiply(bgTaxRate.divide(new BigDecimal("100"),8,BigDecimal.ROUND_HALF_UP).add(BigDecimal.ONE));
+					var bgTaxAmount=bgTaxPrice.multiply(bgQty);
+					var bgTax=bgTaxAmount.subtract(bgAmount); //税额
+					var strSQL = "update T_IM_SaleIssueEntry set FWarehouseID='"+wah.getId()+"',flot='"+lot+"',fqty="+bgQty.toString()+",FUNDELIVERQTY="+bgQty.toString()+",FUNDELIVERBASEQTY="+bgQty.toString()+",FUNINQTY="+bgQty.toString()+",FASSOCIATEBASEQTY="+bgQty.toString()+",FUNINBASEQTY="+bgQty.toString()+",FUNWRITEOFFQTY="+bgQty.toString()+",FUNWRITEOFFBASEQTY="+bgQty.toString()+",FUNRETURNEDBASEQTY="+bgQty.toString()+",fbaseqty="+bgQty.toString()+",famount="+bgTaxAmount.toString()+",ftax="+bgTax.toString()+",FLOCALTAX="+bgTax.toString()+",FLOCALAMOUNT="+bgTaxAmount.toString()+",FNONTAXAMOUNT="+bgAmount.toString()+",FLOCALNONTAXAMOUNT="+bgAmount.toString()+" where FParentID='"+id+"'";
+					System.out.println("销售出库接口"+strSQL);
+					DbUtil.execute(ctx, strSQL);
+					var strSQLsi = "update T_IM_SaleIssueBill set cfbxNumber='发货完成电文CCCW16' where fid='"+id+"'";
+					System.out.println("销售出库接口"+strSQLsi);
+					DbUtil.execute(ctx, strSQLsi);
+					//saleisinfo.getEntries().getObject(0).put("warehouse", wah);
+					//saleisinfo.getEntries().getObject(0).put("warehouse", wah);
+					var sic2 = new SelectorItemCollection();
+					sic2.add("id");
+					sic2.add("bizDate");
+					SaleIssueBillFactory.getLocalInstance(ctx).updatePartial(saleisinfo, sic2);
 					saleisinfo=SaleIssueBillFactory.getLocalInstance(ctx).getSaleIssueBillInfo(new ObjectUuidPK(id));
-					if(saleisinfo.getBaseStatus().equals(com.kingdee.eas.scm.common.BillBaseStatusEnum.SUBMITED)){
-						SaleIssueBillFactory.getLocalInstance(ctx).audit(new ObjectUuidPK(id));
+					var transid=saleisinfo.getTransactionType().get("id");
+					var view1 = new EntityViewInfo();
+					var sic1 = view1.getSelector();
+					sic1.add("id");
+					sic1.add("riType.id");
+					sic1.add("riType.bizDirection");
+					var filter1 = new FilterInfo();
+					var fic1 = filter1.getFilterItems();
+					fic1.add(new FilterItemInfo("id", transid));
+					view1.setFilter(filter1);
+					var transinfo=TransactionTypeFactory.getLocalInstance(ctx).getTransactionTypeCollection(view1);
+					saleisinfo.setTransactionType(transinfo.get(0));
+					
+					if(saleisinfo!=null){
+						if(saleisinfo.getBaseStatus().equals(com.kingdee.eas.scm.common.BillBaseStatusEnum.TEMPORARILYSAVED)){
+							SaleIssueBillFactory.getLocalInstance(ctx).submit(saleisinfo);
+						}
+						saleisinfo=SaleIssueBillFactory.getLocalInstance(ctx).getSaleIssueBillInfo(new ObjectUuidPK(id));
+						if(saleisinfo.getBaseStatus().equals(com.kingdee.eas.scm.common.BillBaseStatusEnum.SUBMITED)){
+							SaleIssueBillFactory.getLocalInstance(ctx).audit(new ObjectUuidPK(id));
+						}
 					}
 				}
+			} catch (e) {
+				if (id != null) {
+					var saleisinfo=SaleIssueBillFactory.getLocalInstance(ctx).getSaleIssueBillInfo(new ObjectUuidPK(id));
+					SaleIssueBillFactory.getLocalInstance(ctx).delete(new ObjectUuidPK(id));
+				}
+				isSucess = false;
+				errMsg = errMsg + "单据生成失败\r\n" +e.toString().replace('\\s','').replace('\n','');
+				System.out.println(errMsg);
 			}
 		}else{
 			isSucess=false;
@@ -262,9 +274,9 @@ with(imp){
 		}
 	}
 	var strMsg="0110"+dwh+"CWCC";
-	methodCtx.getParam(2).setValue("true");
-		var strData=String.format("%-81s", "A")+"\n" ;
-		methodCtx.getParam(3).setValue(strMsg+strData);
+	// methodCtx.getParam(2).setValue("true");
+	// 	var strData=String.format("%-81s", "A")+"\n" ;
+	// 	methodCtx.getParam(3).setValue(strMsg+strData);
 	if(isSucess){
 		methodCtx.getParam(2).setValue("true");
 		var strData=String.format("%-81s", "A")+"\n" ;
@@ -274,6 +286,10 @@ with(imp){
 		methodCtx.getParam(2).setValue("false");
 		methodCtx.getParam(4).setValue(dwt+errMsg);
 		var strMsg="0110"+dwh+"CWCCB";
+		var newerrmsg=PublicBaseUtil.substringByte(errMsg, "GBK", 1, 80);
+		if(newerrmsg!=null){
+			errMsg=newerrmsg;
+		}
 		var endmsg="\n";
 		methodCtx.getParam(3).setValue(strMsg+errMsg+endmsg);
 	}

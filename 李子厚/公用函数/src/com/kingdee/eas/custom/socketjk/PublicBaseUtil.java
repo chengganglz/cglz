@@ -10,10 +10,7 @@ import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Timestamp;
-import java.util.Calendar;
 import java.util.Date;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import oracle.jdbc.OracleResultSet;
 
@@ -58,14 +55,10 @@ import com.kingdee.eas.base.permission.UserInfo;
 import com.kingdee.eas.basedata.assistant.AccountBankCollection;
 import com.kingdee.eas.basedata.assistant.AccountBankFactory;
 import com.kingdee.eas.basedata.assistant.AccountBankInfo;
-import com.kingdee.eas.basedata.assistant.CostObjectCollection;
-import com.kingdee.eas.basedata.assistant.CostObjectFactory;
-import com.kingdee.eas.basedata.assistant.CostObjectInfo;
 import com.kingdee.eas.basedata.assistant.CurrencyCollection;
 import com.kingdee.eas.basedata.assistant.CurrencyFactory;
 import com.kingdee.eas.basedata.assistant.CurrencyInfo;
 import com.kingdee.eas.basedata.assistant.IAccountBank;
-import com.kingdee.eas.basedata.assistant.ICostObject;
 import com.kingdee.eas.basedata.assistant.ICurrency;
 import com.kingdee.eas.basedata.assistant.IMeasureUnit;
 import com.kingdee.eas.basedata.assistant.IMeasureUnitGroup;
@@ -163,15 +156,11 @@ import com.kingdee.eas.basedata.org.ICostCenterOrgUnit;
 import com.kingdee.eas.basedata.org.ICtrlUnit;
 import com.kingdee.eas.basedata.org.IFullOrgUnit;
 import com.kingdee.eas.basedata.org.IOrgUnit;
-import com.kingdee.eas.basedata.org.IPurchaseOrgUnit;
 import com.kingdee.eas.basedata.org.ISaleOrgUnit;
 import com.kingdee.eas.basedata.org.IStorageOrgUnit;
 import com.kingdee.eas.basedata.org.OrgUnitCollection;
 import com.kingdee.eas.basedata.org.OrgUnitFactory;
 import com.kingdee.eas.basedata.org.OrgUnitInfo;
-import com.kingdee.eas.basedata.org.PurchaseOrgUnitCollection;
-import com.kingdee.eas.basedata.org.PurchaseOrgUnitFactory;
-import com.kingdee.eas.basedata.org.PurchaseOrgUnitInfo;
 import com.kingdee.eas.basedata.org.SaleOrgUnitCollection;
 import com.kingdee.eas.basedata.org.SaleOrgUnitFactory;
 import com.kingdee.eas.basedata.org.SaleOrgUnitInfo;
@@ -228,35 +217,6 @@ import com.kingdee.eas.util.app.DbUtil;
 import com.kingdee.jdbc.rowset.IRowSet;
 public class PublicBaseUtil {
 	private static Logger logger = Logger.getLogger("com.kingdee.eas.custom.socketjk.PublicBaseUtil");
-	
-	/**
-	 * 验证时间字符串格式输入是否正确
-	 * @param timeStr
-	 * @return
-	 */
-	public static boolean valiDateTimeWithLongFormat(String timeStr) {
-		String format = "(([0-9]{3}[1-9]|[0-9]{2}[1-9][0-9]{1}|[0-9]{1}[1-9][0-9]{2}|[1-9][0-9]{3})(((0[13578]|1[02])(0[1-9]|[12][0-9]|3[01]))|((0[469]|11)(0[1-9]|[12][0-9]|30))|(02(0[1-9]|[1][0-9]|2[0-8]))))|((([0-9]{2})(0[48]|[2468][048]|[13579][26])|((0[48]|[2468][048]|[3579][26])00))0229)";
-		Pattern pattern = Pattern.compile(format);
-		Matcher matcher = pattern.matcher(timeStr);
-		if (matcher.matches()) {
-			pattern = Pattern.compile("(\\d{4})-(\\d+)-(\\d+).*");
-			matcher = pattern.matcher(timeStr);
-			if (matcher.matches()) {
-				int y = Integer.valueOf(matcher.group(1));
-				int m = Integer.valueOf(matcher.group(2));
-				int d = Integer.valueOf(matcher.group(3));
-				if (d > 28) {
-					Calendar c = Calendar.getInstance();
-					c.set(y, m-1, 1);
-					int lastDay = c.getActualMaximum(Calendar.DAY_OF_MONTH);
-					return (lastDay >= d);
-				}
-			}
-			return true;
-		}
-		return false;
-	}
-	
 	/**
 	 * 判断是否存在编码规则
 	 * @param ctx
@@ -509,48 +469,6 @@ public class PublicBaseUtil {
 	        return costCenterInfo;
 	    }
 	    /**
-	     * 获取成本中心
-	     * 
-	     * 根据成本中心编码获取成本中心对象
-	     * 
-	     * @param ctx 服务器端上下文
-	     * @param number 成本中心number
-	     * @return CostCenterOrgUnitInfo 成本中心对象
-	     * @throws BOSException 查询公司信息时可能用引发此异常
-	     */
-	    public static CostCenterOrgUnitInfo getCostCenterOrgUnitInfoByNumber(Context ctx, String number)  {
-	    	CostCenterOrgUnitInfo costCenterInfo = null;
-	    	try {
-	    	EntityViewInfo view = new EntityViewInfo();
-	        SelectorItemCollection sic = view.getSelector();
-	        sic.addObjectCollection(GlUtils.getCompanySic());
-	        FilterInfo filter = new FilterInfo();
-	        FilterItemCollection fic = filter.getFilterItems();
-	        fic.add(new FilterItemInfo("number", number));
-//	        fic.add(new FilterItemInfo("isBizUnit", new Integer(1)));
-	        view.setFilter(filter);
-	        
-	        ICostCenterOrgUnit iCostCenterOrgUnit = null;
-	        if(ctx != null){
-	        	
-					iCostCenterOrgUnit = CostCenterOrgUnitFactory.getLocalInstance(ctx);
-				
-	        }else{
-	        	iCostCenterOrgUnit = CostCenterOrgUnitFactory.getRemoteInstance();
-	        }
-	        
-	        CostCenterOrgUnitCollection costCollection = iCostCenterOrgUnit.getCostCenterOrgUnitCollection(view);
-	        
-	        if(costCollection != null && costCollection.size() != 0){
-	        	costCenterInfo = costCollection.get(0);
-	        }
-	    	} catch (BOSException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-	        return costCenterInfo;
-	    }
-	    /**
 	     * 获取行政组织
 	     * @param ctx
 	     * @param adminID 行政组织ID
@@ -669,46 +587,6 @@ public class PublicBaseUtil {
 	      		logger.error(ex);
 	      	}
 	          return adminOrgUnitInfo;
-	      }
-	      
-	      /**
-	      * 获取采购组织
-	      * @param ctx
-	      * @param number 采购组织编码
-	      * @return PurchaseOrgUnitInfo 采购组织实体
-	      * @throws BOSException
-	      */
-	      public static  PurchaseOrgUnitInfo getPurchaseOrgUnitInfoByNumber(Context ctx, String number)  {
-		      	
-	    	  PurchaseOrgUnitInfo info = null;
-	    	  try{
-	    		  IPurchaseOrgUnit  iPurchaseOrgUnit=null;
-	    		  if(ctx != null){
-	    			  iPurchaseOrgUnit=PurchaseOrgUnitFactory.getLocalInstance(ctx);
-	    		  }else{
-	    			  iPurchaseOrgUnit =PurchaseOrgUnitFactory.getRemoteInstance();
-	    		  }
-	    		  
-	    		  
-	    		  EntityViewInfo view = new EntityViewInfo();
-	    		  SelectorItemCollection sic = view.getSelector();
-	    		  sic.add("*");
-	    		  sic.add("parent.*");
-	    		  FilterInfo filter = new FilterInfo();
-	    		  FilterItemCollection fic = filter.getFilterItems();
-	    		  fic.add(new FilterItemInfo("number", number));
-	    		  view.setFilter(filter);
-	    		  
-	    		  PurchaseOrgUnitCollection infoCollection = iPurchaseOrgUnit.getPurchaseOrgUnitCollection(view);
-	    		  
-	    		  if(infoCollection != null && infoCollection.size() != 0){
-	    			  info = infoCollection.get(0);
-	    		  }
-	    	  }
-	    	  catch(Exception ex){
-	    		  logger.error(ex);
-	    	  }
-	    	  return info;
 	      }
 	    
 	      /**
@@ -2649,46 +2527,6 @@ public class PublicBaseUtil {
 			e.printStackTrace();
 		}
 		return transinfo;
-    }
-    
-    /**
-     * 获取成本对象
-     * @param ctx
-     * @param number 成本对象编码
-     * @return TransactionTypeInfo 成本对象
-     */
-    public static CostObjectInfo getCostObjectInfoByNumber(Context ctx, String number)
-    {
-    	CostObjectInfo costobjinfo=new com.kingdee.eas.basedata.assistant.CostObjectInfo();
-
-		try {
-    	ICostObject iCostObject = null;
-		if(ctx != null){
-			iCostObject = CostObjectFactory.getLocalInstance(ctx);
-		}else{
-			iCostObject = CostObjectFactory.getRemoteInstance();
-		}
-		
-		EntityViewInfo view = new com.kingdee.bos.metadata.entity.EntityViewInfo();
-		SelectorItemCollection sic = view.getSelector();
-		sic.add("*");
-		FilterInfo filter = new com.kingdee.bos.metadata.entity.FilterInfo();
-		FilterItemCollection fic = filter.getFilterItems();
-		fic.add(new FilterItemInfo("number", number));
-		view.setFilter(filter);
-		CostObjectCollection costObjCollection =new com.kingdee.eas.basedata.assistant.CostObjectCollection();
-		
-		costObjCollection = iCostObject.getCostObjectCollection(view);
-		
-		
-			if (costObjCollection != null && costObjCollection.size() != 0) {
-				costobjinfo = costObjCollection.get(0);
-			}
-		} catch (BOSException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		return costobjinfo;
     }
     /**
      * 获取单据类型对象

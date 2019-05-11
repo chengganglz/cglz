@@ -36,8 +36,6 @@ import com.kingdee.eas.basedata.master.material.IssuePriorityEnum;
 import com.kingdee.eas.basedata.master.material.MaterialCompanyInfo;
 import com.kingdee.eas.basedata.master.material.MaterialCompanyInfoFactory;
 import com.kingdee.eas.basedata.master.material.MaterialCompanyInfoInfo;
-import com.kingdee.eas.basedata.master.material.MaterialCostFactory;
-import com.kingdee.eas.basedata.master.material.MaterialCostInfo;
 import com.kingdee.eas.basedata.master.material.MaterialFacade;
 import com.kingdee.eas.basedata.master.material.MaterialFactory;
 import com.kingdee.eas.basedata.master.material.MaterialGroup;
@@ -56,7 +54,6 @@ import com.kingdee.eas.basedata.master.material.MaterialSalesFactory;
 import com.kingdee.eas.basedata.master.material.MaterialSalesInfo;
 import com.kingdee.eas.basedata.master.material.QuotaPeriodEnum;
 import com.kingdee.eas.basedata.master.material.QuotaPolicyInfo;
-import com.kingdee.eas.basedata.master.material.StoreType;
 import com.kingdee.eas.basedata.master.material.TimeUnitEnum;
 import com.kingdee.eas.basedata.master.material.UsedStatusEnum;
 import com.kingdee.eas.basedata.master.material.app.MaterialControllerBean;
@@ -975,7 +972,7 @@ public class SocketFacadeControllerBean extends AbstractSocketFacadeControllerBe
     	}
     	
     	if(kd.compareTo(BigDecimal.ZERO)==1){
-    		String kdTemp="00000"+kd.setScale(0,BigDecimal.ROUND_HALF_UP).toString();
+    		String kdTemp=kd.setScale(0,BigDecimal.ROUND_HALF_UP).toString();
     		strNumber=strNumber+kdTemp.substring(kdTemp.length()-4, kdTemp.length());
     		strName=strName+kdTemp.substring(kdTemp.length()-4, kdTemp.length());
     		strModel=strModel+kd.setScale(0,BigDecimal.ROUND_HALF_UP).toString();
@@ -994,8 +991,6 @@ public class SocketFacadeControllerBean extends AbstractSocketFacadeControllerBe
     		info.setNumber(strNumber);
     		info.setName(strName);   
     		info.setModel(strModel);
-    		info.setIsOutsourcedPart(true);
-    		info.put("paihao", phmc);
     		CtrlUnitInfo cu=PublicBaseUtil.getCU(ctx, zzbm);
     		if(cu!=null){
 	    		info.setAdminCU(cu);
@@ -1130,8 +1125,8 @@ public class SocketFacadeControllerBean extends AbstractSocketFacadeControllerBe
 	    	    		}
 	    				materialCompany.setCU(cu);
 	    				materialCompany.setEffectedStatus(2);
-	    				materialCompany.setAccountType(AccountType.MOVE_WEIGHTED_AVERAGE);
-	    				materialCompany.setCalculateType(CalculateTypeEnum.SELFMANUFACTURE);
+	    				materialCompany.setAccountType(AccountType.ADD_AVERAGE);
+	    				materialCompany.setCalculateType(CalculateTypeEnum.PURCHASE);
 	    				materialCompany.setStandardCost(BigDecimal.ZERO);
 	    				materialCompany.setStatus(UsedStatusEnum.UNAPPROVE);
 	    				IObjectPK pkCompany=MaterialCompanyInfoFactory.getLocalInstance(ctx).submit(materialCompany);
@@ -1147,24 +1142,6 @@ public class SocketFacadeControllerBean extends AbstractSocketFacadeControllerBe
 //							}
 //	    				}
 	    				
-	    				//成本资料
-	    				MaterialCostInfo materialCost=new MaterialCostInfo();
-	    				materialCost.setMaterial(tempIno);
-	    				materialCost.setCreator(user);
-	    				materialCost.setCU(cu);
-	    				materialCost.setOrgUnit(fullOrg);
-	    				materialCost.setStatus(UsedStatusEnum.UNAPPROVE);
-	    				materialCost.setEffectedStatus(2);
-	    				materialCost.setStoreType(StoreType.SOURCE_MATERIAL);
-	    				materialCost.setIsParticipateReduct(false);
-	    				//创建时间
-	    	        	try {
-	    	        		materialCost.setCreateTime(new Timestamp(SysUtil.getAppServerTime(ctx).getTime()));
-	    	    		} catch (EASBizException e) {
-	    	    			// TODO Auto-generated catch block
-	    	    			e.printStackTrace();
-	    	    		}
-	    	    		IObjectPK pkCost= MaterialCostFactory.getLocalInstance(ctx).submit(materialCost);
 	    				
 	    				//采购信息
 	    				MaterialPurchasingInfo materialPur=new MaterialPurchasingInfo();

@@ -31,9 +31,10 @@ imp.importPackage(Packages.com.kingdee.bos.metadata.entity);
 imp.importPackage(Packages.com.kingdee.eas.scm.im);
 imp.importPackage(Packages.com.kingdee.eas.scm.im.inv);
 imp.importPackage(Packages.com.kingdee.eas.util);
-with (imp) {
-	var socketMsg = methodCtx.getParamValue(0);  //接收报文 
-	//socketMsg="0194CCCW0320190425143659CCCWD192021021200        TESTSHIHUI2019042501X190425002          L101DD11                                              00350015000000002800020190425140901C01003500150400 ";
+with(imp) {
+	var socketMsg = methodCtx.getParamValue(0); //接收报文 
+	//socketMsg="0214CCCW0320190505094345CCCWDL21950000300        TEST20190430        M190430001          L701DX51D+Z                                           00500015095000002590020190501000000R01002000150250                    	";
+	// socketMsg = "0214CCCW0320190501121157CCCWDL21950000300        TEST20190430        M190430001          L701DX51D+Z                                           00500015095000002590020190501000000R01002000150250                    ";
 	//var billID = methodCtx.getParamValue(1); // 业务单元ID  
 	var result = methodCtx.getParamValue(2); // 成功失败  true:false  必须有返回值  methodCtx.getParam(2).setValue("true") 
 	var sendMsg = methodCtx.getParamValue(3); // 发送报文   如果需要发送电文,将电文拼好放到这里返回  methodCtx.getParam(3).setValue("")
@@ -42,7 +43,7 @@ with (imp) {
 	var isSucess = true;
 	var errMsg = "";
 	var strCreatorNo = "user"; //创建人编码
-	var strCUNo = "01";// 管理单元编码
+	var strCUNo = "01"; // 管理单元编码
 	System.out.println("/**********************生产领料电文开始**************************************/");
 	var strBizDate = PublicBaseUtil.substringByte(socketMsg, "GBK", 165, 8); //业务日期  从MES获取
 	if (strBizDate == null) {
@@ -63,10 +64,10 @@ with (imp) {
 	}
 	System.out.println("业务日期" + strBizDate);
 	var billStatus = BillBaseStatusEnum.ADD; //单据状态
-	var strBizTypeNo = "340";//业务类型编码
-	var strBillTypeNo = "104";//单据类型编码
-	var strTranstionType = "020";//事务类型
-	var strNeedStockOrgNo = "01";//需方库存组织
+	var strBizTypeNo = "340"; //业务类型编码
+	var strBillTypeNo = "104"; //单据类型编码
+	var strTranstionType = "020"; //事务类型
+	var strNeedStockOrgNo = "01"; //需方库存组织
 	//String strSupNo="1000"; //供应商编码
 	//String strCurrencyNo ="BB01"; //币别编码
 	//String strPaymentType="004";// 付款方式
@@ -75,10 +76,10 @@ with (imp) {
 	//BigDecimal bgTotalAmount =BigDecimal.ZERO;// 金额
 	//BigDecimal bgTotalActualCost =BigDecimal.ZERO;// 实际成本
 	//BigDecimal bgTotalLocalAmount =BigDecimal.ZERO;// 本位币金额
-	var dwh = PublicBaseUtil.substringByte(socketMsg, "GBK", 5, 20);//电文号  从MES获取
-	var dwt = PublicBaseUtil.substringByte(socketMsg, "GBK", 1, 29);//电文头  从MES获取
+	var dwh = PublicBaseUtil.substringByte(socketMsg, "GBK", 5, 20); //电文号  从MES获取
+	var dwt = PublicBaseUtil.substringByte(socketMsg, "GBK", 1, 29); //电文头  从MES获取
 	System.out.println("生产领料单电文号" + dwh);
-	var strLot = PublicBaseUtil.substringByte(socketMsg, "GBK", 30, 20);//批次号  从MES获取
+	var strLot = PublicBaseUtil.substringByte(socketMsg, "GBK", 30, 20); //批次号  从MES获取
 	if (strLot == null) {
 		isSucess = false;
 		errMsg = errMsg + "卷号不能为空\r\n";
@@ -93,7 +94,7 @@ with (imp) {
 	var isInTax = true;
 	var sdfDate = new SimpleDateFormat("yyyyMMdd");
 	var bgQty = new BigDecimal("0");
-	var zl = PublicBaseUtil.substringByte(socketMsg, "GBK", 155, 10);//重量  从MES获取
+	var zl = PublicBaseUtil.substringByte(socketMsg, "GBK", 155, 10); //重量  从MES获取
 	if (zl != null) {
 		zl = zl.trim();
 	} else {
@@ -118,6 +119,9 @@ with (imp) {
 			isSucess = false;
 			errMsg = errMsg + "与库存重量不一致\r\n";
 		}
+	} else {
+		isSucess = false;
+		errMsg = errMsg + "仓库内没有此物料\r\n";
 	}
 	var cu = PublicBaseUtil.getCU(ctx, strCUNo);
 	if (cu == null) {
@@ -160,7 +164,7 @@ with (imp) {
 		isSucess = false;
 		errMsg = errMsg + "财务组织不能为空\r\n";
 	}
-	var costNumber = PublicBaseUtil.substringByte(socketMsg, "GBK", 90, 4);//机组号  从MES获取
+	var costNumber = PublicBaseUtil.substringByte(socketMsg, "GBK", 90, 4); //机组号  从MES获取
 	if (costNumber == null) {
 		isSucess = false;
 		errMsg = errMsg + "机组号不能为空\r\n";
@@ -177,7 +181,7 @@ with (imp) {
 		} else if ("L701".equals(costNumber)) {
 			costNumber = "008";
 		}
-		costCInfo = PublicBaseUtil.getCostCenterOrgUnitInfoByNumber(ctx, costNumber);//成本中心编码  从MES获取
+		costCInfo = PublicBaseUtil.getCostCenterOrgUnitInfoByNumber(ctx, costNumber); //成本中心编码  从MES获取
 		if (costCInfo == null) {
 			isSucess = false;
 			errMsg = errMsg + "成本中心不能为空\r\n";
@@ -187,7 +191,7 @@ with (imp) {
 
 	var bgKd = new BigDecimal("0");
 	var bgHd = new BigDecimal("0");
-	var kd = PublicBaseUtil.substringByte(socketMsg, "GBK", 150, 5);//宽度  从MES获取
+	var kd = PublicBaseUtil.substringByte(socketMsg, "GBK", 150, 5); //宽度  从MES获取
 	if (kd != null) {
 		kd = kd.trim();
 	} else {
@@ -200,7 +204,7 @@ with (imp) {
 
 	}
 	System.out.println("宽度" + kd);
-	var hd = PublicBaseUtil.substringByte(socketMsg, "GBK", 144, 6);//厚度  从MES获取
+	var hd = PublicBaseUtil.substringByte(socketMsg, "GBK", 144, 6); //厚度  从MES获取
 	if (hd != null) {
 		hd = hd.trim();
 	} else {
@@ -241,11 +245,10 @@ with (imp) {
 	System.out.println("牌号名称" + phmc);
 	System.out.println("牌号" + ph);
 	var strUnit = "吨"; //单位  默认吨
-	var materialGroupNum = PublicBaseUtil.substringByte(socketMsg, "GBK", 90, 4);//物料组别  从MES获取
+	var materialGroupNum = PublicBaseUtil.substringByte(socketMsg, "GBK", 90, 4); //物料组别  从MES获取
 	if (materialGroupNum != null) {
 		materialGroupNum = materialGroupNum.trim();
-	}
-	else {
+	} else {
 		materialGroupNum = "";
 	}
 	if ("".equals(materialGroupNum)) {
@@ -266,7 +269,7 @@ with (imp) {
 			errMsg = errMsg + "牌号流水不存在\r\n";
 		}
 	} else {
-		materialGroupNum = "06";
+		materialGroupNum = "01";
 		if ("".equals(ph) && phmc != null) {
 			var sql = "SELECT * FROM CT_CUS_Rezhapaihao where fname_l2 ='" + phmc + "'";
 			var rows = DbUtil.executeQuery(ctx, sql);
@@ -297,13 +300,55 @@ with (imp) {
 			}
 		}
 	}
-	var material = SocketFacadeFactory.getLocalInstance(ctx).getMaterialInfo("01", "5", materialGroupNum, ph, phmc, bgKd, bgHd, strUnit, "", true);
-	if (material == null) {
+	var cpNum = "5";
+	if ("01".equals(materialGroupNum)) {
+		cpNum = "1";
+	}
+	var material = null;
+	var sqlmat = "SELECT mat.FNUMBER  mnumber FROM T_IM_Inventory inv left join T_BD_Material mat on mat.fid=inv.FMaterialID where FLOT ='"+strLot+"' and FCURSTOREQTY <> 0 ";
+	var rowsmat = DbUtil.executeQuery(ctx, sqlmat);
+	if (rowsmat != null && rowsmat.next()) {
+		var mnumber = rowsmat.getString("mnumber");
+		material = PublicBaseUtil.getMaterialInfoByNumber(ctx, cu.getId().toString(), mnumber);
+	}else{
+		isSucess = false;
+		errMsg = errMsg + "该物料批次不存在\r\n";
+	}
+	
+	var targethd = PublicBaseUtil.substringByte(socketMsg, "GBK", 182, 6); //厚度  从MES获取
+	var targetbgHd = new BigDecimal("0");
+	if (targethd != null) {
+		targethd = targethd.trim();
+	} else {
+		targethd = "0";
+	}
+	try {
+		targetbgHd = new BigDecimal(targethd).divide(new BigDecimal("1000"));
+	} catch (e) {
+
+	}
+	System.out.println("厚度" + targethd);
+	var targetbgKd = new BigDecimal("0");
+	var targetkd = PublicBaseUtil.substringByte(socketMsg, "GBK", 188, 5); //宽度  从MES获取
+	if (targetkd != null) {
+		targetkd = targetkd.trim();
+	} else {
+		targetkd = "0";
+	}
+	try {
+		targetbgKd = new BigDecimal(targetkd).divide(new BigDecimal("10"));
+	} catch (e) {
+
+	}
+	System.out.println("宽度" + targetkd);
+	var targetmaterial = SocketFacadeFactory.getLocalInstance(ctx).getMaterialInfo("01", "5", materialGroupNum, ph, phmc, targetbgKd, targetbgHd, strUnit, "", true); //获取产出物料生成成本对象用
+
+	if (material == null || targetmaterial == null) {
 		isSucess = false;
 		errMsg = errMsg + "物料不能为空\r\n";
 	}
 
-	var strStockNo = PublicBaseUtil.substringByte(socketMsg, "GBK", 179, 3);//仓库编码  从MES获取
+	var strStockNo = PublicBaseUtil.substringByte(socketMsg, "GBK", 179, 3); //仓库编码  从MES获取
 	if (strStockNo == null) {
 		isSucess = false;
 		errMsg = errMsg + "仓库编码不能为空\r\n";
@@ -338,12 +383,12 @@ with (imp) {
 		isSucess = false;
 		errMsg = errMsg + "库存组织不能为空\r\n";
 	}
-	var costObjectInfo = PublicBaseUtil.getCostObjectInfoByNumber(ctx, material.getNumber());
+	var costObjectInfo = PublicBaseUtil.getCostObjectInfoByNumber(ctx, targetmaterial.getNumber());
 	if (costObjectInfo == null) {
 		isSucess = false;
 		errMsg = errMsg + "成本对象不能为空\r\n";
 	}
-	var costCenterInfo = PublicBaseUtil.getCostCenterOrgUnitInfoByNumber(ctx, costNumber);//成本中心编码  从MES获取
+	var costCenterInfo = PublicBaseUtil.getCostCenterOrgUnitInfoByNumber(ctx, costNumber); //成本中心编码  从MES获取
 	if (costCenterInfo == null) {
 		isSucess = false;
 		errMsg = errMsg + "成本中心不能为空\r\n";
@@ -387,7 +432,7 @@ with (imp) {
 			info.setBizDate(bizDate);
 			var c = Calendar.getInstance();
 			c.setTime(bizDate);
-			var year = c.get(Calendar.YEAR);   //年度
+			var year = c.get(Calendar.YEAR); //年度
 			var period = c.get(Calendar.MONTH);
 			var month = c.get(Calendar.YEAR) * 100 + c.get(Calendar.MONTH); //期间
 			var iday = (c.get(Calendar.YEAR) * 100 + c.get(Calendar.MONTH) + 1) * 100 + c.get(Calendar.MONDAY);
@@ -460,7 +505,7 @@ with (imp) {
 
 		}
 
-		entry.setBaseStatus(EntryBaseStatusEnum.NULL);//
+		entry.setBaseStatus(EntryBaseStatusEnum.NULL); //
 		//
 		entry.setAssCoefficient(BigDecimal.ZERO);
 		//库存组织
@@ -528,30 +573,44 @@ with (imp) {
 		//info.setTotalLocalAmount(bgTotalLocalAmount);
 	}
 
+	var pk = null;
+	var e = null;
+	try {
+		if (isSucess) {
+			pk = MaterialReqBillFactory.getLocalInstance(ctx).save(info); //保存
+			if (pk != null) {
+				//try{
+				//		    					Context ctxTemp=ctx.
+				var tempIno = MaterialReqBillFactory.getLocalInstance(ctx).getMaterialReqBillInfo(pk);
+				if (tempIno.getBaseStatus().equals(BillBaseStatusEnum.TEMPORARILYSAVED)) {
+					MaterialReqBillFactory.getLocalInstance(ctx).submit(tempIno);
+				}
+				tempIno = MaterialReqBillFactory.getLocalInstance(ctx).getMaterialReqBillInfo(pk);
+				if (tempIno.getBaseStatus().equals(BillBaseStatusEnum.SUBMITED)) {
+					MaterialReqBillFactory.getLocalInstance(ctx).audit(pk);
+				}
+				//}catch(e){
+				//System.out.println("保存审核时出现异常");
+				//}
 
-	if (isSucess) {
-		var pk = MaterialReqBillFactory.getLocalInstance(ctx).save(info);  //保存
-		if (pk != null) {
-			//		    					Context ctxTemp=ctx.
-			var tempIno = MaterialReqBillFactory.getLocalInstance(ctx).getMaterialReqBillInfo(pk);
-			if (tempIno.getBaseStatus().equals(BillBaseStatusEnum.TEMPORARILYSAVED)) {
-				MaterialReqBillFactory.getLocalInstance(ctx).submit(tempIno);
 			}
-			tempIno = MaterialReqBillFactory.getLocalInstance(ctx).getMaterialReqBillInfo(pk);
-			if (tempIno.getBaseStatus().equals(BillBaseStatusEnum.SUBMITED)) {
-				MaterialReqBillFactory.getLocalInstance(ctx).audit(pk);
-			}
-
-
+		} else {
+			methodCtx.getParam(2).setValue("false");
+			methodCtx.getParam(4).setValue(errMsg);
 		}
-	} else {
-		methodCtx.getParam(2).setValue("false");
-		methodCtx.getParam(4).setValue(errMsg);
+	} catch (e) {
+		if (pk != null) {
+			var tempIno = MaterialReqBillFactory.getLocalInstance(ctx).getMaterialReqBillInfo(pk);
+			MaterialReqBillFactory.getLocalInstance(ctx).delete(pk);
+		}
+		isSucess = false;
+		errMsg = errMsg + "单据生成失败\r\n" +e.toString().replace('\\s','').replace('\n','');
+		System.out.println(errMsg);
 	}
 	var strMsg = "0110" + dwh + "CWCC";
-	//methodCtx.getParam(2).setValue("true");
-	//var strData=String.format("%-81s", "A")+"\n" ;
-	//methodCtx.getParam(3).setValue(strMsg+strData);
+	// methodCtx.getParam(2).setValue("true");
+	// var strData = String.format("%-81s", "A") + "\n";
+	// methodCtx.getParam(3).setValue(strMsg + strData);
 	if (isSucess) {
 		methodCtx.getParam(2).setValue("true");
 		var strData = String.format("%-81s", "A") + "\n";
@@ -560,6 +619,10 @@ with (imp) {
 		methodCtx.getParam(2).setValue("false");
 		methodCtx.getParam(4).setValue(dwt + errMsg);
 		var strMsg = "0110" + dwh + "CWCCB";
+		var newerrmsg=PublicBaseUtil.substringByte(errMsg, "GBK", 1, 80);
+		if(newerrmsg!=null){
+			errMsg=newerrmsg;
+		}
 		var strData = String.format("%-80s", errMsg) + "\n"
 		methodCtx.getParam(3).setValue(strMsg + strData);
 	}

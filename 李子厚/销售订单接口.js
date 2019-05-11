@@ -727,14 +727,13 @@ with(imp){
 			
 			}
 			methodCtx.getParam(2).setValue("true") ;
-			methodCtx.getParam(3).setValue("123");
 		}else
 		{
 			methodCtx.getParam(2).setValue("false") ;
 			methodCtx.getParam(4).setValue(errMsg) ;
 			
 		}
-		/*var strMsg="0110"+dwh+"CWCC";
+		var strMsg="0110"+dwh+"CWCC";
 		if(isSucess){
 			methodCtx.getParam(2).setValue("true");
 			var strData=String.format("%-81s", "A")+"\n";
@@ -747,11 +746,11 @@ with(imp){
 			var strData=String.format("%-80s", errMsg)+"\n";
 			var endmsg="\n";
 			methodCtx.getParam(3).setValue(strMsg+strData+endmsg);
-		}*/
-		//var strMsg="0110"+dwh+"CWCC";
-		//	methodCtx.getParam(2).setValue("true");
-		//	var strData=String.format("%-81s", "A")+"\n" ;
-		//	methodCtx.getParam(3).setValue(strMsg+strData);
+		}
+		// var strMsg="0110"+dwh+"CWCC";
+		// 	methodCtx.getParam(2).setValue("true");
+		// 	var strData=String.format("%-81s", "A")+"\n" ;
+		// 	methodCtx.getParam(3).setValue(strMsg+strData);
 		
 	}
 }
