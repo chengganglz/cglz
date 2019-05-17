@@ -177,7 +177,9 @@ with (imp) {
             // 计算尾差 恒等式 可分摊金额 + 出库单总金额 = 影响后出库单总金额 + 尾差
             ftje_wc = KF_sum + CKD_Money_sum - temp_ckd_yxhzje;
             temp_ckd_money += ftje_wc;
-            // 但是这里存在问题 金额加上尾差后 单价怎么处理？ 可能会出现这种情况 数量 = 9 单价 = 10 但是金额 = 90.12
+            // 再根据受影响的金额 / 数量 得到单价 尽量 均衡一点
+            temp_ckd_dj = formatDecimal(temp_ckd_money / temp_ckd_num,2)
+            // 但是这里存在问题 金额加上尾差后 单价怎么处理？ 可能会出现这种情况 数量 = 9 单价 = 10.01 但是金额 = 90.12
             console.log("Problem-但是这里存在问题 金额加上尾差后 单价怎么处理？")
         }
         // 将影响后的金额 写回
