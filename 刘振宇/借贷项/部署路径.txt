@@ -1,0 +1,5 @@
+本地生成路径	服务器部署路径
+D:\0409环境\kingdee\eas\server\lib\bim	D:\kingdee\eas\server\lib\sp
+D:\0409环境\kingdee\eas\server\metas\bim	D:\kingdee\eas\server\metas\sp
+D:\0409环境\kingdee\eas\server\deploy\fileserver.ear\easWebClient\lib\bim	D:\kingdee\eas\server\deploy\fileserver.ear\easWebClient\lib\sp
+D:\0409环境\kingdee\eas\server\deploy\fileserver.ear\easWebClient\metas\bim	D:\kingdee\eas\server\deploy\fileserver.ear\easWebClient\metas\sp
