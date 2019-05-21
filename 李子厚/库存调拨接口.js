@@ -108,13 +108,9 @@ with(imp) {
     }
     // 业务时间
     var ywDate = PublicBaseUtil.substringByte(socketMsg, "GBK", 11, 8);
-    System.out.println("业务时间-ywDate:" + kwczlx);
+    System.out.println("业务时间-ywDate:" + ywDate);
     System.out.println("/*************  CCCW12 获取接口参数结束   ****************/");
-
-
     System.out.println("/*************  CCCW12 全局变量定义开始   ****************/");
-
-
     // 数量
     var qty = 0;
     // 物料编码
@@ -122,7 +118,7 @@ with(imp) {
     // 物料库存状态
     var kczt = '';
     // 从即时库存中根据卷号获取数量
-    var getQtySql = "select inv.FCURSTOREQTY FCURSTOREQTY,Material.fnumber MaterialNumber,store.FNUMBER storeNumber from T_IM_Inventory inv left join T_BD_Material Material on Material.fid=inv.FMaterialID left join T_IM_STORESTATE store on inv.FSTORESTATUSID = store.FID  where flot='" + jh + "'";
+    var getQtySql = "select inv.FCURSTOREQTY FCURSTOREQTY,Material.fnumber MaterialNumber,store.FNUMBER storeNumber from T_IM_Inventory inv left join T_BD_Material Material on Material.fid=inv.FMaterialID left join T_IM_STORESTATE store on inv.FSTORESTATUSID = store.FID  where flot='" + jh + "' and FCURSTOREQTY <>0";
     var qtyList = DbUtil.executeQuery(ctx, getQtySql);
     if (qtyList.next()) {
         qty = qtyList.getBigDecimal("FCURSTOREQTY");
@@ -132,14 +128,10 @@ with(imp) {
     System.out.println("Msg-qty:" + qty);
     System.out.println("Msg-wlbm:" + wlbm);
     System.out.println("/*************  CCCW12 全局变量定义结束   ****************/");
-
-
     System.out.println("/*************  CCCW12 前置操作开始   ****************/");
     // 设置返回结果
     methodCtx.getParam(2).setValue("false");
     System.out.println("/*************  CCCW12 前置操作结束   ****************/");
-
-
     System.out.println("/*************  CCCW12 条件分支开启   ****************/");
     // 生成库存调拨单并自动生成调拨出库单和调拨入库单 通了
     if (!ykqh.equals('') && !mbkqh.equals('') && kwczlx.equals('30')) {
@@ -152,7 +144,6 @@ with(imp) {
         var strBizTypeNo = "331"; //业务类型编码
         var strBillTypeNo = "140"; //单据类型编码
         var strCurrencyNo = "BB01"; //币别编码
-
         var bgExchangeRate = BigDecimal.ONE; // 汇率
         var bgTotalQty = BigDecimal.ZERO; // 数量
         var cu = PublicBaseUtil.getCU(ctx, strCUNo);
@@ -196,7 +187,6 @@ with(imp) {
         }
         var strMaterialNo = wlbm;
         var strUnit = "吨";
-
         var strStockNo = ykqh //"001";//调出仓库编码  从MES获取
         var recstrStockNo = mbkqh //"003";//调入仓库编码  从MES获取
         var bgQty = qty; //new BigDecimal("0");
@@ -297,12 +287,10 @@ with(imp) {
             info.setIsShipment(true); //是否发运
             info.setIsShipment(false); //是否含税
             info.setIsInTax(false); //是否初始化单
-
             //新增分录实体
             var entry = new StockTransferBillEntryInfo();
             //分录行号
             entry.setSeq(1);
-
             if (material != null) {
                 entry.setMaterial(material);
                 entry.setBaseUnit(material.getBaseUnit());
@@ -509,7 +497,7 @@ with(imp) {
         System.out.println("/******  CCCW12 生成库存调拨单并自动生成调拨出库单和调拨入库单 结束  *******/");
     }
     // 生成库存调拨单并自动生成调拨出库单 通了
-    else if (!ykqh.equals('') && mbkqh.equals('') && kwczlx.equals('1G')) {
+    else if (!ykqh.equals('')  && kwczlx.equals('2G')) {
         System.out.println("/******  CCCW12 生成库存调拨单并自动生成调拨出库单 开始   *******/");
         var strCreatorNo = "user"; //创建人编码
         var strCUNo = "01"; // 管理单元编码
@@ -841,7 +829,7 @@ with(imp) {
         System.out.println("/******  CCCW12 生成库存调拨单并自动生成调拨出库单 结束  *******/");
     }
     // 将该卷号做其他出库单出库 事务类型为030 通了
-    else if (!ykqh.equals('') && mbkqh.equals('') && kwczlx.equals('2R')) {
+    else if (!ykqh.equals('') && kwczlx.equals('2R')) {
         System.out.println("/******  CCCW12  将该卷号做其他出库单出库 事务类型为30 开始 *******/");
         if ('304'.equals(kczt)) {
 
@@ -1111,7 +1099,7 @@ with(imp) {
                 isSucess = false;
                 errMsg = errMsg + "仓库不能为空\r\n";
             }
-            var invUpType = PublicBaseUtil.getInvUpdateTypeInfoByNumber(ctx, "002");
+            var invUpType = PublicBaseUtil.getInvUpdateTypeInfoByNumber(ctx, "008");
             if (invUpType == null) {
                 isSucess = false;
                 errMsg = errMsg + "更新类型不能为空\r\n";
@@ -1274,11 +1262,11 @@ with(imp) {
         System.out.println("/******  CCCW12  将该卷号做其他出库单出库 事务类型为30 结束 *******/");
     }
     // 根据操作类型为1G生成的库存调拨单关联生成调拨入库单 通了
-    else if (ykqh.equals('') && !mbkqh.equals('') && kwczlx.equals('2G')) {
+    else if ( !mbkqh.equals('') && kwczlx.equals('1G')) {
         System.out.println("/******  CCCW12  根据操作类型为1G生成的调拨出库单关联生成调拨入库单  *******/");
         // 根据卷号，和单据状态为保存状态 获取 库存调拨单，单据头id
         var infoid = '';
-        var getKcdbdIdFormJHSql = "select a.FID  infoid from T_IM_StockTransferBill a left join T_IM_StockTransferBillEntry b on a.FID  = b.FPARENTID where b.FLOT ='" + jh + "' and a.FBASESTATUS = 4"
+        var getKcdbdIdFormJHSql = "select a.FID  infoid from T_IM_StockTransferBill a left join T_IM_StockTransferBillEntry b on a.FID  = b.FPARENTID where b.FLOT ='" + jh + "' and a.FBASESTATUS = 4";
         var KcdboIdList = DbUtil.executeQuery(ctx, getKcdbdIdFormJHSql);
         if (KcdboIdList.next()) {
             infoid = KcdboIdList.getString("infoid");
@@ -1375,6 +1363,9 @@ with(imp) {
         System.out.println("/******  CCCW12  根据操作类型为1G生成的调拨出库单关联生成调拨入库单  *******/");
     } else {
         System.out.println("没有对应的操作");
+        isSucess = false;
+        errMsg = errMsg + "没有对应的操作\r\n";
+        System.out.println("Error-没有对应的操作-" + kwczlx);
     }
     System.out.println("/*************  CCCW12 条件分支结束   ****************/");
     if (isSucess) {
